@@ -25,7 +25,8 @@ def create_pdf_files_table():
                     filename TEXT PRIMARY KEY,
                     file_hash TEXT NOT NULL,
                     extracted_text TEXT,
-                    extraction_date TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+                    extraction_date TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                    UNIQUE(filename, file_hash)
                 );
             """)
         conn.commit()
@@ -35,5 +36,42 @@ def create_pdf_files_table():
     finally:
         conn.close()
 
-if __name__ == "__main__":
+def create_document_metadata_table():
+    """Creates the document_metadata table in the database if it does not already exist."""
+    conn = get_db_connection()
+    try:
+        with conn.cursor() as cur:
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS document_metadata (
+                    id SERIAL PRIMARY KEY,
+                    filename TEXT NOT NULL,
+                    file_hash TEXT NOT NULL,
+                    metadata JSONB,
+                    CONSTRAINT fk_document_metadata_pdf_files 
+                        FOREIGN KEY (filename, file_hash) 
+                        REFERENCES pdf_files(filename, file_hash)
+                        ON DELETE CASCADE,
+                    UNIQUE(filename, file_hash)
+                );
+            """)
+            # Create index on filename and file_hash for better join performance
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_document_metadata_filename_hash 
+                ON document_metadata(filename, file_hash);
+            """)
+        conn.commit()
+        logger.info("Table 'document_metadata' created successfully or already exists.")
+    except Exception as e:
+        logger.error(f"Failed to create 'document_metadata' table: {e}")
+    finally:
+        conn.close()
+
+def create_all_tables():
+    """Creates all required tables for the RAG chatbot."""
+    logger.info("Creating all database tables...")
     create_pdf_files_table()
+    create_document_metadata_table()
+    logger.info("All tables created successfully.")
+
+if __name__ == "__main__":
+    create_all_tables()
