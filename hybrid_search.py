@@ -1,7 +1,7 @@
 import json
 import logging
 import numpy as np
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -14,14 +14,14 @@ logger = logging.getLogger(__name__)
 
 class HybridSearchEngine:
     def __init__(self):
-        """Initialize the hybrid search engine with embedding model and BM25 vectorizer."""
+        """Initialize the hybrid search engine with embedding model and TF-IDF vectorizer."""
         logger.info("Initializing Hybrid Search Engine...")
         self.embedding_model = SentenceTransformer('BAAI/bge-m3')
         self.vectorizer = None
         self.document_vectors = None
         self.chunk_data = []
         self._load_documents()
-        self._build_bm25_index()
+        self._build_tfidf_index()
         logger.info("Hybrid Search Engine initialized successfully.")
 
     def _load_documents(self):
@@ -60,22 +60,22 @@ class HybridSearchEngine:
                     })
                 
                 logger.info(f"Loaded {len(self.chunk_data)} chunks from database.")
+                
         except Exception as e:
             logger.error(f"Error loading documents from database: {e}")
             self.chunk_data = []
         finally:
             conn.close()
 
-    def _build_bm25_index(self):
-        """Build TF-IDF index for BM25-like lexical search."""
+    def _build_tfidf_index(self):
+        """Build TF-IDF index for keyword-based search."""
         if not self.chunk_data:
-            logger.warning("No documents to index for BM25.")
+            logger.warning("No documents to index.")
             return
         
-        logger.info("Building BM25 index...")
+        logger.info("Building TF-IDF index...")
         documents = [chunk['text'] for chunk in self.chunk_data]
         
-        # Use TF-IDF as a proxy for BM25
         self.vectorizer = TfidfVectorizer(
             stop_words='english',
             ngram_range=(1, 2),
@@ -84,72 +84,56 @@ class HybridSearchEngine:
         )
         
         self.document_vectors = self.vectorizer.fit_transform(documents)
-        logger.info("BM25 index built successfully.")
+        logger.info("TF-IDF index built successfully.")
 
     def _normalize_scores(self, scores: List[float]) -> List[float]:
-        """Normalize scores to [0, 1] range using min-max normalization."""
-        if not scores or len(scores) == 0:
+        """Normalize scores to [0, 1] range."""
+        if not scores:
             return scores
         
         scores = np.array(scores)
-        min_score = np.min(scores)
-        max_score = np.max(scores)
+        min_score, max_score = np.min(scores), np.max(scores)
         
         if max_score == min_score:
             return [0.5] * len(scores)
         
-        normalized = (scores - min_score) / (max_score - min_score)
-        return normalized.tolist()
+        return ((scores - min_score) / (max_score - min_score)).tolist()
 
     def _semantic_search(self, query: str, top_k: int = 10) -> List[Tuple[int, float]]:
-        """Perform semantic search using embeddings and cosine similarity."""
+        """Perform semantic search using embeddings."""
         if not self.chunk_data:
             return []
         
         try:
-            # Generate query embedding
             query_embedding = self.embedding_model.encode([query])[0]
             
-            # Calculate cosine similarities
             similarities = []
             for i, chunk in enumerate(self.chunk_data):
                 if chunk['embedding']:
                     chunk_embedding = np.array(chunk['embedding'])
-                    similarity = cosine_similarity(
-                        [query_embedding], 
-                        [chunk_embedding]
-                    )[0][0]
+                    similarity = cosine_similarity([query_embedding], [chunk_embedding])[0][0]
                     similarities.append((i, similarity))
             
-            # Sort by similarity and return top_k
-            similarities.sort(key=lambda x: x[1], reverse=True)
-            return similarities[:top_k]
+            return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
             
         except Exception as e:
-            logger.error(f"Error in semantic search: {e}")
+            logger.error(f"Semantic search error: {e}")
             return []
 
     def _lexical_search(self, query: str, top_k: int = 10) -> List[Tuple[int, float]]:
-        """Perform lexical search using BM25-like TF-IDF scoring."""
+        """Perform keyword-based search using TF-IDF."""
         if not self.vectorizer or self.document_vectors is None:
             return []
         
         try:
-            # Transform query using the fitted vectorizer
             query_vector = self.vectorizer.transform([query])
-            
-            # Calculate cosine similarities (TF-IDF approximation of BM25)
             similarities = cosine_similarity(query_vector, self.document_vectors)[0]
             
-            # Get indices and scores
             scored_docs = [(i, similarities[i]) for i in range(len(similarities))]
-            
-            # Sort by score and return top_k
-            scored_docs.sort(key=lambda x: x[1], reverse=True)
-            return scored_docs[:top_k]
+            return sorted(scored_docs, key=lambda x: x[1], reverse=True)[:top_k]
             
         except Exception as e:
-            logger.error(f"Error in lexical search: {e}")
+            logger.error(f"Lexical search error: {e}")
             return []
 
     def hybrid_search(
@@ -160,118 +144,71 @@ class HybridSearchEngine:
         top_k: int = DEFAULT_TOP_K
     ) -> List[Dict]:
         """
-        Perform hybrid search combining semantic and lexical search results.
+        HYBRID SEARCH CORE ALGORITHM:
+        
+        1. Perform SEMANTIC search (meaning-based) using embeddings
+        2. Perform LEXICAL search (keyword-based) using TF-IDF  
+        3. Normalize both sets of scores to 0-1 range
+        4. Combine scores: final_score = (semantic_weight × semantic_score) + (lexical_weight × lexical_score)
+        5. Rank ALL candidates by combined score and return top_k
         
         Args:
             query: Search query string
-            semantic_weight: Weight for semantic search (alpha)
-            lexical_weight: Weight for lexical search (beta)
-            top_k: Number of results to return
-            
-        Returns:
-            List of search results with metadata
+            semantic_weight: Weight for semantic search (default: 0.7)
+            lexical_weight: Weight for lexical search (default: 0.3)
+            top_k: Number of final results to return (default: 5)
         """
         if not self.chunk_data:
-            logger.warning("No documents available for search.")
             return []
         
-        # Normalize weights
+        # Normalize weights to sum to 1
         total_weight = semantic_weight + lexical_weight
         if total_weight > 0:
             semantic_weight /= total_weight
             lexical_weight /= total_weight
         
-        logger.info(f"Performing hybrid search for query: '{query[:50]}...'")
-        logger.info(f"Weights - Semantic: {semantic_weight:.2f}, Lexical: {lexical_weight:.2f}")
+        logger.info(f"Hybrid search: '{query[:50]}...' (semantic:{semantic_weight:.1f}, lexical:{lexical_weight:.1f})")
         
-        # Perform both types of searches
+        # STEP 1 & 2: Get results from both search methods (top_k*2 to have more candidates)
         semantic_results = self._semantic_search(query, top_k * 2)
         lexical_results = self._lexical_search(query, top_k * 2)
         
-        # Normalize scores
-        semantic_scores = [score for _, score in semantic_results]
-        lexical_scores = [score for _, score in lexical_results]
+        # STEP 3: Normalize scores to 0-1 range
+        semantic_scores = self._normalize_scores([score for _, score in semantic_results])
+        lexical_scores = self._normalize_scores([score for _, score in lexical_results])
         
-        normalized_semantic = self._normalize_scores(semantic_scores)
-        normalized_lexical = self._normalize_scores(lexical_scores)
+        # Convert to dictionaries for easy lookup
+        semantic_dict = {semantic_results[i][0]: semantic_scores[i] for i in range(len(semantic_results))}
+        lexical_dict = {lexical_results[i][0]: lexical_scores[i] for i in range(len(lexical_results))}
         
-        # Create score dictionaries for fusion
-        semantic_dict = {
-            semantic_results[i][0]: normalized_semantic[i] 
-            for i in range(len(semantic_results))
-        }
-        lexical_dict = {
-            lexical_results[i][0]: normalized_lexical[i] 
-            for i in range(len(lexical_results))
-        }
-        
-        # Combine scores using weighted fusion
+        # STEP 4: Combine scores for ALL documents that appeared in either search
         combined_scores = {}
-        all_doc_indices = set(semantic_dict.keys()) | set(lexical_dict.keys())
+        all_candidates = set(semantic_dict.keys()) | set(lexical_dict.keys())
         
-        for doc_idx in all_doc_indices:
-            semantic_score = semantic_dict.get(doc_idx, 0.0)
-            lexical_score = lexical_dict.get(doc_idx, 0.0)
+        for doc_idx in all_candidates:
+            semantic_score = semantic_dict.get(doc_idx, 0.0)  # 0 if not found in semantic search
+            lexical_score = lexical_dict.get(doc_idx, 0.0)    # 0 if not found in lexical search
             
-            combined_score = (
-                semantic_weight * semantic_score + 
-                lexical_weight * lexical_score
-            )
-            combined_scores[doc_idx] = combined_score
+            combined_scores[doc_idx] = (semantic_weight * semantic_score + lexical_weight * lexical_score)
         
-        # Sort by combined score and get top_k results
-        sorted_results = sorted(
-            combined_scores.items(), 
-            key=lambda x: x[1], 
-            reverse=True
-        )[:top_k]
+        # STEP 5: Sort by combined score and return top_k
+        top_results = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
         
-        # Format results with metadata
+        # Format final results
         results = []
-        for doc_idx, final_score in sorted_results:
+        for doc_idx, final_score in top_results:
             chunk = self.chunk_data[doc_idx]
-            result = {
+            results.append({
                 'chunk_id': chunk['id'],
                 'filename': chunk['filename'],
                 'text': chunk['text'],
                 'final_score': final_score,
                 'semantic_score': semantic_dict.get(doc_idx, 0.0),
                 'lexical_score': lexical_dict.get(doc_idx, 0.0)
-            }
-            results.append(result)
+            })
         
-        logger.info(f"Hybrid search completed. Returned {len(results)} results.")
+        logger.info(f"Returned {len(results)} results from {len(all_candidates)} candidates.")
         return results
-
-    def search_by_filename(
-        self, 
-        query: str, 
-        filename: str, 
-        semantic_weight: float = DEFAULT_SEMANTIC_WEIGHT,
-        lexical_weight: float = DEFAULT_LEXICAL_WEIGHT,
-        top_k: int = DEFAULT_TOP_K
-    ) -> List[Dict]:
-        """
-        Perform hybrid search within a specific document.
-        
-        Args:
-            query: Search query string
-            filename: Name of the document to search within
-            semantic_weight: Weight for semantic search
-            lexical_weight: Weight for lexical search
-            top_k: Number of results to return
-            
-        Returns:
-            List of search results from the specified document
-        """
-        # Filter results by filename
-        all_results = self.hybrid_search(query, semantic_weight, lexical_weight, top_k * 3)
-        filtered_results = [
-            result for result in all_results 
-            if result['filename'] == filename
-        ]
-        
-        return filtered_results[:top_k]
 
     def get_document_list(self) -> List[str]:
         """Get list of available document filenames."""
@@ -283,27 +220,25 @@ class HybridSearchEngine:
         logger.info("Refreshing search index...")
         self.chunk_data = []
         self._load_documents()
-        self._build_bm25_index()
+        self._build_tfidf_index()
         logger.info("Search index refreshed successfully.")
 
 
-# Example usage and testing
+# Example usage
 if __name__ == "__main__":
-    # Initialize search engine
     search_engine = HybridSearchEngine()
     
-    # Example search
     if search_engine.chunk_data:
         query = "what is the latest maternity leave policy"
         results = search_engine.hybrid_search(query, top_k=5)
         
-        print(f"\nSearch Results for: '{query}'")
-        print("=" * 50)
+        print(f"\nHybrid Search Results for: '{query}'")
+        print("=" * 60)
         
         for i, result in enumerate(results, 1):
-            print(f"\n{i}. Document: {result['filename']}")
-            print(f"   Final Score: {result['final_score']:.4f}")
-            print(f"   Semantic: {result['semantic_score']:.4f}, Lexical: {result['lexical_score']:.4f}")
-            print(f"   Text Preview: {result['text'][:200]}...")
+            print(f"\n{i}. {result['filename']}")
+            print(f"   Combined Score: {result['final_score']:.3f}")
+            print(f"   (Semantic: {result['semantic_score']:.3f}, Lexical: {result['lexical_score']:.3f})")
+            print(f"   Preview: {result['text'][:150]}...")
     else:
-        print("No documents available for search. Please ensure documents are embedded first.")
+        print("No documents found. Please run embeddings first.")
