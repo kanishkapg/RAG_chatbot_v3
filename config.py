@@ -18,7 +18,7 @@ GROQ_MODEL = "llama-3.1-8b-instant"
 # Hybrid Search Configuration
 DEFAULT_SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.6"))  # Alpha
 DEFAULT_LEXICAL_WEIGHT = float(os.getenv("LEXICAL_WEIGHT", "0.4"))   # Beta
-DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "5"))
+DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "10"))
 
 # Response Generation Configuration  
 DEFAULT_MAX_TOKENS = int(os.getenv("MAX_TOKENS", "500"))
