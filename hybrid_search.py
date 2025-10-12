@@ -98,6 +98,48 @@ class HybridSearchEngine:
             norm_scores = {k: (v - min_score) / (max_score - min_score) for k, v in score_dict.items()}
         return norm_scores
 
+    def semantic_search(self, query: str) -> Dict[int, float]:
+        """
+        Perform semantic search using embeddings.
+        
+        Args:
+            query: Search query string
+            
+        Returns:
+            Dictionary mapping chunk_id to similarity score
+        """
+        semantic_scores = {}
+        query_embedding = self.embedding_model.encode([query])[0]
+        
+        for chunk in self.chunk_data:
+            if chunk['embedding']:
+                chunk_embedding = np.array(chunk['embedding'])
+                similarity = cosine_similarity([query_embedding], [chunk_embedding])[0][0]
+                semantic_scores[chunk['id']] = similarity
+            else:
+                semantic_scores[chunk['id']] = 0.0
+
+        return semantic_scores
+
+    def lexical_search(self, query: str) -> Dict[int, float]:
+        """
+        Perform lexical search using TF-IDF.
+        
+        Args:
+            query: Search query string
+            
+        Returns:
+            Dictionary mapping chunk_id to similarity score
+        """
+        query_vector = self.vectorizer.transform([query])
+        lexical_similarities = cosine_similarity(query_vector, self.document_vectors)[0]
+        
+        lexical_scores = {}
+        for idx, chunk in enumerate(self.chunk_data):
+            lexical_scores[chunk['id']] = lexical_similarities[idx]
+
+        return lexical_scores
+
     def hybrid_search(
         self, 
         query: str, 
@@ -106,13 +148,7 @@ class HybridSearchEngine:
         top_k: int = DEFAULT_TOP_K
     ) -> List[Dict]:
         """
-        HYBRID SEARCH CORE ALGORITHM:
-        
-        1. Perform SEMANTIC search (meaning-based) using embeddings to get scores for all chunks
-        2. Perform LEXICAL search (keyword-based) using TF-IDF to get scores for all chunks
-        3. Normalize both sets of scores to 0-1 range
-        4. Combine scores for every chunk: final_score = (semantic_weight × semantic_score) + (lexical_weight × lexical_score)
-        5. Rank ALL chunks by combined score and return top_k
+        Combine semantic and lexical search results.
         
         Args:
             query: Search query string
@@ -131,45 +167,27 @@ class HybridSearchEngine:
         
         logger.info(f"Hybrid search: '{query[:50]}...' (semantic:{semantic_weight:.1f}, lexical:{lexical_weight:.1f})")
         
-        # In hybrid_search method:
-
-        # STEP 1: Get semantic scores as dict {chunk_id: score}
-        semantic_scores = {}
-        query_embedding = self.embedding_model.encode([query])[0]
-        for chunk in self.chunk_data:
-            if chunk['embedding']:
-                chunk_embedding = np.array(chunk['embedding'])
-                similarity = cosine_similarity([query_embedding], [chunk_embedding])[0][0]
-                semantic_scores[chunk['id']] = similarity
-            else:
-                semantic_scores[chunk['id']] = 0.0
-        print(list(semantic_scores.items())[0:5])  # Debug print to check semantic scores
-
-        # STEP 2: Get lexical scores as dict {chunk_id: score}
-        query_vector = self.vectorizer.transform([query])
-        lexical_similarities = cosine_similarity(query_vector, self.document_vectors)[0]
-        lexical_scores = {}
-        for idx, chunk in enumerate(self.chunk_data):
-            lexical_scores[chunk['id']] = lexical_similarities[idx]
-        print(list(lexical_scores.items())[0:5])
-
-        # STEP 3: Normalize scores (adapt _normalize_scores to handle dict values)
+        # Get scores from separate search methods
+        semantic_scores = self.semantic_search(query)
+        lexical_scores = self.lexical_search(query)
+        
+        # Normalize scores
         norm_semantic = self._normalize_scores_dict(semantic_scores)
         norm_lexical = self._normalize_scores_dict(lexical_scores)
-
-        # STEP 4: Combine scores as dict {chunk_id: combined_score}
+        
+        # Combine scores
         combined_scores = {}
-        for chunk_id in semantic_scores:  # Assuming same keys
+        for chunk_id in semantic_scores:
             semantic_score = norm_semantic[chunk_id]
             lexical_score = norm_lexical[chunk_id]
             combined_scores[chunk_id] = (semantic_weight * semantic_score + lexical_weight * lexical_score)
-
-        # STEP 5: Sort by combined score and return top_k
+        
+        # Sort and get top results
         top_results = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
-
-        # Format final results (update to use chunk_id directly)
+        
+        # Format results
         results = []
-        chunk_id_to_data = {chunk['id']: chunk for chunk in self.chunk_data}  # One-time map for lookup
+        chunk_id_to_data = {chunk['id']: chunk for chunk in self.chunk_data}
         for chunk_id, final_score in top_results:
             chunk = chunk_id_to_data[chunk_id]
             results.append({
@@ -201,8 +219,8 @@ if __name__ == "__main__":
     search_engine = HybridSearchEngine()
     
     if search_engine.chunk_data:
-        query = "How many days are allowed for a mother after giving a child birth"
-        results = search_engine.hybrid_search(query, top_k=7)
+        query = "How many paid leave days are allowed for maternity leave?"
+        results = search_engine.hybrid_search(query, top_k=8)
         
         print(f"\nHybrid Search Results for: '{query}'")
         print("=" * 60)
