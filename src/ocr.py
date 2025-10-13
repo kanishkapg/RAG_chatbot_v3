@@ -4,7 +4,10 @@ import logging
 import os
 import psycopg2
 import hashlib
-from config import DATA_DIR, POSTGRES_CONFIG
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.config import DATA_DIR, POSTGRES_CONFIG
 from database_setup import get_db_connection, create_pdf_files_table
 
 # Setup logging

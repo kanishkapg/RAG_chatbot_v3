@@ -1,14 +1,16 @@
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import streamlit as st
-import pandas as pd
-import json
-from datetime import datetime
-from typing import List, Dict
 import logging
+from typing import Dict
+from datetime import datetime
 
 # Import your custom modules
 from hybrid_search import HybridSearchEngine
 from response_generator import ResponseGenerator
-from config import DEFAULT_SEMANTIC_WEIGHT, DEFAULT_LEXICAL_WEIGHT, DEFAULT_TOP_K
+from utils.config import DEFAULT_SEMANTIC_WEIGHT, DEFAULT_LEXICAL_WEIGHT, DEFAULT_TOP_K
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
