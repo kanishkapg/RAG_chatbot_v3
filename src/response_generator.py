@@ -2,7 +2,10 @@ import logging
 from typing import List, Dict, Optional
 from groq import Groq
 from database_setup import get_db_connection
-from config import GROQ_API_KEY, GROQ_MODEL, DEFAULT_MAX_TOKENS, DEFAULT_TEMPERATURE
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.config import GROQ_API_KEY, GROQ_MODEL, DEFAULT_MAX_TOKENS, DEFAULT_TEMPERATURE
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

@@ -2,7 +2,10 @@ import json
 import logging
 from typing import Dict, List, Tuple
 from groq import Groq
-from config import GROQ_API_KEY, GROQ_MODEL
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.config import GROQ_API_KEY, GROQ_MODEL
 from database_setup import get_db_connection
 from psycopg2.extras import Json
 

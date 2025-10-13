@@ -1,5 +1,8 @@
 import psycopg2
-from config import POSTGRES_CONFIG
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.config import POSTGRES_CONFIG
 import logging
 
 # Setup logging
