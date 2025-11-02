@@ -16,9 +16,14 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Set this environment variable
 GROQ_MODEL = "llama-3.1-8b-instant"
 
 # Hybrid Search Configuration
-DEFAULT_SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.6"))  # Alpha
-DEFAULT_LEXICAL_WEIGHT = float(os.getenv("LEXICAL_WEIGHT", "0.4"))   # Beta
+DEFAULT_SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.5"))  # Alpha
+DEFAULT_LEXICAL_WEIGHT = float(os.getenv("LEXICAL_WEIGHT", "0.2"))   # Beta
+DEFAULT_RECENCY_WEIGHT = float(os.getenv("RECENCY_WEIGHT", "0.3"))   # Gamma
 DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "10"))
+
+# Temporal Relevance Configuration
+DEFAULT_DECAY_BASE = float(os.getenv("DECAY_BASE", "0.5"))
+DEFAULT_HALF_LIFE_DAYS = float(os.getenv("HALF_LIFE_DAYS", "300"))
 
 # Response Generation Configuration  
 DEFAULT_MAX_TOKENS = int(os.getenv("MAX_TOKENS", "500"))
