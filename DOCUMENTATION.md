@@ -115,7 +115,7 @@ brew install tesseract postgresql
 #### 1. Clone and Setup Project
 ```bash
 # Clone the repository
-git clone <your-repository-url>
+git clone <https://github.com/kanishkapg/RAG_chatbot_v3.git>
 cd RAG_chatbot_v3
 
 # Create virtual environment
@@ -145,9 +145,6 @@ brew services start postgresql   # macOS
 
 # Create database
 sudo -u postgres createdb rag_chatbot_v3
-
-# Create database user (optional but recommended)
-sudo -u postgres createuser --interactive your_username
 ```
 
 #### 4. Environment Configuration
@@ -252,44 +249,47 @@ User queries trigger a dual-path search mechanism that combines semantic similar
 │  (Input Data)   │───▶│   (Tesseract)   │───▶│ (PostgreSQL)    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                                                         │
+                                                        ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ Metadata Extractor│   │  Text Chunking  │    │  Raw Text Data  │
-│   (Groq LLM)    │◀───│   (Page-aware)  │◀───│                 │
+│ Text Chunking   │    │Metadata Extrctor│    │  Raw Text Data  │
+│ (Page Aware)    │◀───│   (Groq LLM)    │◀───│                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                        │
         ▼                        ▼
 ┌─────────────────┐    ┌─────────────────┐
-│ Document        │    │ Text Chunks     │
-│ Metadata        │    │ Storage         │
-│ (JSONB)         │    │                 │
+│ Text Chunk      │    │   Document      │
+│ Storage         │    │   Metadata      │
+│                 │    │  (JSONB)        │
 └─────────────────┘    └─────────────────┘
-                                │
-                                ▼
-                      ┌─────────────────┐
-                      │ Embedding       │
-                      │ Generation      │
-                      │ (BGE-M3)        │
-                      └─────────────────┘
-                                │
-                                ▼
+        │
+        |
+        └─────────────┐ 
+                      ▼
+                ┌─────────────────┐
+                │ Embedding       │
+                │ Generation      │
+                │ (BGE-M3)        │
+                └─────────────────┘
+                            │
+                            ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   User Query    │    │  Hybrid Search  │    │ Search Results  │
 │                 │───▶│ Engine          │───▶│ (Top-K Chunks)  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
-                              │ │                       │
-                              │ │                       ▼
-                              │ └─────────────┐ ┌─────────────────┐
-                              │               ▼ │ Date-based      │
-                              │    ┌─────────────────┐ Reranking   │
-                              │    │ TF-IDF Search   │────────────┐│
-                              │    │ (Lexical)       │            ││
-                              │    └─────────────────┘            ││
-                              │                                   ││
-                              │    ┌─────────────────┐            ││
-                              └───▶│ Semantic Search │            ││
-                                   │ (BGE-M3)        │            ││
-                                   └─────────────────┘            ││
-                                                                  ▼│
+                              │ │                              │
+                              │ │                              ▼
+                              │ └─────────────┐          ┌─────────────────┐
+                              │               ▼          │ Date-based      │
+                              │    ┌─────────────────┐   |     Reranking   │
+                              │    │ TF-IDF Search   │   └─────────────────┘
+                              │    │ (Lexical)       │            │
+                              │    └─────────────────┘            │
+                              │                                   │
+                              │    ┌─────────────────┐            │
+                              └───▶│ Semantic Search │            │
+                                   │ (BGE-M3)        │            │
+                                   └─────────────────┘            │
+                                                                  ▼
                                    ┌─────────────────┐    ┌─────────────────┐
                                    │ Response        │    │ Ranked Context  │
                                    │ Generation      │◀───│ Chunks          │
