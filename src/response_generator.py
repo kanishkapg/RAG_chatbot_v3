@@ -41,41 +41,28 @@ class ResponseGenerator:
         finally:
             conn.close()
 
-    def rerank_by_date(self, chunks: List[Dict]) -> List[Dict]:
+    def enrich_chunks_with_metadata(self, chunks: List[Dict]) -> List[Dict]:
         """
-        Rerank chunks by effective_date (or issued_date as fallback) in descending order.
+        Enrich chunks with metadata information.
         
         Args:
-            chunks: List of chunks from hybrid search with their metadata
+            chunks: List of chunks from hybrid search
             
         Returns:
-            List of chunks sorted by date (most recent first)
+            List of chunks enriched with metadata
         """
-        logger.info(f"Reranking {len(chunks)} chunks by date...")
+        logger.info(f"Enriching {len(chunks)} chunks with metadata...")
         
-        # Add metadata to each chunk
         enriched_chunks = []
         for chunk in chunks:
             metadata = self._get_chunk_metadata(chunk['chunk_id'])
             
-            # Get ranking date (effective_date or issued_date as fallback)
-            ranking_date = metadata.get('effective_date') or metadata.get('issued_date')
-            
             enriched_chunk = chunk.copy()
             enriched_chunk['metadata'] = metadata
-            enriched_chunk['ranking_date'] = ranking_date
             enriched_chunks.append(enriched_chunk)
         
-        # Sort by ranking_date (most recent first)
-        # Chunks without dates go to the end
-        reranked_chunks = sorted(
-            enriched_chunks, 
-            key=lambda x: x['ranking_date'] if x['ranking_date'] else '0000-00-00', 
-            reverse=True
-        )
-        
-        logger.info("Chunks reranked by date successfully.")
-        return reranked_chunks
+        logger.info("Chunks enriched with metadata successfully.")
+        return enriched_chunks
 
     def generate_response(self, query: str, top_chunks: List[Dict]) -> Dict:
         """
@@ -83,7 +70,7 @@ class ResponseGenerator:
         
         Args:
             query: User's question
-            top_chunks: Top 3 chunks after reranking
+            top_chunks: Top 5 chunks from hybrid search
             
         Returns:
             Dictionary with response and metadata
@@ -126,13 +113,13 @@ class ResponseGenerator:
         Your task is to provide accurate, concise answers based on the provided context documents.
 
         IMPORTANT INSTRUCTIONS:
-        1. PRIORITIZE information from documents with more recent dates (effective_date or issued_date)
-        2. IGNORE or clearly note if information appears to be from superseded/repealed documents
-        3. Be CONCISE - provide direct answers without unnecessary elaboration
-        4. ALWAYS cite the specific document(s) you're referencing in your answer
-        5. If information conflicts between documents, prioritize the most recent and explain the discrepancy
+        1. Use the most relevant information from the provided documents
+        2. Be CONCISE - provide direct answers without unnecessary elaboration
+        3. ALWAYS cite the specific document(s) you're referencing in your answer
+        4. If information conflicts between documents, prioritize documents with higher relevance scores and explain any discrepancies
+        5. If documents have dates, consider recency when there are conflicts, but focus primarily on relevance
 
-        Context Documents (ordered by relevance and date):
+        Context Documents (ordered by hybrid search relevance):
         {context}
 
         User Question: {query}
@@ -172,23 +159,25 @@ class ResponseGenerator:
 
     def process_query(self, query: str, hybrid_search_results: List[Dict]) -> Dict:
         """
-        Complete pipeline: rerank by date and generate response.
+        Complete pipeline: enrich with metadata and generate response using top 5 results.
         
         Args:
             query: User's question
-            hybrid_search_results: Top 10 chunks from hybrid search
+            hybrid_search_results: Results from hybrid search (already ranked by relevance)
             
         Returns:
             Dictionary with response and metadata
         """
         logger.info(f"Processing query: '{query[:50]}...'")
+
+        # Take top 3 results from hybrid search (already optimally ranked)
+        top_chunks = hybrid_search_results[:3]
         
-        # Rerank by date and select top 3
-        reranked_chunks = self.rerank_by_date(hybrid_search_results)
-        ranked_top_chunks = reranked_chunks[:10]
+        # Enrich with metadata for context
+        enriched_chunks = self.enrich_chunks_with_metadata(top_chunks)
         
         # Generate response
-        result = self.generate_response(query, ranked_top_chunks)
+        result = self.generate_response(query, enriched_chunks)
         return result
 
 
@@ -200,7 +189,7 @@ if __name__ == "__main__":
     response_generator = ResponseGenerator()
     
     if search_engine.chunk_data:
-        query = "What is the maternity leave policy in 2022?"
+        query = "What is the latest maternity leave policy?"
         hybrid_results = search_engine.hybrid_search(query, top_k=10)
         
         if hybrid_results:
@@ -210,7 +199,7 @@ if __name__ == "__main__":
             print("=" * 80)
             print(f"\nResponse:\n{result['response']}")
             
-            print(f"\n\nSources ({result['chunk_count']} documents):")
+            print(f"\n\nSources ({result['chunk_count']} documents used for response):")
             print("-" * 50)
             for i, source in enumerate(result['sources'], 1):
                 print(f"{i}. {source['filename']}")
