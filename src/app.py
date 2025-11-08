@@ -10,7 +10,7 @@ from datetime import datetime
 # Import your custom modules
 from hybrid_search import HybridSearchEngine
 from response_generator import ResponseGenerator
-from utils.config import DEFAULT_SEMANTIC_WEIGHT, DEFAULT_LEXICAL_WEIGHT, DEFAULT_TOP_K
+from utils.config import DEFAULT_SEMANTIC_WEIGHT, DEFAULT_LEXICAL_WEIGHT, DEFAULT_RECENCY_WEIGHT, DEFAULT_TOP_K
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -91,8 +91,7 @@ if 'chat_history' not in st.session_state:
 if 'last_hybrid_results' not in st.session_state:
     st.session_state.last_hybrid_results = []
 
-if 'last_reranked_results' not in st.session_state:
-    st.session_state.last_reranked_results = []
+
 
 # Helper functions
 def format_chunk_preview(text: str, max_length: int = 200) -> str:
@@ -139,6 +138,8 @@ def display_chunk_card(chunk: Dict, index: int, card_type: str = "hybrid"):
             if card_type == "hybrid" and 'semantic_score' in chunk and 'lexical_score' in chunk:
                 st.caption(f"Semantic: {chunk['semantic_score']:.3f}")
                 st.caption(f"Lexical: {chunk['lexical_score']:.3f}")
+                if 'recency_score' in chunk:
+                    st.caption(f"Recency: {chunk['recency_score']:.3f}")
         
         # Text preview
         st.markdown(f"<div class='chunk-card'>{format_chunk_preview(chunk['text'])}</div>", 
@@ -164,15 +165,17 @@ with st.sidebar:
     st.subheader("🔍 Search Parameters")
     semantic_weight = st.slider("Semantic Weight", 0.0, 1.0, DEFAULT_SEMANTIC_WEIGHT, 0.1)
     lexical_weight = st.slider("Lexical Weight", 0.0, 1.0, DEFAULT_LEXICAL_WEIGHT, 0.1)
+    recency_weight = st.slider("Recency Weight", 0.0, 1.0, DEFAULT_RECENCY_WEIGHT, 0.1)
     top_k = st.slider("Top K Results", 5, 20, DEFAULT_TOP_K, 1)
     
     # Normalize weights
-    total_weight = semantic_weight + lexical_weight
+    total_weight = semantic_weight + lexical_weight + recency_weight
     if total_weight > 0:
         semantic_weight = semantic_weight / total_weight
         lexical_weight = lexical_weight / total_weight
+        recency_weight = recency_weight / total_weight
     
-    st.info(f"Normalized weights:\nSemantic: {semantic_weight:.2f}\nLexical: {lexical_weight:.2f}")
+    st.info(f"Normalized weights:\nSemantic: {semantic_weight:.2f}\nLexical: {lexical_weight:.2f}\nRecency: {recency_weight:.2f}")
     
     # Document statistics
     st.subheader("📊 Document Statistics")
@@ -208,7 +211,6 @@ with col2:
 if clear_button:
     st.session_state.chat_history = []
     st.session_state.last_hybrid_results = []
-    st.session_state.last_reranked_results = []
     st.rerun()
 
 # Process search
@@ -223,15 +225,15 @@ if search_button and query.strip():
                     query, 
                     semantic_weight=semantic_weight,
                     lexical_weight=lexical_weight,
+                    recency_weight=recency_weight,
                     top_k=top_k
                 )
                 
-                # Generate response with reranking
+                # Generate response using top results from hybrid search
                 result = st.session_state.response_generator.process_query(query, hybrid_results)
                 
                 # Store results for later display
                 st.session_state.last_hybrid_results = hybrid_results
-                st.session_state.last_reranked_results = st.session_state.response_generator.rerank_by_date(hybrid_results)
                 
                 # Add to chat history
                 st.session_state.chat_history.append({
@@ -270,29 +272,21 @@ if st.session_state.chat_history:
                         st.markdown(f"⭐ **Relevance Score:** {source['score']:.4f}")
                         st.markdown("</div>", unsafe_allow_html=True)
 
-# Display search results in tabs
+# Display search results
 if st.session_state.last_hybrid_results:
     st.header("🔍 Search Results Analysis")
     
-    tab1, tab2 = st.tabs(["📊 Hybrid Search Results", "📅 Date-Reranked Results"])
+    st.subheader(f"Top {len(st.session_state.last_hybrid_results)} Hybrid Search Results")
+    st.caption("Results from hybrid search algorithm (top 3 used for response generation)")
     
-    with tab1:
-        st.subheader(f"Top {len(st.session_state.last_hybrid_results)} Hybrid Search Results")
-        st.caption("Results from combined semantic and lexical search, ordered by relevance score")
-        
-        for i, chunk in enumerate(st.session_state.last_hybrid_results):
+    for i, chunk in enumerate(st.session_state.last_hybrid_results):
+        # Highlight the top 3 chunks used for response generation
+        if i < 3:
+            st.markdown(f"### ✨ Result {i + 1} (Used for Response)")
+        else:
             st.markdown(f"### Result {i + 1}")
-            display_chunk_card(chunk, i, "hybrid")
-            st.divider()
-    
-    with tab2:
-        st.subheader(f"Top {len(st.session_state.last_reranked_results)} Date-Reranked Results")
-        st.caption("Same results reordered by effective date (most recent first)")
-        
-        for i, chunk in enumerate(st.session_state.last_reranked_results):
-            st.markdown(f"### Rank {i + 1}")
-            display_chunk_card(chunk, i, "reranked")
-            st.divider()
+        display_chunk_card(chunk, i, "hybrid")
+        st.divider()
 
 # Footer
 st.markdown("---")
