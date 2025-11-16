@@ -22,7 +22,7 @@ DEFAULT_RECENCY_WEIGHT = float(os.getenv("RECENCY_WEIGHT", "0.3"))   # Gamma
 DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "10"))
 
 # Temporal Relevance Configuration
-DEFAULT_DECAY_BASE = float(os.getenv("DECAY_BASE", "0.5"))
+DEFAULT_DECAY_BASE = float(os.getenv("DECAY_BASE", "0.65"))
 DEFAULT_HALF_LIFE_DAYS = float(os.getenv("HALF_LIFE_DAYS", "300"))
 
 # Response Generation Configuration  

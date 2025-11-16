@@ -189,8 +189,8 @@ if __name__ == "__main__":
     response_generator = ResponseGenerator()
     
     if search_engine.chunk_data:
-        query = "What is the latest maternity leave policy?"
-        hybrid_results = search_engine.hybrid_search(query, top_k=10)
+        query = "What are the working hours and days according to the new In-Office policy?"
+        hybrid_results = search_engine.hybrid_search(query, top_k=5)
         
         if hybrid_results:
             result = response_generator.process_query(query, hybrid_results)
