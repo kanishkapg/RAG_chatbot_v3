@@ -283,8 +283,8 @@ if __name__ == "__main__":
     search_engine = HybridSearchEngine()
     
     if search_engine.chunk_data:
-        query = "How many paid leaves are allowed for the maternity leave policy?"
-        results = search_engine.hybrid_search(query, top_k=10)
+        query = "What are the working hours and days according to the new In-Office policy?"
+        results = search_engine.hybrid_search(query, top_k=5)
         
         print(f"\nHybrid Search Results for: '{query}'")
         print("=" * 80)

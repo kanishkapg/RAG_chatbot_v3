@@ -26,14 +26,12 @@ def get_documents_from_db() -> List[Tuple[str, str, str]]:
     finally:
         conn.close()
 
-def chunk_text_by_page(text: str, chunk_size: int = 1000, overlap: int = 150) -> List[Dict]:
+def chunk_text_by_page(text: str) -> List[Dict]:
     """
-    Splits text into chunks, respecting page boundaries.
+    Splits text into chunks by page boundaries only.
     
     Args:
         text (str): The full text extracted from a document.
-        chunk_size (int): The target size for each chunk.
-        overlap (int): The number of characters to overlap between chunks.
 
     Returns:
         List[Dict]: A list of chunks, each with page number and text.
@@ -48,18 +46,8 @@ def chunk_text_by_page(text: str, chunk_size: int = 1000, overlap: int = 150) ->
             continue
 
         page_number = i + 1
-        # If page content is smaller than chunk size, treat it as a single chunk
-        if len(page_content) <= chunk_size:
-            chunks.append({'page_number': page_number, 'chunk_text': page_content})
-            continue
-
-        # Split larger pages into chunks with overlap
-        start = 0
-        while start < len(page_content):
-            end = start + chunk_size
-            chunk_text = page_content[start:end]
-            chunks.append({'page_number': page_number, 'chunk_text': chunk_text})
-            start += chunk_size - overlap
+        # Each page becomes a single chunk
+        chunks.append({'page_number': page_number, 'chunk_text': page_content})
             
     return chunks
 
