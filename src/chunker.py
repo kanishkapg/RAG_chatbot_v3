@@ -13,12 +13,15 @@ def get_documents_from_db() -> List[Tuple[str, str, str]]:
     try:
         with conn.cursor() as cur:
             cur.execute("""
-                SELECT filename, file_hash, extracted_text 
-                FROM pdf_files 
-                WHERE extracted_text IS NOT NULL AND extracted_text != ''
+                SELECT p.filename, p.file_hash, p.extracted_text 
+                FROM pdf_files p
+                LEFT JOIN document_chunks dc ON p.filename = dc.filename AND p.file_hash = dc.file_hash
+                WHERE p.extracted_text IS NOT NULL 
+                AND p.extracted_text != ''
+                AND dc.filename IS NULL
             """)
             documents = cur.fetchall()
-            logger.info(f"Retrieved {len(documents)} documents from database.")
+            logger.info(f"Retrieved {len(documents)} documents pending chunking.")
             return documents
     except Exception as e:
         logger.error(f"Error retrieving documents from database: {e}")
