@@ -199,28 +199,30 @@ class HybridSearchEngine:
         top_k: int = DEFAULT_TOP_K
     ) -> List[Dict]:
         """
-        Combine semantic, lexical, and recency search results.
+        Combine semantic, lexical, and recency search results using multiplicative gating.
         
         Args:
             query: Search query string
-            semantic_weight: Weight for semantic search (default: 0.6)
+            semantic_weight: Weight for semantic search (default: 0.7)
             lexical_weight: Weight for lexical search (default: 0.3)
-            recency_weight: Weight for recency score (default: 0.1)
-            decay_base: Base for exponential decay (default: 0.5)
-            half_life_days: Half-life in days for recency decay (default: 200)
+            recency_weight: Weight for recency boost (default: 1.0)
+            decay_base: Base for exponential decay (default: 0.65)
+            half_life_days: Half-life in days for recency decay (default: 300)
             top_k: Number of final results to return (default: 10)
         """
         if not self.chunk_data:
             return []
         
-        # Normalize weights to sum to 1
-        total_weight = semantic_weight + lexical_weight + recency_weight
-        if total_weight > 0:
-            semantic_weight /= total_weight
-            lexical_weight /= total_weight
-            recency_weight /= total_weight
+        # Ensure semantic and lexical weights sum to 1 for relevance score
+        relevance_total = semantic_weight + lexical_weight
+        if relevance_total > 0:
+            semantic_weight_norm = semantic_weight / relevance_total
+            lexical_weight_norm = lexical_weight / relevance_total
+        else:
+            semantic_weight_norm = 0.7
+            lexical_weight_norm = 0.3
         
-        logger.info(f"Hybrid search: '{query[:50]}...' (semantic:{semantic_weight:.2f}, lexical:{lexical_weight:.2f}, recency:{recency_weight:.2f})")
+        logger.info(f"Hybrid search with multiplicative gating: '{query[:50]}...' (semantic:{semantic_weight_norm:.2f}, lexical:{lexical_weight_norm:.2f}, recency_boost:{recency_weight:.2f})")
         
         # Get scores from separate search methods
         semantic_scores = self.semantic_search(query)
@@ -232,17 +234,21 @@ class HybridSearchEngine:
         norm_lexical = self._normalize_scores_dict(lexical_scores)
         norm_recency = self._normalize_scores_dict(recency_scores)
         
-        # Combine scores
+        # Apply multiplicative gating mechanism
         combined_scores = {}
         for chunk_id in semantic_scores:
             semantic_score = norm_semantic[chunk_id]
             lexical_score = norm_lexical[chunk_id]
             recency_score = norm_recency[chunk_id]
-            combined_scores[chunk_id] = (
-                semantic_weight * semantic_score + 
-                lexical_weight * lexical_score + 
-                recency_weight * recency_score
-            )
+            
+            # Calculate unified relevance score
+            relevance_score = (semantic_weight_norm * semantic_score) + (lexical_weight_norm * lexical_score)
+            
+            # Calculate recency boost factor (1 + weighted recency score)
+            recency_boost = 1 + (recency_weight * recency_score)
+            
+            # Apply multiplicative gating: relevance_score * recency_boost
+            combined_scores[chunk_id] = relevance_score * recency_boost
         
         # Sort and get top results
         top_results = sorted(combined_scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
@@ -252,14 +258,22 @@ class HybridSearchEngine:
         chunk_id_to_data = {chunk['id']: chunk for chunk in self.chunk_data}
         for chunk_id, final_score in top_results:
             chunk = chunk_id_to_data[chunk_id]
+            semantic_score = norm_semantic[chunk_id]
+            lexical_score = norm_lexical[chunk_id]
+            recency_score = norm_recency[chunk_id]
+            relevance_score = (semantic_weight_norm * semantic_score) + (lexical_weight_norm * lexical_score)
+            recency_boost = 1 + (recency_weight * recency_score)
+            
             results.append({
                 'chunk_id': chunk_id,
                 'filename': chunk['filename'],
                 'text': chunk['text'],
                 'final_score': final_score,
-                'semantic_score': norm_semantic[chunk_id],
-                'lexical_score': norm_lexical[chunk_id],
-                'recency_score': norm_recency[chunk_id],
+                'semantic_score': semantic_score,
+                'lexical_score': lexical_score,
+                'recency_score': recency_score,
+                'relevance_score': relevance_score,
+                'recency_boost': recency_boost,
                 'effective_date': chunk.get('effective_date')
             })
         return results
@@ -283,7 +297,7 @@ if __name__ == "__main__":
     search_engine = HybridSearchEngine()
     
     if search_engine.chunk_data:
-        query = "What are the working hours and days according to the new In-Office policy?"
+        query = "Is it true that the Sales team has different in-office requirements than the Engineering team?"
         results = search_engine.hybrid_search(query, top_k=5)
         
         print(f"\nHybrid Search Results for: '{query}'")
@@ -291,7 +305,8 @@ if __name__ == "__main__":
         
         for i, result in enumerate(results, 1):
             print(f"\n{i}. {result['filename']}")
-            print(f"   Combined Score: {result['final_score']:.3f}")
+            print(f"   Final Score: {result['final_score']:.3f}")
+            print(f"   Relevance Score: {result['relevance_score']:.3f} × Recency Boost: {result['recency_boost']:.3f}")
             print(f"   (Semantic: {result['semantic_score']:.3f}, Lexical: {result['lexical_score']:.3f}, Recency: {result['recency_score']:.3f})")
             if result.get('effective_date'):
                 print(f"   Effective Date: {result['effective_date'].strftime('%Y-%m-%d')}")
