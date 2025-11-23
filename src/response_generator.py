@@ -103,7 +103,12 @@ class ResponseGenerator:
                 'circular_number': metadata.get('circular_number', 'Unknown'),
                 'title': metadata.get('title', 'Unknown Title'),
                 'date': metadata.get('effective_date') or metadata.get('issued_date'),
-                'score': chunk.get('final_score', 0)
+                'score': chunk.get('final_score', 0),
+                'relevance_score': chunk.get('relevance_score', 0),
+                'recency_boost': chunk.get('recency_boost', 1.0),
+                'semantic_score': chunk.get('semantic_score', 0),
+                'lexical_score': chunk.get('lexical_score', 0),
+                'recency_score': chunk.get('recency_score', 0)
             })
         
         context = "\n" + "="*50 + "\n".join(context_parts)
@@ -113,15 +118,14 @@ class ResponseGenerator:
         Your task is to provide accurate, concise answers based on the provided context documents.
 
         IMPORTANT INSTRUCTIONS:
-        1. Use the most relevant information from the provided documents
+        1. When providing an answer always prioritize most recent document's information
         2. Be CONCISE - provide direct answers without unnecessary elaboration
         3. ALWAYS cite the specific document(s) you're referencing in your answer
-        4. If information conflicts between documents, prioritize documents with higher relevance scores and explain any discrepancies
-        5. If documents have dates, consider recency when there are conflicts, but focus primarily on relevance
+        4. In the query, if it is asked for a historical information, mentioning a specific year, prioritize the relevant documents accordingly rather than the recency
 
-        Context Documents (ordered by hybrid search relevance):
+        Context Documents (ordered by hybrid search with multiplicative gating):
         {context}
-
+     
         User Question: {query}
         
         Answer:"""
@@ -189,7 +193,7 @@ if __name__ == "__main__":
     response_generator = ResponseGenerator()
     
     if search_engine.chunk_data:
-        query = "What are the working hours and days according to the new In-Office policy?"
+        query = "Is it true that the Sales team has different in-office requirements than the Engineering team?"
         hybrid_results = search_engine.hybrid_search(query, top_k=5)
         
         if hybrid_results:
@@ -206,7 +210,9 @@ if __name__ == "__main__":
                 print(f"   Circular: {source['circular_number']}")
                 print(f"   Title: {source['title']}")
                 print(f"   Date: {source['date'] or 'Not specified'}")
-                print(f"   Score: {source['score']:.4f}")
+                print(f"   Final Score: {source['score']:.4f}")
+                print(f"   Relevance: {source['relevance_score']:.4f} × Boost: {source['recency_boost']:.4f}")
+                print(f"   (Sem: {source['semantic_score']:.3f}, Lex: {source['lexical_score']:.3f}, Rec: {source['recency_score']:.3f})")
                 print()
         else:
             print("No search results found.")

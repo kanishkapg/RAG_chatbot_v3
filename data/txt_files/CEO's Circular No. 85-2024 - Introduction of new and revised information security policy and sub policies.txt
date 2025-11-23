@@ -1,0 +1,26 @@
+CEO's Circular No: 85/2024
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+To: All Employees,
+
+INTRODUCTION OF NEW AND REVISED INFORMATION SECURITY POLICY & SUB POLICIES
+
+The existing SLT Information Security Policy and sub policies (CEO LIS 001 – 019) which conform to ISO 27001:2013 standard have been revised to conform to ISO 27001:2022 standard and three new sub policies have been formulated as given below.
+
+| Name of New Sub-Policy    | Document No. |
+|---|---|
+| Data Loss Prevention Policy    | CEO LIS 020    |
+| Data Privacy and Confidentiality Policy    | CEO LIS 021    |
+| Network Security Policy    | CEO LIS 023    |
+
+Revised and newly introduced policies will be effective from 18th of September 2024.
+
+These Policies are published in SLT Intranet for your reference.
+
+SLT Common Document Portal → Documents → Information Security Policies
+
+It is the responsibility of all employees to adhere to these policies. If any employee fails to comply with these policies shall considered to be in violation of SLT Information Security Policies and will be subjected to appropriate disciplinary actions.
+
+Janaka Abeysinghe
+Chief Executive Officer

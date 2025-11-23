@@ -1,0 +1,133 @@
+CEO's Circular No. 53/2022
+
+CEO's Office
+Sri Lanka Telecom PLC
+Colombo 1
+
+30th June 2022
+
+All Executives
+
+Survey of Copper Cables (Aerial Cables & Drop wires) for Recycling
+
+This circular is issued to facilitate the survey of Copper Aerial Cables and Copper Drop Wires for recycling.
+
+1) A Board of Survey (BOS) shall be appointed to conduct the survey for identifying the Aerial Copper Cables and Copper Drop Wires for recycling. The process chart is shown in Annexure 1
+2) Composition of the BOS will be as follows;
+    ➢ Relevant Provincial DGM - Chairman
+    ➢ Relevant OPMC Manager - Secretary
+    ➢ Regional Accountant – Member
+    ➢ Any Executive Officer(s) from the relevant Region (other than OPMC & Regional Accountant's Office) – Member
+3) BOS Chairman will obtain recommendation of Regional GM and approval of the CAO for the appointment of the BOS and inform the members of BOS through email.
+
+a) List of attachments
+    ➢ Process chart for survey of Aerial Copper Cables and Copper Drop Wires for recycling (Annexure 1)
+b) List of forms
+    ➢ List of Copper Cables to be recycled (CAOO/FRM/001)
+    ➢ Approval for disposal of copper cables through recycling (CAOO/FRM/002)
+
+All forms related to this circular can be downloaded from the intranet at the following location:
+
+General-SLT COMMON DOCUMENT Portal>Forms>Administration (CAO)
+
+Note:
+
+I. Please refer Process Guide on "Recycle of Abandoned Copper Cables" (Document No OSD GRM 03) for additional information on copper recycling  
+II. If Aerial Copper Cables and Drop wires are sold without recycling, approval should be obtained from CAO prior to the sale  
+III. This circular excludes all Underground Cables identified for disposal  
+
+---
+
+Janaka R. Abeysinghe  
+Chief Executive Officer
+
+# Annexure 1
+
+Survey for Identifying Copper Cables for Recycling
+
+Provincial DGM  
+Manager/OPINCE (Secretary/BOS)  
+BOS  
+Regional GM  
+
+Start  
+Appoint BOS and inform members  
+
+Prepare form (CAOQ/FRM/001) and send for DGM's recommendation  
+
+Recommend  
+No  
+Yes  
+
+FIX date for survey and inform BOS members  
+
+Carry out survey and sign (CAOQ/ FRM/002) form  
+
+Send for approval  
+
+Arrange to transport for recycling  
+
+End  
+
+Approved  
+Yes  
+
+List of Aerial Cables and Drop Wires to be disposed through BOS
+
+| Description of Cables | Unit of Measurement (meters, kg etc) | Quantity    | Reason for Disposal |
+|---|---|---|---|
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+|    |    |    |    |
+
+Prepared By: Recommended By:
+
+Signature, Official Frank & Date Signature, Official Frank & Date (Relevant DGM)
+
+Note 1 - Reasons for Disposal (to be indicated in last column)
+
+| Technically Obsolete (after use) | R1    |
+|---|---|
+| Damaged & Unusable    | R2    |
+| Scrap Items    | R3    |
+| Not economical to use    | R4    |
+
+# Approval for Aerial Cable and Drop Wire Disposal for Recycling Process
+
+## Reasons for Disposal
+| Technically Obsolete (after use) | R1    |
+|---|---|
+| Damaged & Unusable    | R2    |
+| Scrap Items    | R3    |
+| Not economical to use    | R4    |
+
+## Details of Disposable Cables
+| Description of Cables | Unit of Measurement (meters, kg etc) | Quantity | Reason for Disposal |
+|---|---|---|---|
+|||||
+|||||
+|||||
+
+a. Board of Survey (BOS) recommends to dispose the above items as specified herein  
+b. In instances where the quantity specified herein is not equal to the quantity at the time of disposal, the quantity stated in the Material Note will be considered as the actual.
+
+---
+
+### Name
+|    | Designation | Signature & Date |
+|---|---|---|
+| ......    | Chairman    | ......    |
+| ......    | Secretary    | ......    |
+| ......    | Member    | ......    |
+| ......    | Member    | ......    |
+| Approved/Not Approved |    |    |
+
+| Signature    | Official Frank | Date    |
+|---|---|---|
+| Relevant Regional GM    |    |    |
+| Copies to : Accountant/ Asset Management |    |    |

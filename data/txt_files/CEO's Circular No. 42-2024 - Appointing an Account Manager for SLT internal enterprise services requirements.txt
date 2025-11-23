@@ -1,0 +1,56 @@
+CEO's Circular No: 42/2024
+
+CEO's Office
+Sri Lanka Telecom PLC
+Colombo 01.
+[Date] May 2024
+
+To: All Staff,
+
+APPOINTING AN ACCOUNT MANAGER FOR SLT INTERNAL ENTERPRISE SERVICES REQUIREMENTS
+
+There are instances where Enterprise Services, such as Internet Leased Lines, Cloud Resources etc. are required for SLT's own use. This circular streamlines the procedure of providing such services for SLT internal requirements.
+
+1. The request can be raised by any SLT user department, for a valid business requirement. The standard product application form for the required Enterprise Service and 'Enterprise Services Request Form' (Annexure 1) shall be filled by the respective executive officer.
+
+2. The request shall be recommended by the DGM or higher officer of the user department, and forwarded for the approval of the CAO through the respective Chief Officer.
+
+3. The DGM of the user department shall appoint a custodian, A6 or above, to take care of the service. He/she is responsible for continued use of the service for the mentioned intended business purpose and deactivation after the requirement is over.
+
+4. The approved Enterprise Service Request form and duly filled product application form shall be forwarded to the DGM/SME Business. A dedicated account manager will be appointed, who will be responsible for activating the service following standard procedures and maintaining the SLT internal enterprise services account.
+
+5. Any subsequent upgrades with higher cost, shall also follow the same approval procedure.
+
+6. Any downgrade or deactivation shall be forwarded to the DGM/SME Business through respective DGM.
+
+This circular supersedes any other circulars issued in this regard.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+--- ANNEXURE 1: ENTERPRISE SERVICES REQUEST FORM ---
+
+Enterprise Services Request Form
+To be filled by the respective executive officer of the user department
+Required Service in brief:
+
+Business Requirement :
+
+Justification :
+
+Service required date :
+Service required address:
+Custodian Name: Designation:
+Custodian Emp. No: Contact No.:
+Availability of Budget for the Required Service
+
+Budget Category    Availability (Yes/No)    CAPEX : Project No
+    OPEX: Cost Center & Account Code
+CAPEX
+OPEX
+
+Requested By    Recommended By    Approved By
+………..    ………..    ………
+DGM/………..    GM/CO/………..    CAO
+
+Note : Attach the duly filled application form of the relevant enterprise product along with this

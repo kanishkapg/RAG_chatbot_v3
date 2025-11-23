@@ -24,12 +24,15 @@ class MetadataExtractor:
         try:
             with conn.cursor() as cur:
                 cur.execute("""
-                    SELECT filename, file_hash, extracted_text 
-                    FROM pdf_files 
-                    WHERE extracted_text IS NOT NULL AND extracted_text != ''
+                    SELECT p.filename, p.file_hash, p.extracted_text 
+                    FROM pdf_files p
+                    LEFT JOIN document_metadata dm ON p.filename = dm.filename AND p.file_hash = dm.file_hash
+                    WHERE p.extracted_text IS NOT NULL 
+                    AND p.extracted_text != ''
+                    AND dm.filename IS NULL
                 """)
                 documents = cur.fetchall()
-                logger.info(f"Retrieved {len(documents)} documents from database")
+                logger.info(f"Retrieved {len(documents)} documents pending metadata extraction")
                 return documents
         except Exception as e:
             logger.error(f"Error retrieving documents from database: {e}")
@@ -43,10 +46,14 @@ class MetadataExtractor:
         You are an expert at extracting metadata from official documents and circulars. 
         
         Analyze the following text from {filename} and extract metadata in VALID JSON format. Look carefully for:
-        1. Document/circular numbers (often after "Circular No:", "Reference:", "No:", etc.)
+        1. Document/circular numbers (often after "Circular No:", "Reference:", "No:", etc; "CEO's Circular No. 11-2022 – New Appointment" → "CEO's Circular No. 11-2022")
         2. Titles or subjects (often after "Subject:", "Re:", "Title:", etc.)  
         3. Dates (issued date, effective date, etc. in YYYY-MM-DD format)
-                   
+        
+        Rules:
+        - All dates should be in YYYY-MM-DD format.
+        - If the circular states “effective immediately” or similar, set effective_date = issued_date.
+        - If no effective date is extracted(effective date is null), set effective_date = issued_date.          
         Return ONLY a valid JSON object with these exact fields:
         {{
             "circular_number": "string or null",

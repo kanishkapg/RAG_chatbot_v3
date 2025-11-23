@@ -1,9 +1,10 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 DATA_DIR="./data/dummy" # change into 'dummy' or 'original'
+TXT_DIR="./data/txt_files"
 POSTGRES_CONFIG = {
     "dbname": os.getenv("POSTGRES_DB", "rag_chatbot_v3"),
     "user": os.getenv("POSTGRES_USER", "postgres"),
@@ -16,9 +17,9 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Set this environment variable
 GROQ_MODEL = "llama-3.1-8b-instant"
 
 # Hybrid Search Configuration
-DEFAULT_SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.5"))  # Alpha
-DEFAULT_LEXICAL_WEIGHT = float(os.getenv("LEXICAL_WEIGHT", "0.2"))   # Beta
-DEFAULT_RECENCY_WEIGHT = float(os.getenv("RECENCY_WEIGHT", "0.3"))   # Gamma
+DEFAULT_SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.7"))  # Alpha
+DEFAULT_LEXICAL_WEIGHT = float(os.getenv("LEXICAL_WEIGHT", "0.3"))   # Beta
+DEFAULT_RECENCY_WEIGHT = float(os.getenv("RECENCY_WEIGHT", "0.7"))   # Gamma
 DEFAULT_TOP_K = int(os.getenv("DEFAULT_TOP_K", "10"))
 
 # Temporal Relevance Configuration

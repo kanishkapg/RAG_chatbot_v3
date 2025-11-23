@@ -1,0 +1,56 @@
+CEO's Circular No: 88 / 2024
+
+CEO's Office
+Sri Lanka Telecom PLC
+Colombo 01
+1st October 2024
+
+To All Staff,
+
+Establishing a Virtual Organization Structure to Implement Data & AI Program for SLTMOBITEL
+
+SLTMOBITEL has embarked on a Data and AI program which is one of the key strategic initiative of the company. This program leverage Data management, Governance, Data analytics, Automation and AI to enhance various aspects of SLTMOBITEL's Customer Experience, Products portfolio enhancement, Operations and Network Management. This program integrates advanced Data and AI technologies into the business processes with required governance and compliances to extract valuable insights, drive automation, and improve overall efficiency & productivity. A well-implemented Data and AI program enables SLTMOBITEL to,
+
+- Enhance customer experience
+- Generate new revenue streams
+- Data Driven Decision Making
+- Transform business operation
+- Enable process automation
+- Optimize network performance
+
+Considering the urgency to remain competitive and thrive in evolving technological landscape, a virtual organization structure is identified to perform the required activities involving other key stakeholders in the company. Following structure, which comprises of cross functional team members from SLTMOBITEL shall be responsible for the implementation of Data and AI Program.
+
+Virtual Organization Structure for Data and AI Program
+
+Program Chair
+
+Steering Committee
+
+COO-SLT, COO-MOBITEL, CTO, CMO, CFO, CPO, CO-EB, CO-CB, CMO, CO-DT, SM/EDBS [Sec]
+
+Center of Excellence
+
+COE Team
+
+AI & Data Office
+
+Working Groups
+
+As-Is, Define Objectives and Use Cases
+
+Architecture and Data Governance
+
+Data Preparation & Data Quality
+
+AI Modeling, Implementation & Deployment
+
+Talent & Skills
+
+Customer/User Engagement and Communication
+
+The strategic intent for the program, team composition of the Steering Committee, Center of Excellence, AI and Data Office, Terms of Reference of six working groups are given in Annexure 1. This shall work closely with Digital Transformation Program and related to initiatives to get the maximum out of it. The established virtual organization is expected to execute the Data and AI program with careful planning, cross functional collaboration, open communication and methodical execution process engaging all employees of SLTMOBITEL.
+
+I expect all nominated members who are entrusted with different roles and responsibilities to extend their fullest support and contribute towards success of the initiatives identified in Data and AI program.
+
+Janaka Abeysinghe
+Chief Executive Officer

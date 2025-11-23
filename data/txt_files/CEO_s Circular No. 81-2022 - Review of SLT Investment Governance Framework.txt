@@ -1,0 +1,45 @@
+CEO's Circular No: 81 / 2022
+
+CEO's Office
+Sri Lanka Telecom PLC
+Colombo-01
+3rd November 2022
+
+To: All Executive Staff
+
+REVIEW OF SLT INVESTMENT GOVERNANCE FRAMEWORK
+
+Investment Governance Framework was formally established at SLT for project management along with the introduction of the Stage Gate Process. Project delivery is managed and reviewed at each stage of the said process. Such Investment Governance is essential to ensure the viability of the investments, delivery of intended values and prioritizing investments based on benefits and strategic importance to the business.
+
+In the existing investment governance framework, there are Functional Investment Management Committees (FIMCs) namely, PPIMC (Project Portfolio Investment Management Committee), PIMC (Product Investment Management Committee), EIMC (Enterprise solutions Investment Management Committee) and DPAC (Direct Procurement Approval Committee) which are functioning under the supervision of SIMC (Strategic Investment Management Committee).
+
+'Procurement and Governance Process Review Committee' appointed by CEO/SLT has made recommendations for amendments to simplify and speed-up the existing investment approval and procurement process to facilitate the smooth functioning of the business. Accordingly, following amendments are done on Investment Governance Framework with increased empowerments to FIMCs.
+
+1. The ceiling limit of new project approvals of each Functional IMC is increased from LKR 50 Mn to LKR 75 Mn considering the prevailing economic conditions such as high inflation and exchange rates. Accordingly, end-to-end responsibility of new project investments below the above ceiling limit is granted to respective FIMC to evaluate business applicability, viability, financial risks, strategic importance & return on investments and then grant approval for duly submitted new investment proposal considering the ability of financing such project with the use of SLT's financial resources.
+
+2. Similar to new project proposals, Change Requests (CRs) of on-going projects are permitted to be approved when total project value, including CR, is within the ceiling limit of LKR 75 Mn and otherwise to submit to SIMC for approval with recommendations along the completed submissions of the project CR. Accordingly, the end-to-end responsibility of CRs lesser than the above ceiling limit is also granted to respective FIMC to evaluate business applicability, viability, financial risks, strategic importance and return on investment and then grant approval for duly submitted CR considering the ability of financing such CRs with the use of SLT's financial resources.
+
+Page 1 of 2
+
+3. All FIMC chairmen should report approvals granted with a brief description of project/CR (for CAPEX budgets less than LKR 75 Mn) monthly to the Secretary/SIMC. SIMC shall note and review such approvals granted at each FIMC separately.
+
+4. Respective Functional IMCs are authorized to instruct the issuance of project numbers and new project registrations within ERP system for approved new projects of less than LKR 75 Mn.
+
+5. Existing stage-gate process which consists of six standard gates are to be simplified for Business-As-Usual (BAU) projects requiring only one gate submission for closure after obtaining SIMC approval.
+
+6. Function of PMT (Portfolio Management Team) which acted as a supporting body to SIMC to review and recommend investment proposals submitted to SIMC is abolished in the revised investment management framework.
+
+Further, the memberships of IMCs have been reviewed and formalized to align with recent changes of the organization structure. Moreover, roles and responsibilities of IMC members, project managers and the project sponsors are detailed in the below listed updated annexures.
+
+Annex(1): Introduction to Enhanced Investment Governance Framework
+Annex(2): Introduction to Investment Management Committees
+Annex(3): High Level Business Processes of SIMC
+
+(Please find above annexures at, Inside Home → General → Investment Management Framework →Investment Governance Framework Guidelines)
+
+This circular supersedes related circulars issued previously including CEO's Circular No: 16/2019. All relevant officers are hereby requested to adhere to the guidelines and directions given in this circular and its annexures with immediate effect.
+
+Janaka Abeysinghe
+Chief Executive Officer
+
+Page 2 of 2

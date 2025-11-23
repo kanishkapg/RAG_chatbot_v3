@@ -133,11 +133,16 @@ def display_chunk_card(chunk: Dict, index: int, card_type: str = "hybrid"):
         
         with col2:
             if 'final_score' in chunk:
-                st.markdown(f"<span class='score-badge'>Score: {chunk['final_score']:.3f}</span>", unsafe_allow_html=True)
+                st.markdown(f"<span class='score-badge'>Final: {chunk['final_score']:.3f}</span>", unsafe_allow_html=True)
             
-            if card_type == "hybrid" and 'semantic_score' in chunk and 'lexical_score' in chunk:
-                st.caption(f"Semantic: {chunk['semantic_score']:.3f}")
-                st.caption(f"Lexical: {chunk['lexical_score']:.3f}")
+            if card_type == "hybrid":
+                if 'relevance_score' in chunk and 'recency_boost' in chunk:
+                    st.caption(f"Relevance: {chunk['relevance_score']:.3f}")
+                    st.caption(f"Boost: {chunk['recency_boost']:.3f}")
+                
+                if 'semantic_score' in chunk and 'lexical_score' in chunk:
+                    st.caption(f"Sem: {chunk['semantic_score']:.3f} | Lex: {chunk['lexical_score']:.3f}")
+                
                 if 'recency_score' in chunk:
                     st.caption(f"Recency: {chunk['recency_score']:.3f}")
         
@@ -168,14 +173,16 @@ with st.sidebar:
     recency_weight = st.slider("Recency Weight", 0.0, 1.0, DEFAULT_RECENCY_WEIGHT, 0.1)
     top_k = st.slider("Top K Results", 5, 20, DEFAULT_TOP_K, 1)
     
-    # Normalize weights
-    total_weight = semantic_weight + lexical_weight + recency_weight
-    if total_weight > 0:
-        semantic_weight = semantic_weight / total_weight
-        lexical_weight = lexical_weight / total_weight
-        recency_weight = recency_weight / total_weight
+    # Show multiplicative gating info
+    relevance_total = semantic_weight + lexical_weight
+    if relevance_total > 0:
+        semantic_norm = semantic_weight / relevance_total
+        lexical_norm = lexical_weight / relevance_total
+    else:
+        semantic_norm = 0.7
+        lexical_norm = 0.3
     
-    st.info(f"Normalized weights:\nSemantic: {semantic_weight:.2f}\nLexical: {lexical_weight:.2f}\nRecency: {recency_weight:.2f}")
+    st.info(f"**Multiplicative Gating:**\nRelevance = {semantic_norm:.2f}×Semantic + {lexical_norm:.2f}×Lexical\nFinal = Relevance × (1 + {recency_weight:.2f}×Recency)")
     
     # Document statistics
     st.subheader("📊 Document Statistics")
@@ -220,7 +227,7 @@ if search_button and query.strip():
     else:
         with st.spinner("🔍 Searching and generating response..."):
             try:
-                # Perform hybrid search
+                # Perform hybrid search with multiplicative gating
                 hybrid_results = st.session_state.search_engine.hybrid_search(
                     query, 
                     semantic_weight=semantic_weight,
@@ -269,7 +276,9 @@ if st.session_state.chat_history:
                         st.markdown(f"📋 **Circular:** {source['circular_number']}")
                         st.markdown(f"📄 **Title:** {source['title']}")
                         st.markdown(f"{format_date(source['date'])}")
-                        st.markdown(f"⭐ **Relevance Score:** {source['score']:.4f}")
+                        st.markdown(f"⭐ **Final Score:** {source['score']:.4f}")
+                        if 'relevance_score' in source and 'recency_boost' in source:
+                            st.markdown(f"🎯 **Relevance:** {source['relevance_score']:.4f} × **Boost:** {source['recency_boost']:.4f}")
                         st.markdown("</div>", unsafe_allow_html=True)
 
 # Display search results
@@ -277,7 +286,7 @@ if st.session_state.last_hybrid_results:
     st.header("🔍 Search Results Analysis")
     
     st.subheader(f"Top {len(st.session_state.last_hybrid_results)} Hybrid Search Results")
-    st.caption("Results from hybrid search algorithm (top 3 used for response generation)")
+    st.caption("Results from multiplicative gating hybrid search (top 3 used for response generation)")
     
     for i, chunk in enumerate(st.session_state.last_hybrid_results):
         # Highlight the top 3 chunks used for response generation
@@ -292,7 +301,7 @@ if st.session_state.last_hybrid_results:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem;'>
-    <p>🤖 RAG Chatbot v3 - Powered by Hybrid Search & LLM Response Generation</p>
-    <p>Built with Streamlit • BGE-M3 Embeddings • TF-IDF • Groq LLM</p>
+    <p>🤖 RAG Chatbot v3 - Powered by Multiplicative Gating Hybrid Search & LLM Response Generation</p>
+    <p>Built with Streamlit • BGE-M3 Embeddings • TF-IDF • Groq LLM • Multiplicative Gating</p>
 </div>
 """, unsafe_allow_html=True)

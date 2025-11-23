@@ -1,0 +1,28 @@
+CEO’s Circular No: 74/2024
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01, 06 August 2024
+
+To All Staff SLTMobitel,
+
+CHANGES TO REPORTING STRUCTURE IN TECHNOLOGY GROUP
+
+Due to the resignation of the CTO Mr. Thilak Gamalath, following changes to reporting structure in Technology Group will be established with immediate effect until a suitable officer is appointed to the position of the CTO.
+
+| Name    | Designation    | Reports to    |
+|---|---|---|
+| Mrs. G A R Chandrika   | Deputy Chief Information officer    | CEO *    |
+| Mr. A P Galagoda    | Chief Officer Digital Transformation    | CEO *    |
+| Mr. R D K M Kumara    | GM-Systems    | Deputy Chief Information officer    |
+| Mr. H M G A B Herath    | GM-Data Center & Cloud Services    | Deputy Chief Information officer    |
+| Mr. Palitha Jayasundara    | SGM Enterprise Architecture and & Systems -Mobitel    | Deputy Chief Information officer    |
+| Mr. G P Nishantha    | GM Integration- & Operations    | Deputy Chief Information officer    |
+| Mr. T S D Peiris    | GM Business Support and Artificial Intelligence    | Deputy Chief Information officer    |
+| Mr. J C Harambearachchi    | GM – Digital Platforms    | Chief Officer Digital Transformation    |
+| Mrs. K D I S Siriwardena    | GM Digital Transformation Projects    | Chief Officer Digital Transformation    |
+
+* For Mobitel functions Mrs. G A R Chandrika and Mr. A P Galagoda will report to COO-Mobitel
+
+The updated organizational structure is attached in Annexure A.
+
+Janaka R Abeysinghe
+Chief Executive Officer
