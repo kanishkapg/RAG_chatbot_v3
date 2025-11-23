@@ -1,0 +1,70 @@
+CEO Circular No: 92/2024
+
+CEO's Office
+Sri Lanka Telecom PLC,
+Colombo 01.
+November 2024
+
+To All Staff,
+
+Recovery and Disposal of Obsolete Underground (UG) Copper Cables
+
+This circular is issued to facilitate the recovery and disposal of obsolete UG Copper cables in which have already been recovered and expected to be recovered in the existing SLT network.
+
+This circular will come into immediate effect and will supersede CRO/CFO circular 02/2016.
+
+The following responsibilities are assigned to each stakeholder to ensure the smooth execution of the project.
+
+1. OPMC Managers
+1.1.Preparing the list of disposable cables (as per Annexure 02.A & Annexure 02.B)
+1.2.Identify all existing services including data circuits and transfer those services to alternative routes
+1.3.Obtaining 3rd party approvals if necessary (RDA clearance etc.)
+1.4.Inform & get involved relevant participants for the recovery process (below)
+1.4.1. Appoint a representative of the OPMC Manager if the OPMC Manager can't participate
+1.4.2.Contractor/Contractor authorized representative (prior-approved)
+1.4.3.SLT security representative nominated by the Security Manager at Head office (need to certify the quantity)
+1.4.4.OR & QM Section (inform only)
+1.5.Ensuring the recovery of the cables only against the Goods Release Order at any given time and handing them over to the buyer with a properly signed dispatch note. Original dispatch notes are available with three (03) copies. They should be sent to the respective parties as follows,
+1.5.1.Original - OR & QM Section
+1.5.2.Copy 1 - Contractor/Buyer
+1.5.3.Copy 2 - OPMC Managers
+1.5.4.Copy 3 - Book Copy (keep a photocopy in file)
+1.6.Sending original dispatch note for approval of Provincial Operations DGM/Regional Operations GM
+1.7.Handing over the duly approved dispatch note to the OR & QM section
+
+2. Provincial Operations DGM
+2.1.Ensuring and approving the disposable cable lot
+2.2.Arranging required resources
+2.2.1.Relevant arrangements as given in clauses 1.1 to 1.4. above
+2.3.Ensuring and approving the dispatched cable lot (dispatch note)
+
+3. Regional Operations GM
+3.1.Providing approval for the disposable cable lot
+3.2.Providing approval for the dispatch note
+
+4. Accountant/Business Customers
+4.1.Preparing Tax invoices as per dispatch note & prevailing LME & USD rate related to the date of the dispatch note based on the approved GSTB document
+4.2.Updating accounting entries and assets disposal
+
+5. OR & QM Section
+5.1.Centralized coordination, observation & facilitation
+5.2.Buyer arrangement
+5.3.Reporting project progress to the management
+
+6. GM/OS
+6.1.Contractor/Buyer assignment
+6.2.Approving the invoice
+
+7. Contractor/Buyer
+7.1.Making available adequate resources required for the cable disposal and informing the action plan to SLT to before the cable removal
+7.2.Ensure proper removal of cables from the network as per the given recovery plan
+7.3.Transporting of the disposed cables from the SLT site
+7.4.Protecting the SLT NW without damages according to the agreement
+7.5.Deposit required money without any delay prior to collect the goods
+
+All are requested to extend active contributions to make this project a success.
+
+Relevant Process Diagram for Recovery and Disposal of Obsolete Underground (UG) Copper Cables by the Contractor/Buyer is attached as Annexure 01 of this circular.
+
+Janaka R. Abeysinghe
+Chief Executive Officer

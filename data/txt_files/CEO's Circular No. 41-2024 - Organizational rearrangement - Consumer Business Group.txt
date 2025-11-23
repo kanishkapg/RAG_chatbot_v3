@@ -1,0 +1,89 @@
+CEO Circular: 41/2024
+
+CEO Office
+Sri Lanka Telecom PLC
+Colombo-01
+May 2024
+
+To All Staff,
+
+Organizational Rearrangement - Consumer Business Group
+
+To enhance the focus on retaining existing customers, a new unit called Customer Retention Unit (CRU) is established with immediate effect. CRU will operate directly under the purview of each General Manager (Regional Business), as outlined in Annexure 1.
+
+Every CRU, comprising of three Managers, is tasked with reducing customer churn, addressing early terminations, and reactivating deleted customers. The specific responsibilities and key performance indicators (KPIs) for each manager are detailed in Annexure 2.
+
+This organizational structure of Consumer Business group will be established with immediate effect.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+--- ANNEXURE 1: NEW ORGANIZATIONAL STRUCTURE ---
+
+CBO-CB
+GM / Consumer Business Support
+
+GM / Regional Business (Metro)
+GM / Regional Business (Region 1)
+GM / Regional Business (Region 2)
+GM / Regional Business (Region 3)
+
+DSM/PE (M1)
+DSM/PE (M2)
+Customer Retention Unit Metro
+DSM/PE (WPN)
+DSM/PE (CP)
+DSM/PE (NWP)
+Customer Retention Unit R1
+DSM/PE (WPS)
+DSM/PE (SP)
+DSM/PE (SAE & SAE)
+Customer Retention Unit R2
+DSM/PE (NP)
+DSM/PE (EP)
+Customer Retention Unit R3
+
+Organization of Customer Retention Unit Under each Regional Business GM
+
+Regional Business GM
+
+Customer Retention Unit (CRU)
+Manager Customer Retention
+Manager Sales Compliance
+Manager Restoration
+New Unit under Regional Business GM
+
+Provincial Business DGM
+
+Regional Manager
+
+CRM
+SM/ECM
+CSM/TSM
+Existing Structure
+
+Manager Customer Retention
+Manager Sales Compliance
+Manager Reactivation
+- A5/A6 Officer
+- A6. Officer
+- A6 Officer
+
+CRM - Customer Retention Manager
+SM - Sales Manager
+ECM - External Channel Manager
+CSM - Customer Service Manager
+TSM - Teleshop Manager
+
+--- ANNEXURE 2: JOB SCOPE AND KPIs ---
+
+| Manager               | Job Scope                                                                 | KPIs                                       |
+|-----------------------|---------------------------------------------------------------------------|--------------------------------------------|
+| Manager Customer Retention A5/A6 | Supervising actions and taking controls for reducing suspensions.         | Number of Suspensions, Suspension Rate     |
+|                       | Supervising actions and taking controls for reducing churn.               | Number of Churn, Churn Rate                |
+|                       | Real-time movement of product upgrades/downgrades and analysing product feature issues faced by customers. | Number of Upgrades, Number of Downgrades   |
+| Manager Sales Compliance A6 | Real-time monitoring of initiation charges and uploading documents to Document Management System (DMS). | Incomplete Sales Index, Sales without Startup Fees |
+|                       | Monitoring of first bill and payment.                                     | First Bill Index, First Payment Index      |
+|                       | Supervising actions and taking controls for ensuring zero churn of less than one year aged customers. | Early Terminations, Early Termination Rate |
+| Manager Reactivation A6 | Analysing deleted customer base and reconnecting with the coordination of Regional Managers. | Number of Reactivations, Reactivation Index |
+|                       | Planning and execution of reactivation campaigns with the coordination of Regional Managers. | Number of Campaigns, Arrears Collected     |

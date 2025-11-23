@@ -1,0 +1,31 @@
+CEO's Circular No: 36/2022
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01
+28 April 2022
+
+To All Staff,
+
+STRUCTURAL CHANGE IN SUPPLY CHAIN MANAGEMENT FUNCTIONS IN CAO GROUP
+
+Please be informed that in line with the revision of delegation of financial authority, the following structural change will be made under the CAO Group with immediate effect.
+
+| Name    | Current Designation | New Structure    |
+|---|---|---|
+|    |    | New Designation    | Reporting to    |
+| Mr. N Navaneethan   | DGM-Material Management & Information Systems | DGM- Commercial Evaluation, Material Management & Information Systems | GM-SCM    |
+
+Accordingly, Mr. Navaneethan will report functionally to DCSCMO / GM-CE for commercial evaluation functions.
+
+New organization structure of the CAO Group - Supply Chain Management Function up to DGM Level is attached as Annexure 01.
+
+Janaka R Abeysinghe Chief Executive Officer
+
+Annexure 01: Organization Structure of CAO Group - Supply Chain Management Function
+
+# CAO
+
+## DCSCMO, GM- Commercial Evaluation
+- **GM – Supply Chain Management**
+- **DGM – Commercial Evaluation, Material Management & IS**
+- **DGM – Supply Chain Management**
+- **DGM – Inventory Management**

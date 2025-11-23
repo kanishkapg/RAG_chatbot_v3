@@ -1,0 +1,85 @@
+CEO's Circular No: 33/2024
+
+CEO's Office,
+Sri Lanka Telecom PLC,
+Colombo 01.
+07th March 2024
+
+To All Staff,
+
+ORGANIZATIONAL RE-ALIGNMENT
+
+Please note that the following organizational structural re-alignment and designation changes will be implemented with immediate effect in view of operational requirements. New appointments and key changes that are introduced to the present organizational structure are detailed below.
+
+1. Network Group (Annexure 1)
+
+a. Mr. M S Samarasinha (CNO) who reported to CEO will directly report to COO-SLT
+
+b. Mr. Rasantha Hettithanthrige (Chief Officer – Network Operations and Maintenance) will continue to report to CNO until expiration of his contract on March 14, 2024. All officers who reported to Chief Officer – Network Operations and Maintenance will directly report to CNO with immediate effect.
+
+c. Chief Officer – Network Operations and Maintenance position will be abolished with effect from March 15, 2024.
+
+d. Mr. R M S K Piyarathna (Chief Officer – Facility Management) who functioned under the Administration Group will be moved to Network Group and will be redesignated as Chief Officer – Network Strategy and Projects. He will directly report to CNO.
+
+e. New Appointment of Deputy Chief Officer – Regional Operations:
+Mr. R M A C B Rathnayake (GM- Regional Operations (REGION1)), is appointed as Deputy Chief Officer – Regional Operations and will report directly to Chief Officer – Regional Operations.
+
+f. New appointment of Deputy Chief Officer – Wireless Networks
+Mr. Viresh Dassanayake (SGM – Network Operations) who reported to Chief Officer – Network Operations and Maintenance, is appointed as Deputy Chief Officer – Wireless Networks, and will report directly to CNO.
+
+g. SGM – Network Operations position will be abolished with immediate effect.
+
+h. Organizational Structure: Network Group (Regional Operations) will remain unchanged except for the creation of the Deputy Chief Officer – Regional Operations position reporting to Chief Officer – Regional Operations.
+
+| Name                  | Present Designation               | New Designation                  | Reports to                    |
+|-----------------------|------------------------------------|----------------------------------|-------------------------------|
+| Mr. M S Samarasinha   | Chief Network Officer             | Chief Network Officer            | COO-SLT                       |
+| Mr. R M S K Piyarathna | Chief Officer – Facility Management | Chief Officer – Network Strategy and Projects | CNO                           |
+| Mr. R M A C B Rathnayake | GM- Regional Operations (REGION1) | Deputy Chief Officer – Regional Operations | Chief Officer -Regional Operations |
+| Mr Viresh Dassanayake | SGM – Network Operations          | Deputy Chief Officer – Wireless Networks | CNO                           |
+| Mr. K W S V Gamage    | GM – Network Services             | GM – Network Services            | CNO                           |
+| Mr. P B N Manage      | GM – Transport Networks           | GM – Transport Networks          | CNO                           |
+| Mr. J M D I Devendra  | GM – Service Operations           | GM – Service Operations          | CNO                           |
+| Mr. S K Sandanayake   | GM – Network Strategy & Planning  | GM – Network Strategy & Planning | CO-Network Strategy & Projects |
+| Mr. R M N Siriwardana | GM - Projects                     | GM - Projects                    | CO-Network Strategy & Projects |
+| Mr.U V C Perera       | GM – National Fiberization Program & FTTH | GM – National Fiberization Program & FTTH | CO-Network Strategy & Projects |
+| Mr. Indika Asurappulige | SGM – Network Planning & Optimization | SGM – Network Planning & Optimization | CO-Network Strategy & Projects |
+
+i. Mr. R M A C B Rathnayake (Deputy Chief Officer – Regional Operations) will overlook the duties of the position of GM- Regional Operations (REGION1), until a suitable replacement is provided.
+
+2. Technology Group (Annexure 2)
+
+a. Data Center and Cloud Services will function under the Technology Group. Accordingly, GM -Data Center & Cloud Services and his team will be moved to Technology Group.
+
+| Name                | Present Designation        | New Designation             | Reports to |
+|---------------------|----------------------------|-----------------------------|------------|
+| Mr. H M G A B Herath | GM- Data Center & Cloud Services | GM- Data Center & Cloud Services | CTO        |
+
+b. DGM-Data Center Infrastructure and DGM- Cloud Services will continue to report to GMData Center & Cloud Services.
+
+3. Administration Group (Annexure 3)
+a. Chief Officer – Facility Management position will be abolished.
+b. GM – Power & AC and GM – Facility Management will directly report to CAO
+c. DGM/Power & AC & Support Facility Planning and his team who functioned under the Network Group will be moved to Administration Group, and will report to GM/ Power & AC
+
+| Name                 | Present Designation                   | New Designation                        | Reports to      |
+|----------------------|---------------------------------------|----------------------------------------|-----------------|
+| Mrs. A N N De Zoysa  | GM – Power & AC                       | GM – Power & AC                        | CAO             |
+| Mr. K N Weerakoon    | GM – Facility Management              | GM – Facility Management               | CAO             |
+| Mr. S A M K Samarasinghe | DGM - Power & AC & Support Facility Planning | DGM - Power & AC & Support Facility Planning | GM – Power & AC |
+
+4. Marketing Group:
+a. The organizational structure of Marketing Group will remain unchanged, except for the change of DCMO/GM-Brand Marketing position to GM/Brand Marketing. GM/Brand Marketing will report to Chief Marketing Officer (CMO)
+b. New Appointment of Deputy Chief Marketing Officer – Product Management
+Mr. E.L.R.A. Ellawala (DCMO/GM – Brand Marketing) is appointed as the Deputy Chief Marketing Officer – Product Management (DCMO-PM).
+
+| Name             | Present Designation                 | New Designation                          | Reports to |
+|------------------|-------------------------------------|------------------------------------------|------------|
+| Mr. E.L.R.A. Ellawala | Deputy Chief Marketing Officer/ GM – Brand Marketing | Deputy Chief Marketing Officer – Product Management | CMO        |
+
+c. Mr. E.L.R.A. Ellawala (Deputy Chief Marketing Officer – Product Management) will overlook the duties of the position of GM/Brand Marketing until a suitable replacement is provided.
+
+New Organizational structures in Network, Technology and Administration Groups will be implemented with immediate effect and all relevant officers are requested to facilitate smooth transition of functions as detailed in the new organizational structure in Annexures 1 to 3.
+
+Janaka R Abeysinghe
+Chief Executive Officer

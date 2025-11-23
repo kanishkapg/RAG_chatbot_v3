@@ -1,0 +1,122 @@
+CEO's Circular No: f2/2022
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+15th February 2022
+
+To: All Employees
+
+Process and Guidelines for Dial Before You Dig – DBYD
+
+Further to the CEO's Circular No.08/2021 dated 15th February 2021 on the subject 'INTRODUCING DIAL BEFORE YOU DIG-DBYD', implementation of the Phase-1 of DBYD service has been completed successfully with effect from 01.02.2022.
+
+The aim of Phase-1 is to prevent damages to SLT network infrastructure due to planned or emergency excavations by other utility agencies and it delivers following capabilities to SLT operations.
+
+- Managing DBYD requests received to 1226 short code.
+- New user interface and database for all DBYD requests.
+- Automating responding workflows through DBYD interface and OSS.
+- Establishment of DBYD Backoffice for requests handling.
+
+High level DBYD Process workflow:
+
+| No. | Work Description    | Responsible Party |
+|---|---|---|
+| 1   | Receive DBYD requests through 1226 short code    | Contact Center    |
+| 2   | Register the request through DBYD user interface    | Contact Center    |
+| 3   | Acknowledge the request    | DBYD Backoffice    |
+| 4   | Inform relevant OPMC to attend    | DBYD Backoffice    |
+| 5   | - Visit the location and attend the work (if the event is urgent)    | Relevant OPMC    |
+|    | - Visit the location and collect required technical data (if the event is planned)    |    |
+| 6   | Plan & Prepare the BOQ and estimate the cost    | Access NW Planning/OPMC    |
+| 7   | Follow the standard process of Shifting & Relocation and formalize this request    | All    |
+
+Detailed process and guidelines are published in the following location.
+
+http://insite.slt.com.lk/sites/cio/Business%20Support%20and%20Process/BPR/SitePages/Operational%20 Processes.aspx
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+CEO's Circular No: 08/2021
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+15 February 2021
+
+To: All Employees,
+
+INTRODUCING "DIAL BEFORE YOU DIG – DBYD"
+
+SLT, as National Telecommunication Services Provider has its fiber network across the Country. The wired network has been laid overhead as well as underground, in its duct routes which has been built along the road sides. At the same time, we understand that roads are frequently digged for various activities like road widening, rehabilitations, construction & maintenance of networks by other agencies such as water supply, drainage, CEB and municipalities. Therefore, "Dial Before You Dig" program is introduced to have central coordination for preventing any damages to underground networks when someone wants to dig the road.
+
+By way of an established process and a mechanism, it would be possible to minimize unwanted disturbances to services, while ensuring increased customer satisfaction and cost savings for restoring damages due to unplanned digging of the roads by various agencies. Further, this will help to enhance management of infrastructure along the roads and improve coordination between utility agencies in the country.
+
+Therefore, "Dial Before You Dig" program will be launched with the patronage of Government of Sri Lanka nationally, and process of the activities involved herewith are discussed below. In the phase 1, it will be launched to protect SLT network from such damages and following actions are being taken.
+
+1. Short Code for "Dial Before You Dig" (DBYD)  
+Short code 1226 is introduced for "Dial Before You Dig" Contact Center operators 24x7 where any agency, contractor or public can inform the details and planned actions before commencements for any excavations are done along the road. Contact Center will obtain the preliminary information and notify the relevant office or authority to take necessary actions to prevent any damages and/or to provide instruction for the parties who are engaged in digging. The short code will be published and notified to all the related agencies with the advice to share with third parties who are involved for road digging activities. Contact Center will notify the other agencies as well as depending based on the requirement
+
+2. Committee to perform the tasks and coordinate with other agencies  
+Following committee is appointed to act on the requirement for any relocations of network and coordination with other agencies to do the job in well-coordinated manner.
+
+-2-
+
+The committee shall specially have focused on facilitating planned city beautification program of the government.
+1. Terence Fernando - CNPO: Chair (Lead)
+2. Imantha Wijekoon - CSRO1: Co-Chair
+3. Lionel Imbulana - CSRO2: Co-Chair
+4. Mangala Samarajeewa- CNO : Co-Chair
+5. Sanjaya Kumara - GM/OS
+6. W Nawela - GM/Tx OP
+7. K Vicknarajah - DGM/Access & NW Planning
+8. Asoka Fernando -DGM/FSP
+
+3. Scope of work of the committee
+• Establish the organization and necessary resources for the implementation of DBYD.
+• Coordinate with RDA and all Local Authorities and other District Development Committees to identify the network shifting requirement and update all such programs.
+• Create a database of such activities for more visibility and enhanced coordination.
+• Device proper cross functional team to carry out essential designs to cater into future long term demands based on OSP, Fiber, FTTH, 4G and 5G technologies.
+• Prepare a process to obtain commitments from the respective institutions and authorities by way of MOU or agreement for the payment of estimated costs to initiate and execute the shifting while the process of payments is pending.
+• Formulate process and procedures to reduce delays and minimize inconveniences to traffic and pedestrians while keeping the environment tight and cleaned.
+• Access and design the group requirement of 5G Implementation and device a plan for the use of smart poles in strategic locations wherever possible, during the shifting the routes and poles.
+• All such strategic locations and smart poles should be connected with fiber appropriately to cater the future demand in smart poles, FTTH and other smart services.
+• Device the mechanisms to use micro trenching and horizontal drilling concepts precisely and effectively when required in the city limits to convert overhead wires and cables to underground plants.
+• Field Force Project team will be empowered with necessary tools equipment, machinery and Labour to carry out the work Island wide to reduce the costs.
+
+4. Process for DBYD and Back office establishment
+SLT backend process is developed to take actions and authorize to act on the requirement by rightfully assessing the risk of damages due to activity notified. Process and instructions are given in Annexure 1, to prevent damages.
+
+-3-
+
+The information is notified to back office organized by DGM FSP and they are responsible to take actions to protect the network and/or organize necessary shifting. Also, they are responsible to provide information, directions, supervision to other sections and third parties when required. Also, they are supposed to take actions to estimate costs if any and charge the related parties with the coordination.
+
+5. Guidelines and directions among related agencies
+It is expected to issue guideline in future with the intervention of Government to adhere common procedure and methodology to act, before digging the roads where underground facility is available.
+
+6. Portal and database
+Portal and data base will also be developed to enter the data related to excavations and reporting progress which shall be updated by relevant stakeholders.
+
+K A Kiththi Pepera Chief Executive Officer
+
+# Annexure 1
+
+## PROCESS FOR THE IMPLEMENTATION OF DBYD AT SLT
+
+Following back office process is defined to manage the activities in SLT once contact DBYB contact center receive notifications of road excavations.
+
+### 1. DBYD process commences with
+#### 1.1 Short code is published to all related agencies and third parties
+##### 1.2 Formulate the SLT central back office *under the FSP section* who will act as a central point of coordination with internal and the other utility organizations. Any notifications received to contact center on Short code 1226 for "Dial before You Dig", will notify the back office. Central Back office shall decide actions required and notify the other stake holders to coordinate the works related.
+##### 1.3 The information/query/compliant received to be recorded with the contact details
+##### 1.4 Reference number is issued for each call for the follow-up
+
+### 2. Internal process for the handling of requests
+#### 2.1 Once the request is received the relevant UD is required to take necessary actions by coordinating with the respective parties and make sites visits and disseminate the necessary replies when and where necessary
+##### 2.2 Final replies (estimates, BOQs etc) to the other utility organization to be submitted through the SLT central contact point
+##### 2.3 Assign e-mail, mailing address for correspondence of other utility organizations documents, softcopies etc. when necessary
+
+### 3. Populate a central Database & portal (internal for SLT use) accessible to relevant internal stakeholders
+#### 3.1 The information/query/complaints are recorded with the reference number and contact details
+##### 3.2 The actions taken for each case is recorded with timeline
+##### 3.3 The soft version of relevant documents are stored for future references
+##### 3.4 The records of payments are stored

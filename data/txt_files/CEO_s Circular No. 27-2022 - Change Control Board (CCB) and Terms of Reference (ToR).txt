@@ -1,0 +1,107 @@
+CEO's Circular No: 2 7/2022
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+✔️ March 2022
+
+To All Staff,
+
+Change Control Board (CCB) and Terms of Reference (ToR)
+
+The Change Control Board is established to minimize service outages during the planned network changes in rollouts/outovers related to operations and implementation of networks. All staff in CNO Group, CIO Group and CROO Group is hereby instructed to refer all matters to CCB before any planned change is implemented to the network.
+
+Terms of Reference of the CCB is included as Annexure 01, and the format is given in the Annexure 02.
+
+Mr. Mahinda Samarasinha (DCEWO & GM/CB) is appointed as the Chairman of the Change Control Board.
+
+This Circular shall supersede GCEO'S Circular No. 41/2013 and any other previous circulars which relates to same subject.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+Annexure 01:
+
+Terms of Reference for the change Control Board (CCB)
+
+Change Control Board (CCB) consists of following Members,
+
+1. Mr. Mahinda Samarasinha DCEWO & GM/CB Chairman
+2. Mr. Nishantha Ratnayake DCNO Secretary
+3. Mrs. Ramani Chandrika DCIO & GM/BS & P Member
+4. Mr. Indaka Devendra GM/SOC Member
+5. Mr. W.S.P. Weilkada GM/WP (South) Member
+6. Mr. Sanjaya Kumara GM/OS Member
+
+The User Departments who require the planned changes to be implemented need to forward the Network/System change requests with the relevant data according to the format given in Annexure 02 with impact analysis, prior to one week to the planned change for the approval of CCB.
+
+Responsibilities of the CCB
+
+1. Controlling and management body for all planned changes in networks/systems (including IT systems) which impact services provided to customers during the implementations and operations.
+
+2. Review and guide the operational staff for all the planned network upgrades, relocations, expansions, system cutover and New Additions.
+
+3. In addition to above, any planned activity resulting in network performance issues, major failures or any other issues impacting customers may come under the purview of CCB.
+
+4. Carry out business impact analysis when network implementations and operations mention in item 2 and 3 above, are scheduled and to grant permission to proceed.
+
+5. Preparing the guidelines and approving the Network Implementation and Operational Processes for all planned network changes.
+
+6. Evaluating and reviewing the potential risks submitted by the user departments depending on the business impact and provide feedback to the user department.
+
+7. Post implementations review (PIR) and feedback
+
+8. Propose improvements after PIR.
+
+9. Review lessons learnt under the PIR.
+
+10. Direct the user department to dissemination relevant parties based on the individual change requirement.
+
+11. Maintain the Change request event log.
+
+12. Shall meet weekly or based on implementations and operational requirements so as to ensure that there is no hindrance to Network Development or System Integrations.
+
+Annexure 02: (This form to be submitted to CH/CCB one week before the planned event) FORM CCB/ APROVAL REQUEST
+email : changecb@slt.com.lk (Version 1)
+
+CHANGE CONTROL BOARD USer Ref :
+APPROVAL REQUST FORM
+
+1 Area: ______ Section:
+Planned Date : ______ to ______
+2 Planned Event ______ New Addition
+Network Upgrade ______ Power Upgrade/Change
+Network relocation ______ Network Rehabilitation
+Network Expansion ______ Any Other(please specify) Approval
+Systems Cutover ______
+
+Brief of the event (attached)
+
+| Node    | Date    | Maintenance Window | Downtime |
+|---|---|---|---|
+| Affected Services/Stake Holders/Nodes | No. of Nodes (details to be attached) | No. of Customers |
+| Affected Service    |    |    |    |
+| Voice    |    |    |    |
+| ADSL    |    |    |    |
+| TX Services    |    |    |    |
+| Ethernet Services    |    |    |    |
+| IPTV    |    |    |    |
+| IP/VPN    |    |    |    |
+| POS/NAC    |    |    |    |
+| IT Systems (Name)    |    |    |    |
+| Maximum Outage Time    |    |    |    |
+| Business Impact (possible outage) |    |    |    |
+| Risk Involved    |    |    |    |
+| Risk Mitigation Plan    |    |    |    |
+| Sections Involved (attach details names and contact numbers) |    |    |    |
+| Expected outcome    |    |    |    |
+| Availability of fallback Option    | Y    | N    |    |
+| Date Submission    |    | Sig. Owner Planned Event (DGM and above) |
+
+CCB Recommendation Ref CCB/SNo
+
+Approved Not Approved
+Approved Subjected to the Conditions Reason
+Please make arrangements to inform all stake holders & possible affected parties( internal, external ) regarding the proposed change/event.
+
+______ ______ ______ ______
+DATE CH/CCB

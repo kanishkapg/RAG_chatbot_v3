@@ -1,0 +1,43 @@
+CEO's Circular No: 35/2024
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+29th March 2024
+
+To All Staff of SLTS, SLTDS and SLT VisionCom,
+
+AMALGAMATION OF SLT DIGITAL SERVICES (PVT) LTD., AND SLT VISIONCOM (PVT) LTD., INTO SRI LANKA TELECOM (SERVICES) LTD.
+
+As of 01st April 2024, SLT Digital Services (PVT) Ltd (SLTDS) and SLT VisionCom (PVT) Ltd (SLT VisionCom) will be amalgamated into Sri Lanka Telecom (Services) Ltd (SLTS), which will be the amalgamated company. Mr Asela Galapattige CEO of SLTS will be redesignated as Chief Operations Officer (COO) of SLTS (COO-SLTS) and will be heading the SLTS organization. COO-SLTS will report to CEO of SLT.
+
+Mr. Upul Manchanayake CEO SLTDS will be redesignated as Chief Officer Digital Services (CO- DS) of SLTS, and Mr. Ruchira Weerakoon CEO of SLT VisionCom will be redesignated as Chief Officer PeoTV (CO-PeoTV) of SLTS, under the amalgamated company SLTS.
+
+Common services of SLTS, SLTDS, and SLT VisionCom such as legal, administration, human resources and finance will be consolidated under the amalgamated company, SLTS, and will administratively report to COO-SLTS. Further, the consolidated Human Resources and consolidated Finance functions under the amalgamated company, SLTS, will continue to report functionally to CPO-SLTMobileI Group and CFO – SLTMobileI Group.
+
+Please refer to Annexture 1 for details of the SLTS organizational structure.
+
+| Name               | Present Designation | New Position Designation | Reports to    |
+|--------------------|--------------------|--------------------------|---------------|
+| Mr Asela Galapattige | CEO - SLTS         | COO - SLTS               | CEO, SLT      |
+| Mr. Upul Manchanayake | CEO SLTDS          | CO - DS                  | COO SLTS      |
+| Mr. Ruchira Weerakoon | CEO SLT VisionCom  | CO - PeoTV               | COO SLTS      |
+
+Subsequent to the amalgamation being completed, SLTDS and SLT Visioncom would cease to exist and SLTS would succeed to all the property, rights, liabilities and obligations of SLTDS and SLT VisionCom by operation of law.
+
+Accordingly, all the employees of SLTDS and SLT VisionCom would by operation of law be employees of SLTS on the same terms and conditions as they were employed in SLTDS and SLT VisionCom with effect from 01st April 2024, the date of amalgamation.
+
+Janaka R Abeysinghe
+Chief Executive Officer
+
+--- ANNEXURE 1: SLTS ORGANIZATIONAL STRUCTURE ---
+
+CEO - SLT
+├── COO - SLTS
+    ├── CO - Digital Services
+    │   ├── Digital Solutions
+    │   ├── Directory Business
+    │   ├── Content Business
+    │   └── PEOTV/Entertainment Business Unit
+    ├── Legal, Admin, HR, Finance
+    ├── Common Services of SLTS moved to SLTS (amalgamated)
+    ├── Common Services of SLTDs moved to SLTS (amalgamated)
+    └── Common Services of SLTVC moved to SLTS (amalgamated)

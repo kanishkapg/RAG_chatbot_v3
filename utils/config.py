@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 DATA_DIR="./data/dummy" # change into 'dummy' or 'original'
+TXT_DIR="./data/txt_files"
 POSTGRES_CONFIG = {
     "dbname": os.getenv("POSTGRES_DB", "rag_chatbot_v3"),
     "user": os.getenv("POSTGRES_USER", "postgres"),

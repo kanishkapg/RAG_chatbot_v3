@@ -46,10 +46,14 @@ class MetadataExtractor:
         You are an expert at extracting metadata from official documents and circulars. 
         
         Analyze the following text from {filename} and extract metadata in VALID JSON format. Look carefully for:
-        1. Document/circular numbers (often after "Circular No:", "Reference:", "No:", etc.)
+        1. Document/circular numbers (often after "Circular No:", "Reference:", "No:", etc; "CEO's Circular No. 11-2022 – New Appointment" → "CEO's Circular No. 11-2022")
         2. Titles or subjects (often after "Subject:", "Re:", "Title:", etc.)  
         3. Dates (issued date, effective date, etc. in YYYY-MM-DD format)
-                   
+        
+        Rules:
+        - All dates should be in YYYY-MM-DD format.
+        - If the circular states “effective immediately” or similar, set effective_date = issued_date.
+        - If no effective date is extracted(effective date is null), set effective_date = issued_date.          
         Return ONLY a valid JSON object with these exact fields:
         {{
             "circular_number": "string or null",
