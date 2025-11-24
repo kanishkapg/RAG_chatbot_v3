@@ -8,9 +8,13 @@ from typing import Dict
 from datetime import datetime
 
 # Import your custom modules
-from hybrid_search import HybridSearchEngine
+from multiplicative import MultiplicativeGatingSearchEngine
+from penalty import PenaltyScoredFusionSearchEngine
 from response_generator import ResponseGenerator
-from utils.config import DEFAULT_SEMANTIC_WEIGHT, DEFAULT_LEXICAL_WEIGHT, DEFAULT_RECENCY_WEIGHT, DEFAULT_TOP_K
+from utils.config import (
+    MULTIPLICATIVE_WEIGHTS, PENALTY_WEIGHTS,
+    DEFAULT_TOP_K, DEFAULT_MARGIN, DEFAULT_P_COEFF
+)
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -80,16 +84,26 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Initialize session state
+def initialize_engine(method):
+    with st.spinner(f"🔄 Initializing {method} search engine..."):
+        if method == 'Multiplicative Gating':
+            st.session_state.search_engine = MultiplicativeGatingSearchEngine()
+        else:
+            st.session_state.search_engine = PenaltyScoredFusionSearchEngine()
+        st.session_state.response_generator = ResponseGenerator(search_method='multiplicative' if method == 'Multiplicative Gating' else 'penalty')
+        st.session_state.search_method = method
+
 if 'search_engine' not in st.session_state:
-    with st.spinner("🔄 Initializing search engine..."):
-        st.session_state.search_engine = HybridSearchEngine()
-        st.session_state.response_generator = ResponseGenerator()
+    initialize_engine('Multiplicative Gating') # Default method
 
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
 if 'last_hybrid_results' not in st.session_state:
     st.session_state.last_hybrid_results = []
+
+if 'search_method' not in st.session_state:
+    st.session_state.search_method = 'Multiplicative Gating'
 
 
 
@@ -165,24 +179,46 @@ st.markdown("""
 # Sidebar configuration
 with st.sidebar:
     st.header("⚙️ Configuration")
+
+    # Search method selection
+    search_method = st.radio(
+        "Select Search Method",
+        ('Multiplicative Gating', 'Penalty Scored Fusion'),
+        index=0 if st.session_state.search_method == 'Multiplicative Gating' else 1
+    )
+
+    if search_method != st.session_state.search_method:
+        initialize_engine(search_method)
     
     # Search parameters
     st.subheader("🔍 Search Parameters")
-    semantic_weight = st.slider("Semantic Weight", 0.0, 1.0, DEFAULT_SEMANTIC_WEIGHT, 0.1)
-    lexical_weight = st.slider("Lexical Weight", 0.0, 1.0, DEFAULT_LEXICAL_WEIGHT, 0.1)
-    recency_weight = st.slider("Recency Weight", 0.0, 1.0, DEFAULT_RECENCY_WEIGHT, 0.1)
-    top_k = st.slider("Top K Results", 5, 20, DEFAULT_TOP_K, 1)
-    
-    # Show multiplicative gating info
-    relevance_total = semantic_weight + lexical_weight
-    if relevance_total > 0:
-        semantic_norm = semantic_weight / relevance_total
-        lexical_norm = lexical_weight / relevance_total
+    if search_method == 'Multiplicative Gating':
+        weights = MULTIPLICATIVE_WEIGHTS
     else:
-        semantic_norm = 0.7
-        lexical_norm = 0.3
+        weights = PENALTY_WEIGHTS
+
+    semantic_weight = st.slider("Semantic Weight", 0.0, 1.0, weights['semantic'], 0.1)
+    lexical_weight = st.slider("Lexical Weight", 0.0, 1.0, weights['lexical'], 0.1)
+    recency_weight = st.slider("Recency Weight", 0.0, 1.0, weights['recency'], 0.1)
+    top_k = st.slider("Top K Results", 5, 20, DEFAULT_TOP_K, 1)
+
+    if search_method == 'Penalty Scored Fusion':
+        st.subheader("Penalty Parameters")
+        margin = st.slider("Margin", 0.0, 1.0, DEFAULT_MARGIN, 0.05)
+        p_coeff = st.slider("Penalty Coefficient", 0.0, 5.0, DEFAULT_P_COEFF, 0.1)
     
-    st.info(f"**Multiplicative Gating:**\nRelevance = {semantic_norm:.2f}×Semantic + {lexical_norm:.2f}×Lexical\nFinal = Relevance × (1 + {recency_weight:.2f}×Recency)")
+    # Show formula info
+    if search_method == 'Multiplicative Gating':
+        relevance_total = semantic_weight + lexical_weight
+        if relevance_total > 0:
+            semantic_norm = semantic_weight / relevance_total
+            lexical_norm = lexical_weight / relevance_total
+        else:
+            semantic_norm = 0.7
+            lexical_norm = 0.3
+        st.info(f"**Multiplicative Gating:**\nRelevance = {semantic_norm:.2f}×Sem + {lexical_norm:.2f}×Lex\nFinal = Relevance × (1 + {recency_weight:.2f}×Rec)")
+    else:
+        st.info(f"**Penalty Scored Fusion:**\nRelevance = {semantic_weight:.2f}×Sem + {lexical_weight:.2f}×Lex\nPenalty = {p_coeff:.2f} × max(0, Rec - Rel - {margin:.2f})\nFinal = Rel + Rec - Penalty")
     
     # Document statistics
     st.subheader("📊 Document Statistics")
@@ -227,33 +263,32 @@ if search_button and query.strip():
     else:
         with st.spinner("🔍 Searching and generating response..."):
             try:
-                # Perform hybrid search with multiplicative gating
-                hybrid_results = st.session_state.search_engine.hybrid_search(
-                    query, 
-                    semantic_weight=semantic_weight,
-                    lexical_weight=lexical_weight,
-                    recency_weight=recency_weight,
-                    top_k=top_k
-                )
+                # Perform hybrid search
+                if st.session_state.search_method == 'Penalty Scored Fusion':
+                    hybrid_results = st.session_state.search_engine.hybrid_search(
+                        query, semantic_weight, lexical_weight, recency_weight, top_k=top_k, margin=margin, p_coeff=p_coeff
+                    )
+                else:
+                    hybrid_results = st.session_state.search_engine.hybrid_search(
+                        query, semantic_weight, lexical_weight, recency_weight, top_k=top_k
+                    )
                 
-                # Generate response using top results from hybrid search
-                result = st.session_state.response_generator.process_query(query, hybrid_results)
-                
-                # Store results for later display
                 st.session_state.last_hybrid_results = hybrid_results
                 
-                # Add to chat history
+                # Generate response
+                response_data = st.session_state.response_generator.process_query(query, hybrid_results)
+                
+                # Store chat history
                 st.session_state.chat_history.append({
-                    'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     'query': query,
-                    'response': result['response'],
-                    'sources': result['sources'],
-                    'chunk_count': result['chunk_count']
+                    'response': response_data['response'],
+                    'sources': response_data['sources'],
+                    'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 })
                 
             except Exception as e:
-                st.error(f"❌ Error during search: {str(e)}")
-                logger.error(f"Search error: {e}")
+                logger.error(f"An error occurred: {e}")
+                st.error(f"An error occurred: {e}")
 
 # Display chat history
 if st.session_state.chat_history:
