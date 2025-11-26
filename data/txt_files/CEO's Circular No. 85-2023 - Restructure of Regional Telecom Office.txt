@@ -1,0 +1,153 @@
+CEO Circular: 85/2023
+
+CEO’s Office
+Sri Lanka Telecom PLC
+Colombo-01
+
+14th November 2023
+
+To All Staff,
+
+Restructure of Regional Telecom Office
+
+Regional Telecom Office (RTO) and Teleshop play the vital role of physical interaction with customers, and building SLT Mobitel brand to the public.
+
+It is important to enhance the services at these customer touch points to satisfy customer requirements aligned with corporate vision and objectives.
+
+Accordingly, Regional Telecom Office Manager (RTOM) will be re-designated as Regional Manager (RM), and the new organizational structure of RTO is as follows:
+
+Regional Manager (RM)
+
+Regional Accountant
+
+Customer Service Manager (CSM)
+
+Sales Manager (SM)
+
+External Channel Manager (ECM)
+
+Customer Retention Manager (CRM)
+
+Teleshop Managers (TSM)
+
+Redefined core job functions of RM and Line Managers reporting to RM are listed in Annexure-1. New job descriptions will be issued to them individually.
+
+Each RTO is classified into category A, B and C, while identified Teleshops are classified as Super Grade Teleshops as listed in Annexure-2 mainly based on customer base, revenue generation and sales potential.
+
+Grades of Line Managers based on RTO category and Teleshop category are as follows;
+
+| RTO Category | Line Manager Grade |
+|---|---|
+| A    | A5/A6/A7    |
+| B    | A6/A7    |
+| C    | A6/A7/A8/A9    |
+
+| Teleshop Type | Teleshop Manager Grade |
+|---|---|
+| Super Grade Teleshop | A5/A6/A7    |
+| Other Teleshops | A6/A7    |
+
+Number of Line Managers in a category C RTO is limited to three excluding TSMs.
+
+This circular will be implemented with immediate effect.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+===== Page 2 =====
+
+Core Functions of each Position    Annexure-1
+
+1. Regional Manager
+  1.1. Engineering Solutions
+    1.1.1. First level of inbound customer troubleshooting
+    1.1.2. Micro Business and Retail technical solutions
+    1.1.3. High level design of FTTH Secondary Network, SSD planning & LTE site optimization
+    1.1.4. Initial support on setting up Government and Enterprise Business requirements
+    1.1.5. Fixed wireless end to end service delivery and delivery coordination of wired services
+  1.2. Business Operation
+    1.2.1. Sales, Sales activation, Sales promotions and below the line Marketing
+    1.2.2. Asset Management
+    1.2.3. Revenue Assurance and Collection
+    1.2.4. Market Research and Customer Lead Nurturing
+    1.2.5. Channel Management
+  1.3. Customer Service
+    1.3.1. Inbound Customer Service
+    1.3.2. Customer Experience Management
+    1.3.3. Technical consultancy
+  1.4. Administration
+    1.4.1. Quality Assurance
+    1.4.2. Compliance
+
+2. Customer Service Manager & Teleshop Manager
+  2.1. Consumer sales
+  2.2. Cashiering
+  2.3. Customer service
+  2.4. CPE management
+  2.5. Customer Experience Management
+  2.6. Market research and competitor analysis
+  2.7. Customer Loyalty Management
+
+3. Customer Retention Manager
+  3.1. Revenue assurance
+  3.2. Credit control
+  3.3. Debt recovery
+  3.4. CPE recovery through recovery campaigns & disconnection requests
+  3.5. Churn management
+  3.6. Billing complain handling
+  3.7. Office administration
+
+4. Sales Manager
+  4.1. Promotions/Campaigning and event activation
+  4.2. Sales facilitation, supervision and reconciliation
+  4.3. Planning of sales activities & team motivation
+  4.4. Analyzing customer demand and forecast
+
+5. External Channel Manager
+  5.1. Wireless sales channel Management
+  5.2. Fixed sales channel management
+  5.3. Franchised Teleshop operation
+  5.4. Promotions/Campaigning and event activation
+
+===== Page 3 =====
+
+Annexure-2
+
+List of RTO under each category:
+
+| Category A    | Category B    | Category C    |
+|---|---|---|
+| 1    | Gampaha    | Anuradhapura    | Ampara    |
+| 2    | Havelock Town   | Ambalangoda    | Badulla    |
+| 3    | Homagama    | Awissawella    | Dambulla    |
+| 4    | Kurunegala    | Bandarawela    | Hatton    |
+| 5    | Kelaniya    | Batticaloa    | Kalmunai    |
+| 6    | Kalutara    | Chilaw    | Kilinochchi    |
+| 7    | Kotte    | Galle    | Kuliyapitiya    |
+| 8    | Kandy    | Gampola    | Mannar    |
+| 9    | Maradana    | Hambantota    | Monaragala    |
+| 10   | Matara    | Horana    | Nuwara Eliya    |
+| 11   | Nugegoda    | Jaffna    | Polonnaruwa    |
+| 12   | Negombo    | Kegalle    | Puttalam    |
+| 13   | Panadura    | Kolonnawa    | Trincomelee    |
+| 14   | Rathmalana    | Matale    | Vavunia    |
+| 15   | Wattala    | Nittambuwa    |    |
+| 16   |    | Ratnapura    |    |
+
+Super Grade Teleshops
+
+| Teleshop    |
+|---|---|
+| 1    | Liberty Plaza    |
+| 2    | Maharagama    |
+| 3    | Mathugama    |
+| 4    | KCC    |
+| 5    | Kiribathgoda    |
+| 6    | Battaramulla    |
+| 7    | Kurunegala    |
+| 8    | Fort    |
+| 9    | Slave Island    |
+| 10   | WTC    |
+| 11   | Embilipitiya    |
+| 12   | Piliyandala    |
+| 13   | Ja-Ela    |

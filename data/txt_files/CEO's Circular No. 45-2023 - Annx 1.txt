@@ -1,0 +1,186 @@
+===== Page 1 =====
+
+CEO’s Circular No: 45/2023
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01.
+7th July 2023
+
+ANNEX 01: ANNUAL TRANSFERS 2024
+
+ERP BASED APPLICATION SUBMISSION GUIDELINES
+
+Preferences SSWA
+SLT Attendance User
+SLT BI HR User
+SLT Collaboration Team
+SLT Contract Employee Manager
+SLT Cost Center Budget Inquiry
+SLT Employee Self-Service
+Personal Actions
+Performance Management
+Appraisals
+Personal Information
+Grievance
+Sleep 01
+Psychology
+Science
+Select Transfer option from SLT
+Resignation
+Employee Self-Service Menu
+My Information
+Documents of Record
+Talent Profile
+User Data, Claims
+Transfer
+State Questions Application Form
+SLT Loan Process
+SLT Loan Reimbursement
+Professional Details
+Timecard
+ESR Reports
+SLT HRMS View Only User
+SLT Internet Expenses
+
+===== Page 2 =====
+
+Click Update or Add to make changes to the sections below. Click Next to continue this action, click Back to return to the previous page, click Cancel to cancel this action, or click Save for Later to finish this action later.
+
+**S1. Transfer Details**
+
+| Add    |    |
+|---|---|
+| Select Status    | Transfer Category    | Choice I    | Choice II    | Choice III    | Reason for applying the Transfer    | Any Other Remark    |
+
+No Details found.
+
+**Step 02:**
+
+**Click on ADD Button**
+
+---
+
+**STEP 03**
+
+---
+
+**S1. Transfer Details**
+
+- Employee Name
+- Organization Email Address
+
+Enter any changes below. Click Apply to continue this action, click Cancel to cancel this action and return to the previous page.
+
+- Transfer Category
+  - Date of Transfer/appointment to present station
+  - Choice I
+    - Choice II
+    - Choice III
+    - Reason for applying the Transfer
+  - Select the reason (from the list) for applying the transfer
+
+ForeignLocal Trainings for which you have agreed to serve a minimum period
+  - Skills and Competencies
+    - Contact Number
+    - Any Other Remark
+
+- Annual
+  - Amount
+  - $0.4m 2017
+  - Business Architect Section
+  - HR Operations Section
+  - Application Services Section
+  - Educational requirements of children
+  - Transfer is required due to indicated reasons
+  - Trauma is required due to indicated reasons
+  - Q3 years
+  - IT Systems (OSS, BSS, CRM)
+  - Q710123456
+  - Experience in Working fields of HTO (CSU/BitingPack)
+
+- Employee Number
+  - Business Group
+  - Std Lanka Telecom PLC
+
+- Select transfer category as "Annual"
+
+- Stations to which transfer is sought
+  - (Please indicate in order of preference)
+  - Step 03-a
+  - Indicate Reason for applying the Transfer
+
+- Click on "Apply"
+  - Cancel
+  - Apply
+
+===== Page 3 =====
+
+STEP 03-a.
+
+Search and Select: Choice I
+
+Search
+
+To find your item, select a filter item in the pulldown list and enter a value in the text field, then select the "Go" button.
+
+Search By   Choice I
+
+Results
+
+Select    Quick Select    Choice I
+○    ↓    Assets, Property and Security Management Group
+○    ↓    BB & Access NW Operation Section
+○    ↓    BPR Section
+○    ↓    Billing Operation Section
+○    ↓    Brand Marketing Division
+○    ↓    Brand Marketing Section
+○    ↓    Budget Section
+○    ↓    Business Architect Section
+○    ↓    Business Development (Public Sector) Section
+
+Previous 10    11-20    Next 10
+
+Select the station to which the transfer is sought
+
+===== Page 4 [text layer] =====
+
+STEP 04
+
+STEP 05
+
+===== Page 5 =====
+
+# STEP 06
+
+## Additional Information
+
+### Attachments
+To help approvers understand the request, you can attach supporting documents, images, or links to this action.
+
+**Note**
+Add all supporting documents supporting your transfer request
+
+### Approvers
+
+| Details | Line No | Approver    | Approver Type | Order No | Category | Status | Delete |
+|---|---|---|---|---|---|---|---|
+| 1    |    |    | HR People    | 1    | Approver    |    |    |
+| 2    |    |    | HR People    | 2    | Approver    |    |    |
+
+### Comments to Approver
+
+- Add comments to Approver if any
+- SUBMIT your Application
+
+---
+
+**Cancel**
+Printable Page
+Save For Later
+Back
+Subsp!
+
+---
+
+**Confirmation**
+
+Your changes have been submitted for manager approval.

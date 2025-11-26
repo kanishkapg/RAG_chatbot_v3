@@ -1,0 +1,107 @@
+CEO’s Circular No: 79 /2023
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01. 
+23rd October 2023
+
+To: All Executive Staff
+
+ESTABLISHMENT OF GROUP INVESTMENT MANAGEMENT COMMITTEE
+
+Investment Governance Framework at SLT was formally established to oversee investment management across the group of companies, incorporating a stage gate process. This entails regular assessments and oversight of project progress at every stage. This governance structure is pivotal to ensuring viability and return on investment (ROI) of capital projects. Furthermore, it aims to prioritize projects based on their benefits and strategic significance to the business, ultimately driving value creation.
+
+Currently, the investment governance framework comprises Functional Investment Management Committees (FIMCs) namely, PPIMC (Project Portfolio Investment Management Committee), PIMC (Product Investment Management Committee), EIMC (Enterprise Solutions Investment Management Committee), and DPAC (Direct Procurement Approval Committee). These committees operate under the oversight of the Strategic Investment Management Committee (SIMC).
+
+The IMCs’ primary responsibilities and functions lie in conducting thorough assessments of project business cases and budgeting, which are integral to evaluating projects and overseeing investments across the SLTMobitel group.
+
+In light of recent organizational structural adjustments, significant alterations have been introduced to the composition of IMCs. These changes were implemented with the aim of aligning committee members' expertise more closely with the evolving objectives of the organization. Furthermore, the roles and responsibilities of IMC members, project managers and project sponsors are outlined in the updated annexures listed below.
+
+- Annex (1): Introduction to the Enhanced Investment Governance Framework
+- Annex (2): Introduction to Investment Management Committees
+- Annex (3): High Level Business Processes of SIMC
+
+(Please find above annexures at, Insite → Home → General → Investment Management Framework → Investment Governance Framework Guidelines)
+
+This circular supersedes CEO's Circular No: 81/2022. All relevant officers are hereby requested to adhere to the guidelines and directions given in this circular and its annexures with immediate effect.
+
+Janaka. R. Abeysinghe Chief Executive Officer
+
+===== Page 2 =====
+
+# Annexure
+
+## Designation Changes for Governance Committees of SLT and Mobile:
+
+### 1. Strategic Investment Management Committee (SIMC)
+
+| Designation    | Name    | Role    |
+|---|---|---|
+| 1. Chief Executive Officer    | Mr. Janaka Abeysinghe   | Chairman    |
+| 2. Chief Operating Officer - SLT    | Mr. Prabhath Ambegoda    | Secretary    |
+| 3. Chief Operating Officer - MobileI    | Mr. Sudharshana Geeganage    | Member    |
+| 4. Chief Financial Officer    | Mr. Sanjeewa Samaranayake    | Member    |
+| 5. Chief Officer - Supply Chain Management    | Mr. Jeewapadma Sandagomi    | Member    |
+| 6. Chief Network Officer    | Mr. Mangala Samarajeewa    | Member    |
+| 7. Chief Marketing Officer    | Mr. Prabhath Dahanayake    | Member    |
+| 8. Chief Business Officer - Enterprise Business | Mr. Lakmal Jayasinghe    | Member    |
+| 9. Chief Administrative Officer    | Mr. Saman Abeysekara    | Member    |
+
+### 2. Project Portfolio Investment Management Committee (PPIMC)
+
+| Designation    | Name    | Role    |
+|---|---|---|
+| 1. Chief Network Officer    | Mr. Mangala Samarajeewa    | Chairman    |
+| 2. Chief Officer Network Operations and Maintenance | Mr. Rasantha Hettithanthrige    | Member    |
+| 3. General Manager/SME Business    | Mr. Sanjeewa Jayamaha    | Member    |
+| 4. General Manager/Network Strategy & Planning | Mr. Senake Sandanayake    | Member    |
+| 5. General Manager /Systems    | Mr. Kamal Ranchagoda    | Member    |
+| 6. General Manager/Data Centre & CS    | Mr. Aruna, B. Herath    | Member    |
+| 7. General Manager/CPD & M    | Ms. Nishani Weerasinghe    | Member    |
+| 8. Head-Budgeting & Fixed Asset Accounting | Mr. Gayan Withana    | Member    |
+| 9. Deputy General Manager/Financial Planning | Mr. Nishantha Karunarathna    | Member    |
+| 10. Deputy General Manager/CAPEX Administration | Ms. Wasantha Gunawardhana    | Secretary    |
+
+### 3. Product Investment Management Committee (PIMC)
+
+| Designation    | Name    | Role    |
+|---|---|---|
+| 1. Chief Marketing Officer    | Mr. Prabhath Dahanayake    | Chairman    |
+| 2. Deputy Chief Information Officer    | Ms. Ramani Chandrika    | Member    |
+| 3. Deputy Chief Officer Product Management | Mr. Mahinda Samarasinha    | Member    |
+| 4. General Manager/SME Business    | Mr. Sanjeewa Jayamaha    | Secretary    |
+| 5. Senior General Manager/Product Marketing | Mr. Isuru Dissanayake    | Member    |
+| 6. General Manager/Consumer Business Support | Mr. Suganth R. De Silva    | Member    |
+| 7. General Manager/Corporate Strategy    | Ms. Jayani Warnakulasuriya    | Member    |
+| 8. General Manager /CPD & M    | Ms. Nishani Weerasinghe    | Member    |
+| 9. General Manager-Enterprise & SME Products | Mr. Selvendran Vidyapan    | Member    |
+| 10. Deputy General Manager/Post Paid & Analytics | Mr. Saman Haturusinghe    | Member    |
+| 11. Deputy General Manager/Strategic planning | Mr. Chamith Hettiarachchi    | Member    |
+| 12. Deputy General Manager/Business Planning & Monitoring | Mr. Prabhath Fernando    | Member    |
+| 13. Deputy General Manager/Market Intelligence | Mr. R. Kumaresh    | Member    |
+| 14. Deputy General Manager/MA & PM    | Mr. Asanga Wimalaratne    | Member    |
+
+===== Page 3 =====
+
+4. Enterprise solutions Investment Management Committee (EIMC)
+
+| Designation    | Name    | Role    |
+|---|---|---|
+| 1. Chief Business Officer – Enterprise Business    | Mr. Lakmal Jayasinghe    | Chairman    |
+| 2. General Manager/ Digital Business Solution    | Mr. S. Navaneethan    | Member    |
+| 3. Deputy General Manager/EB (L)    | Mr. Shanaka Anuradha    | Secretary    |
+| 4. Deputy General Manager/GB & SP    | Mr. Nalin Gamage    | Member    |
+| 5. Deputy General Manager/MA & PM    | Mr. Asanga Wimalaratne    | Member    |
+| 6. Deputy General Manager/Control Architecture, Network & Data    | Mr. Chaminda Indrajith    | Member    |
+
+5. Direct Procurement Approval Committee (DPAC)
+
+| Designation    | Name    | Role    |
+|---|---|---|
+| 1. Chief Officer –Supply Chain Management    | Mr. Jeewapadma Sandagomi    | Chairman    |
+| 2. Head Procurement    | Mr. Rajitha Wathsala    | Member    |
+| 3. General Manager / Supply Chain Management    | Mr. K.A J Nishantha    | Member    |
+| 4. General Manager/ Transport Networks    | Mr. Buddhi Manage    | Member    |
+| 5. General Manager/Business Support and Artificial Intelligence    | Mr. Suraj Peiris    | Member    |
+| 6. General Manager /Commercial Evaluations    | Mr. I.W.M Bandaranayake    | Member    |
+| 7. Deputy General Manager / Financial Planning    | Mr. Nishantha Karunarathne    | Member    |
+| 8. Deputy General Manager / Supply Chain Management    | Mr. Sudarsha Jayawardhana    | Member    |
+| 9. Engineer/MM and Info Services    | Ms. Sivaharni Bahakaran    | Secretary    |

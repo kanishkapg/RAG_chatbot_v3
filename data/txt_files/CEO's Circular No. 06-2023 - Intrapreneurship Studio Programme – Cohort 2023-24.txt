@@ -1,0 +1,108 @@
+===== Page 1 =====
+
+CEO’s Circular No: 06 / 2023
+
+CEO’s Office
+Sri Lanka Telecom PLC
+Colombo 01
+
+31st January 2023
+
+To All Staff,
+
+**Intrapreneurship Studio Programme – Cohort 2023/24**
+**Invitation for Continuous Research and Development Engagements**
+
+While acknowledging your continuous active engagement with the Research and Development team, we are pleased to announce that SLT-MOBITEL management have planned to introduce a rewarding and recognition scheme with a Credit Value Coin System and all innovators including development teams will be rewarded financially and they will be recognized at promotions, performance appraisals, transfers, and training opportunities. The system will be launching soon.
+
+With the establishment of “The Embryo” group R&D center, we are delighted to see your continuous engagement in innovations, where employees interested in researching & innovation activities are invited to join hands with “The Embryo” Group R&D center. Opportunities are open for all enthusiastic staff members to engage with the Group R&D center to move forward with their new ideas and we will facilitate them to groom as innovators.
+
+Below listed are few projects that were initiated during the previous cohorts.
+1. IPTV probe – Diagnose customer end IPTV faults
+2. Battery monitoring
+3. Power and AC helpdesk solution
+4. Network Bot
+5. Surge protector
+6. Clamp for telecom poles
+7. DPET automation
+8. Fault localizer – Diagnose customer end faults via a mobile app
+9. Single console for Solar monitoring
+10. Open telco cloud
+11. Alternative power solution for telecom operations
+12. Smart pole climber
+
+Idea Funneling
+
+The SLT-MOBITEL “Intrapreneurship Studio programme - 2023/24 cohort” is opened under “Be Brave Dream Big” theme to support internal innovators and entrepreneurs to transform their ideas into groundbreaking new products and solutions. Innovative ideas/prototypes are welcome from the employees who value collaborative efforts and who are willing to go the extra mile in their career. We’ll be helping make your idea a success by leveraging SLT-MOBITEL’s technologies and expertise. You are mostly welcome to share your innovative ideas and thoughts with the R&D team in respect to below five main areas.
+
+| # | Areas    | Sub Areas    |
+|---|---|---|
+| 1   | Best Network Solution Innovation | Virtualization Software Defined Networking 5G and IoT |
+
+Page 1 of 3
+
+===== Page 2 =====
+
+Network and IT Automation
+Open Source
+Any other network solution related innovations
+
+2 Best New Product Innovation Cloud and Edge Applications 5G Applications (AR, VR, XR, cloud gaming, autonomous vehicles) IoT Blockchain Data Monetization (AI/ML/DL) API Monetization Remote (Distance education, Telework, Telehealth) Media and Entertainment (gaming, broadcasting) Industry Verticals (Agriculture, Healthcare, Education, Transport & Logistics, Tourism, Fintech, Smart City, Smart Government) Any other realizable product innovation
+
+3 Best IT Solution Innovation Innovative solutions for IT subsystems
+
+4 Best Process Innovation Service Fulfillment processes (Order to Cash, Request to Change, Termination to Confirmation) Service Assurance processes Network and IT process automation Greener Telecom Operation (less power, paper free, minimum wastage)
+
+5 Best Patentable Innovation Any innovation/invention which is patentable
+
+Your innovative solution is truly valuable to us and preference will be given to completed prototype or developed solutions. Even you can contribute only as an idea provider where such novel idea will be realized by the internally managed talent pool. Please submit your solution/idea via the R&D web portal as given below. Your proposal will be evaluated, and best realizable solution/idea producers will be awarded with cash price.
+
+As the starting step, you are initially encouraged to submit the solution/idea within two weeks of this invitation, which will be proceeded to the accelerator and the incubator stages. Further continuous solution/idea generation is also welcome and those will be funneled to the accelerator and incubator stages periodically.
+
+Rewarding for the best selected solutions/ideas
+
+After evaluating your proposals by a panel of members, top two solutions/ideas will be selected from each category and awarded as follows. Following table shows the areas and the awards the winners will be received.
+
+# Areas Price (Rs)
+1 Best Network Solution Innovation \(1^st\) Place – 200,000 \(2^{nd}\) Place – 100,000
+2 Best New Product Innovation \(1^st\) Place – 200,000 \(2^{nd}\) Place – 100,000
+3 Best IT Solution Innovation \(1^st\) Place – 200,000 \(2^{nd}\) Place – 100,000
+4 Best Process Innovation \(1^st\) Place – 200,000 \(2^{nd}\) Place – 100,000
+5 Best Patentable Innovation \(1^st\) Place – 200,000 \(2^{nd}\) Place – 100,000
+
+Page 2 of 3
+
+===== Page 3 =====
+
+Best solutions selected will be awarded on the Demo Day at the SLT-MOBITEL ‘Innovation Day’ where solutions will be pitched to the SLT-MOBITEL management and the outside investors.
+
+Active member in Internal Talent Pool for innovations
+
+While highly acknowledging the continuous engagement with the SLT R&D Talent Pool, it is vital to expand and refresh the internal talent pool further with competent set of staffs who can actively and collaboratively engage with R&D activities, who are willing to go the extra mile in their career. Opportunities are open in the below listed expertise areas. You will be awarded via the above Credit Value Coin based rewarding scheme based on your engagement level and accomplishments.
+
+| # | Expertise Areas    | Sub Areas    |
+|---|---|---|
+| 1   | Data Analytics    | AI / ML / DL    |
+| 2   | Computer Vision    | Video Processing / Audio Processing / Image Processing    |
+| 3   | API Development    | API Development    |
+| 4   | Mixed Reality    | AR / VR / XR    |
+| 5   | Internet of Things (IoT)    | IoT Sensors and Integration with platforms/gateways    |
+| 6   | App Development    | Web Application, Mobile Application (Android, iOS, HMS)    |
+| 7   | Single board computer programming | Microcontrollers, Arduino, Raspberry Pi, Orange Pi, etc    |
+| 8   | IDE based programming | Python, Java, C#, PHP, etc    |
+| 9   | Networking    | Software Defined Networking (SDN), Network Virtualization (NFV), Open Source    |
+| 10 | Cloud Infrastructure Architect | OpenStack, Kubernetes, AWS, etc    |
+| 11 | 5G Technology    | 5G Application Development    |
+| 12 | Electrical / Electronic    | Electrical and Electronic System Development    |
+
+Method of Engagement:
+
+Please refer the below portal to submit your solution/idea or to register as a member for Internal Talent Pool for innovations.
+
+https://forms.office.com/r/dsBzWZkFdu
+OR Refer QR code to access the portal.
+
+For any Clarification, you may contact DGM / Digital lab (0715342109/aselaeranda@slt.com.lk). Hereby you are requested to provide your feedback within 14 days of this invitation.
+
+Janaka Abeysinghe
+Chief Executive Officer
