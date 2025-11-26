@@ -7,15 +7,26 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.config import GROQ_API_KEY, GROQ_MODEL, DEFAULT_MAX_TOKENS, DEFAULT_TEMPERATURE
 
+from multiplicative import MultiplicativeGatingSearchEngine
+from penalty import PenaltyScoredFusionSearchEngine
+
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 class ResponseGenerator:
-    def __init__(self):
-        """Initialize the response generator with Groq client."""
+    def __init__(self, search_method: str = 'multiplicative'):
+        """Initialize the response generator with Groq client and a search engine."""
         self.groq_client = Groq(api_key=GROQ_API_KEY)
         self.model_name = GROQ_MODEL
+        self.search_method = search_method
+        
+        if self.search_method == 'multiplicative':
+            self.search_engine = MultiplicativeGatingSearchEngine()
+        elif self.search_method == 'penalty':
+            self.search_engine = PenaltyScoredFusionSearchEngine()
+        else:
+            raise ValueError("Invalid search method specified. Choose 'multiplicative' or 'penalty'.")
 
     def _get_chunk_metadata(self, chunk_id: int) -> Optional[Dict]:
         """Get metadata for a specific chunk from the database."""
@@ -187,19 +198,20 @@ class ResponseGenerator:
 
 # Example usage and testing
 if __name__ == "__main__":
-    from hybrid_search import HybridSearchEngine
+    # Choose the search method: 'multiplicative' or 'penalty'
+    search_method_to_use = 'penalty'  # or 'multiplicative'
     
-    search_engine = HybridSearchEngine()
-    response_generator = ResponseGenerator()
+    response_generator = ResponseGenerator(search_method=search_method_to_use)
     
-    if search_engine.chunk_data:
+    if response_generator.search_engine.chunk_data:
         query = "Is it true that the Sales team has different in-office requirements than the Engineering team?"
-        hybrid_results = search_engine.hybrid_search(query, top_k=5)
+        hybrid_results = response_generator.search_engine.hybrid_search(query, top_k=5)
         
         if hybrid_results:
             result = response_generator.process_query(query, hybrid_results)
             
             print(f"\nQuery: {query}")
+            print(f"Search Method: {search_method_to_use}")
             print("=" * 80)
             print(f"\nResponse:\n{result['response']}")
             
@@ -211,7 +223,10 @@ if __name__ == "__main__":
                 print(f"   Title: {source['title']}")
                 print(f"   Date: {source['date'] or 'Not specified'}")
                 print(f"   Final Score: {source['score']:.4f}")
-                print(f"   Relevance: {source['relevance_score']:.4f} × Boost: {source['recency_boost']:.4f}")
+                if 'recency_boost' in source:
+                    print(f"   Relevance: {source['relevance_score']:.4f} × Boost: {source['recency_boost']:.4f}")
+                else:
+                    print(f"   Relevance: {source['relevance_score']:.4f}")
                 print(f"   (Sem: {source['semantic_score']:.3f}, Lex: {source['lexical_score']:.3f}, Rec: {source['recency_score']:.3f})")
                 print()
         else:

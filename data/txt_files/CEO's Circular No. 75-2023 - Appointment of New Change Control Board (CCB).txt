@@ -1,0 +1,129 @@
+CEO’s Circular No: 75/2023
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01.
+6th October 2023
+
+To All Staff,
+
+Appointment of New Change Control Board (CCB)
+
+The Change Control Board (CCB) is established to minimize the impact to customers and to ascertain the proper management of service outages, during planned changes in rollouts/cutovers related to implementation and operations of networks, hardware, and software platforms. Staff responsible for such changes (Change Owners) are hereby instructed to refer planned changes to CCB before they are implemented, and to adhere to the Terms of References of the CCB.
+
+Terms of Reference (ToR) of the CCB is included as Annexure 01, and the CCB Approval Request Form is included in the Annexure 02.
+
+The new CCB, as described in the ToR, is implemented with immediate effect.
+
+This Circular shall supersede CEO’s Circular No. 27/2022 and any other previous circulars which relates to same subject.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
+
+===== Page 2 =====
+
+Annexure 01: Terms of Reference for the Change Control Board (CCB)
+
+Change Control Board (CCB) consists of following members,
+
+1. Mr. Thilak R. Thilakaratne GM/Government Business Chairman
+2. Mr. Indaka Devendra GM/Service Operations Secretary
+3. Mrs. Ramani Chandrika Deputy Chief Information Officer Member
+4. Mr. Buddhi Manage GM/Transport Networks Member
+5. Mr. W.S.P. Welikada GM/Regional Operations (Region 2) Member
+6. Mr. Sanjaya Kumara GM/Operations Support Member
+
+Definitions
+
+1. ‘Planned Change/s’ means commissioning, upgrades, migrations, relocations, expansions, decommissioning, system cut-overs of networks, hardware and software, which could impact to the services provided to customers, during the implementation of the change.
+2. ‘Impact’ means an outage, a performances issue, a major failures or any other issue that affect the continuity of services provided to customers.
+3. ‘Affected Service/s’ means the services provided to customers, that are subject to an Impact during a Planned Change. This includes network nodes or infrastructure of SLT as well, that are used in providing services to customers.
+4. ‘Change Owner/s’ means the employee/s of SLT, of A5 grade or higher, who are responsible for the proper management of Planned Changes.
+5. ‘User Department/s’ means the business units in SLT, which serves or manages the customers of Affected Services, or any party within SLT, who should be aware of the Planned Change.
+
+Responsibilities of the CCB
+
+1. Act as the controlling body for Planned Changes.
+2. Prepare, review, and implement guidelines for Planned Changes.
+3. Assess the Impact of Planned Changes and the overall plan, and grant approval to proceed.
+4. Evaluating and reviewing the potential risks or feedback submitted by the user departments
+5. Assess the Post Implementation Review (PIR) and take any necessary action
+6. Maintain the Planned Changes Register
+7. Meet weekly or based on implementations and operational requirements so as to ensure that there is no hindrance to Network Developments or System Integrations.
+
+Responsibilities of Change Owners
+
+1. Properly plan the Planned Change, with the concurrence of all stakeholders
+2. Forward request for CCB approval 7 days in advance, together with Impacted Services and contact details of involved employees / units
+3. Assess the Impact of Planned Change, including potential risks, remedial actions and roll-back plans
+4. Inform the Planned Change to the User Departments, 3 days in advance
+5. Carry out the Planned Change, as per the guidelines issued, and approval granted by the CCB
+6. Submit Post Implementation Review (PIR), within 3 days from the planned completion. This shall include the status of Planned Change, post-change issues, lessons learnt etc.
+
+Responsibilities of User Departments
+
+1. Aware customers or any other parties, whose services are Impacted due to the Planned Change
+2. Communicate any concerns of affected customers and take appropriate actions.
+
+===== Page 3 =====
+
+[This form to be submitted to CH/CCB one week before the planned event] Form
+Annexure 02 (Version 2)
+email : changecb@slt.com.lk
+
+CHANGE CONTROL BOARD    User Ref :
+APPROVAL REQUEST FORM
+
+1 Area: ...... Section: ......
+Planned From(Date/Time): ...... To (Date/Time): ......
+
+2 Planned Event
+☐ Network Upgrade ☐ New Addition
+☐ Network relocation ☐ Power Upgrade/Change
+☐ Network Expansion ☐ Network Rehabilitation
+☐ Systems Cutover ☐ Any Other (please specify)
+
+Brief of the planned change:
+
+3. Affected Services/Stake Holders/Nodes
+    (Please place "x" inside the boxes to indicate your response)
+
+| Affected Service    | No. of Nodes (Details to be attached) | No. of Customers |
+|---|---|---|
+| Voice    | ......    | ......    |
+| ADSL    | ......    | ......    |
+| TX Services    | ......    | ......    |
+| Ethernet Services    | ......    | ......    |
+| IPTV    | ......    | ......    |
+| IP/VPN    | ......    | ......    |
+| POS/NAC    | ......    | ......    |
+| IT Systems (Name)    | ......    | ......    |
+
+4 Maximum Outage Duration:
+
+5 Business Impact (possible outage):
+
+6 Risk Involved:
+
+7 Risk Mitigation Plan:
+
+8 Sections Involved (attach details names and contact numbers):
+
+9 Expected outcome:
+
+10 Availability of fallback Option: ☐ Y ☐ N
+
+Date Submission: ...... Sig. Change Owner
+    (DGM or above)
+
+CCB Recommendation    Ref CCB/SNo
+
+☐ Approved ☐ Not Approved
+☐ Approved Subjected to the Conditions Reason
+    ......    ......
+    ......    ......
+    ......    ......
+
+Please make arrangements to inform all stake holders & possible affected parties (internal, external) regarding the proposed change/event.
+Please submit Post Implementation Report within 3 days from the change.
+
+......    ......
+DATE    CH/CCB

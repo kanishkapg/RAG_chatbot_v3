@@ -1,0 +1,27 @@
+CEO’s Circular No: 12/2023
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01
+20th February 2023
+
+To All Staff,
+
+Organizational Re-alignment
+
+Considering the operational requirements, following changes have been made to the regional operational structure which was established under the GCEO’s Circular No: 09/2022, with effective from 16th January 2023. New Operational Structure is attached for your reference.
+
+| OPMC/NW Engineer | Existing Structure according to the GCEO’s Circular 09/2022 | New Structure |
+|---|---|---|
+| OPMC-Gampaha    | DGM-Provincial Operations (WPN&NWP)    | DGM-Provincial Operations (Metro 01)    |
+| OPMC-Biyagama    |    |    |
+| OPMC-Nittabuwa    |    |    |
+| Engineer/NW/WPNE    |    |    |
+| OPMC-Kotte    | DGM-Provincial Operations (Metro 01)    | DGM-Provincial Operations (Metro 02)    |
+| OPMC-Kolonnawa    |    |    |
+| Engineer/NW/WPE    |    |    |
+| OPMC-Anuradhapura    | DGM-Provincial Operations (NP)    | DGM-Provincial Operations (CP & NCP)*    |
+| Engineer/NW/NCP    |    |    |
+| OPMC-Polonnaruwa    | DGM-Provincial Operations (EP)    |    |
+
+*DGM-Provincial Operations (CP) has been renamed as DGM-Provincial Operations (CP & NCP).
+
+Janaka R. Abeysinghe Chief Executive Officer

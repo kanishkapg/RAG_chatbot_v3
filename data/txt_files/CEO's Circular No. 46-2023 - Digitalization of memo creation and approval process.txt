@@ -1,0 +1,19 @@
+CEO’s Circular No: 46/2023
+
+CEO’s Office, Sri Lanka Telecom, Lotus Road, Colombo 01, 
+11th July 2023
+
+All Employees,
+
+Digitalization of Memo Creation and Approval Process
+As a go green initiative within digital transformation program, a workflow management system has been developed to digitalize the memo creation and approving process. It will create a paperless office as well make the process faster and more transparent. With this introduction, all employees are required to use 'Memo Creator' web portal for internal memo creation and approval process.
+
+The portal can be accessed via intranet home page or using following links.
+Through VPN/Intranet - https://erequest.intranet.slt.com.lk/Memo
+Through Internet - https://erequest.slt.com.lk/Memo
+Path to user manual - Insite -> General -> Shared Documents -> Memo Creator -> User Manual
+
+Hard copies should not be entertained from 01.08.2023 after the trial period of the system from 10.07.2023 to 31.07.2023.
+
+Janaka R. Abeysinghe
+Chief Executive Officer
