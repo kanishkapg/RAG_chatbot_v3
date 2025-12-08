@@ -1,0 +1,78 @@
+CEO’s Circular No: O1/2019
+
+CEO’s Office
+Sri Lanka Telecom PLC
+Colombo 01
+03 January 2019.
+
+To: All Staff
+
+ENHANCING CUSTOMER EXPERIENCE THROUGH CONSOLIDATION OF NOCS AND ESTABLISHMENT OF SERVICE OPERATION CENTRES (SOC)
+
+In today’s highly competitive Telco market place, service providers need to deliver superior services to their customers. In order to achieve this, SLT need to transit from network operations to service centric operations consolidating all relevant stakeholders under SOC.
+
+Service Operation Centers are formed with the following focus and objectives.
+
+Focus
+
+- Correlations of services
+- Performance threshold alerts
+- Network element management
+- Probing and analyzing available offline data lakes
+- Quick actions on service issues and prioritizing workload
+- Proactive Service Assurance
+
+Objectives
+
+i. Streamlining the processes
+ii. Identifying and Solving the root causes (Reactive and Proactive)
+iii. Centralizing the operation in Service Fulfillment and Service Assurance
+iv. Multi-skilling the staff
+v. Optimizing operational cost (Staff, Vehicles, Space, Etc.)
+vi. Improve customer satisfaction
+vii. Moving forward with digital services
+viii. Data analysis and automation
+ix. Central supervision on information security
+x. Efficient management on entire vehicle fleet
+
+Page 1 of 2
+
+===== Page 2 =====
+
+In order to drive the establishment of SLT SOC within the expected time targets, the following team is appointed to carry out the responsibilities.
+
+Program Manager – Mr.Nishantha Rathnayaka (Deputy Chief Network Officer)
+
+Project Manager – Mr. Indaka Devendra (GM-SOC)
+
+- Other Team Members
+  - Mr. W.B.Nawela ( GM – Transport Access)
+  - Mr. Buddhi Manage ( GM – Network Service)
+  - Mr. Kamal Ranchagoda (GM – Systems)
+  - Ms. Yamuna Gunawardena ( GM – Contact Center )
+  - Mr. Amila Amunugama (DGM – OS & PABX Operation)
+  - Mr. Kapila Gunarattha ( DGM – Service Assurance)
+  - Mr. Nishantha Karawita ( DGM – IDC Operation )
+  - Mr. Chandana Wimaladasa ( DGM - Transport )
+  - Mr. Upul Perera ( DGM – IT Application Operation 01)
+  - Mr. Madhawa Wijayarathne ( DGM – Service Fulfillment )
+  - Mr. M. D. I. S. Delgoda (DGM-SOC)
+  - Mr. Bandula Wimalasuriya ( DGM – BPR)
+  - Mr. Thilak Thilakarathne (DGM-CCD)
+
+Steering Committee
+
+- Mr. Priyantha Fernandez (Chief Operating Officer )
+- Mr. Mangala Samarajeewa (Chief Network Officer )
+- Mr. Prabath Ambegoda (Chief Corporate & Digital Officer)
+- Mr. Roshan Kaluarachchi (Chief Customer Officer )
+- Mr. Thilak Gamalath (Chief Information Officer)
+- Mr. Nishantha Rathnayaka (Deputy Chief Network Officer)
+- Mr. Saman Abeysekara ( Deputy Chief Regional Officer)
+
+This team is responsible to ensure successful implementation of SOC with the most appropriate environment, proficient systems and competent staff to fulfill above objectives. Once the SOC is established Sri Lanka Telecom will be able to provide an excellent service to Internal, External and Global customers.
+
+K.A. KitththrFerera  
+Chief Executive Officer
+
+Page 2 of 2

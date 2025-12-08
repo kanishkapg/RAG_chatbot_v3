@@ -1,0 +1,158 @@
+CEO's Circular No: 14/2021
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+16 March 2021
+
+To: All Employees,
+
+STANDARDIZATION OF FREQUENTLY USED MATERIAL
+
+The Quality of material we purchase is vital to provide reliable service and service competitiveness, as it is the foremost entity to attract new customers and to increase customer satisfaction. Standardization of material in advance is helpful in ensuring the quality of the material. It also helps reduce the time taken in repeated tendering and evaluation of frequently purchased material.
+
+The involvement of Cross-functional team facilitates, addressing the concerns of the stakeholders from different aspects and to share information related to quality. Having that objective, the Board of Directors have approved the Standardization process attached as Annexure 1; the composition of Standardization Committees and the responsibilities of each representative as given in Annexure 2.
+
+The quality of material will directly affect the operation and maintenance. Hence, the officer in charge of operations/ operation support is appointed as the Chairman of the Standardization Committee wherever possible.
+
+| Material Category    | Designation    |
+|---|---|
+| All Outside Plant (Fiber, Copper Networks) | GM/Operation Support    |
+| Customer Premises Equipment    | GM/Operation Support    |
+| Equipment for Enterprise Customers    | GM/Enterprise Business    |
+| Servers, Software and IT Equipment    | GM/Systems    |
+| Power and AC Equipment    | GM/Power & AC    |
+| Office Equipment and Stationery    | GM/Programme Management    |
+| Furniture    | GM/Facility Management    |
+
+If a need arises to standardize any material not falling into above categories, CEO may appoint the Chairman on a recommendation of the relevant Chief Officer and the Chief Officer in charge of Quality Assurance. The Chairman of each committee is required to nominate members for the committee with the consent of the Chief Officer of each representative and send for CEO's approval using the attached format in Annex 3.
+
+New Standardization Committees are required to function with effect from 22nd March 2021 and if there is any standardization work in progress which cannot be completed by 22nd March, the work shall be handed over smoothly to the new committee.
+
+It is important to note that, each member in the Committee is equally responsible and accountable for the recommendations made on standardization.
+
+Standardization of material need to commence with sufficient lead-time. Delay in standardization shall not hinder the business operations of the Company and CEO's approval should be obtained for alternative actions justifying the need.
+
+K A Kithhi Pefera  
+Chief Executive Officer
+
+Annexure-1
+
+CPE/Material Standardization Process
+
+CPE/Material Standardization Process
+
+| User Division    | Standardization Committee | SCM Section    | Field    |
+|---|---|---|---|
+| Start    |    |    |    |
+|    | Inform to Standardization Committee to prepare the specification | Prepare and standardized the specification | Calling of open tender with samples (preliminary Test) |
+| Prepare request according to requirements | Inform to call the tender    |    | Close the tender & submit bids and samples |
+| Send Bids & Samples To Standardization Committee |    | Verify the technical bids with given Specification (paper based evaluation) | Inform the supplier |
+| Requesting sample qty for field test (secondary test) | Sample testing (lab test) | No    | Purchasing min. qty, as sample qty to manage the outage for urgent Requirements |
+| Yes    | Test ok?    |    | Installing sample material and sending reports |
+| Issuing Material and report formats for field testing |    |    |    |
+| Monitoring Field report monthly | Report/ summary submit to relevant parties | No    | Inform supplier |
+| Update the short listed suppliers list | Field test ok? | Yes    | STB Approvals for Standardization |
+|    |    |    | Inform the approval status to User Division |
+
+Annexure-2
+
+# Composition and Responsibilities of Standardization Committee (SC)
+
+The main responsibilities of the committee appointed for standardization of materials are as given below. One representative from each member group identified below is bound to fulfill responsibilities as stated below.
+
+| No | Member    | Responsibilities    |
+|---|---|---|
+| 1.   | User Department    | 1. Identification of the need for standardization 2. Preparing Specifications/Giving inputs to prepare specifications for TET 3. Preparation of compliance report 4. Coordination of committee meetings 5. Arrange purchasing samples 6. Issuing samples to the field and QA 7. Monitoring of overall process for effectiveness and timely completion time 8. Maintaining a sample of standardized material (with QA) 9. Preparation of the process and facilities required 10. Inform the committee decision to procurement division 11. Coordination and conducting training sessions with the training centers on standardized material, tools, equipment |
+| 2.   | Planning    | 1. Giving inputs on industry trend, Alignment with future plans of SLT 2. Preparation of Specification    |
+| 3.   | Operations    | 1. Providing inputs on Technical compatibility, Needs on interfacing and integration , Repair and Maintenance 2. Testing and providing test results to SC 3. Escalate quality issues and non-compliance after implementation and take lead in resolving    |
+| 4.   | Project    | 1. Install & collect the field reports on samples and submit to the committee 2. Support to inquire any Quality issue raised from the field, coordinate with SCM Division and Supplier 3. Provide required expertise and facilities in coordination with the Supplier to address quality issues    |
+| 5.   | Quality Assurance (QA)    | 1. Participate in testing 2. Preparation & submission of Quality test report to the committee 3. Maintaining the sample of standardized material 4. Monitoring of the Quality issues and co-ordinate    |
+| 6.   | Training division    | 1. Support the UD to arrange the testing of the sample (technical and functionality test with specifications) and create & submission of the technical report to the committee when required 2. Forward quality issues in the field received through trainees to Quality Assurance Section 3. Conducting training sessions on newly standardized material, tools, equipment 4. Guide employees on rectification of quality issues|
+| 7.   | OSP Operation Support and Quality Management Section| 1. Install & collect the field reports on samples and submit to the committee 2. Monitor quality issues on standardized products and the issues raised from the field support to inquire, coordinate with SC 3. Communication to the field on addressing any issue on standardized products|
+| 8.   | Product Development Sections| 1. Provide Customer needs, product features 2. Participate in testing 3. Gather Customer feedback and provide to SC |
+
+(It is the responsibility of the officers nominating and recommending the Standardization Committees to decide appropriate composition: area of representation and number of representatives for the committee)
+
+Annexure 3  
+SCMD/FSC/029  
+
+Approval for Material Standardization Committee  
+
+To : CEO  
+From : Date: DD-MMM - YYYY  
+
+I. Standardizing Item: ………..  
+
+II. Period which the standardization is applied for (mandatory): ………..  
+
+Following members have been nominated as members for the above Standardization Committee.  
+
+|    | Name    | Service No | Designation | Group | Area of representation (OSP, CPE, Power & AC, etc.) | Email |
+|---|---|---|---|---|---|---|
+| Chairman    |    |    | GM/    |    |    |    |
+| Member 1    |    |    |    |    |    |    |
+| Member 2    |    |    |    |    |    |    |
+| Member 3    |    |    |    |    |    |    |
+| Member 4    |    |    |    |    |    |    |
+| Member 5    |    |    |    |    |    |    |
+| Member 6    |    |    |    |    |    |    |
+| Member 7    |    |    |    |    |    |    |
+| Member 8    |    |    |    |    |    |    |
+
+* Number of Standardization Committees served by each member should be 2 or less  
+
+......    ......
+Ch/Stndardization Committee    Signature    Date  
+
+CHIEF OFFICER RECOMMENDATION
+
+I recommend the above committee for the section (I) mentioned item standardisation. Scope of the Procurement is attached.
+
+......    ......
+<Relevant Chief Officer>    Date  
+
+COO RECOMMENDATION
+
+I recommend the above team.
+
+Comments:
+
+......    ......
+COO    Date  
+
+CEO APPROVAL
+
+I approve / I do not approve.  
+Comments:  
+......    ......  
+CEO    Date  
+
+Note:
+
+Please attached Scope of the Tender/Procurement along with the Approval for
+Standardization Committee for CEO's Reference
+
+1. Material Standardisation committee shall consist of minimum of eight members as
+
+follows and they shall be individually and severally responsible for the decisions taken
+and recommendations made by the Standardization Committee.
+
+a. Chairman with appropriate skills representing the area of item being purchased,
+
+should be of the level of GM.
+
+b. One representatives from each of the groups mentioned below
+
+i. User Department
+ii. Planning
+iii. Operations
+iv. Project
+v. Quality Assurance
+vi. Training Division
+vii. OSP Operation Support and Quality Management Section
+viii. Product Development Section
+
+2. Relevant CXO will be responsible that the recommended Standardisation Committee will
+
+excert maximum effort to complete the evaluation within the stipulated time under
+Section II

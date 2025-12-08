@@ -1,0 +1,34 @@
+CEO's Circular No. 16/2021
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo.
+
+22 March 2021.
+
+To: All Staff,
+
+FINALIZED CONTRACTS FOR DIGITAL SIGNATURES
+
+Further to the CEO Circular bearing No.57, dated 9th October 2020, on adoption of an electronic process for contracts and accordingly implemented process for placing the digital signatures to selected SLT Contracts.
+
+Contract Signing Process
+Following requirements will not be applicable for the Contracts/Agreements, which are forwarded for electronic/digital signatures;
+
+(i) Initiating every page of the Contract/Agreement and,
+(ii) Having a witness for the respective signatory.
+
+It is to be noted that, the above position is taken due to the reasons detailed below;
+
+- The System vouch as the witness for the total document containing several annexures as a single document.
+- The System does not allow any alterations/changes to the content of a document, by any party, in the middle of the process.
+- Envelope ID of the System Provider will be placed automatically in every page of signed Contract/Agreement.
+- Non-viability of witnessing of the placing of the signature as such placing of the signature happens in different devises when a Contract/Agreement is electronically/digitally signed.
+
+Storage
+Each Nominee of the Process Owner who initiates a Contract/Agreement and the relevant User Division are required to save a copy of the signed Contract/Agreement and the Completion Certificate with them.
+
+In addition, a central storage is maintained by the Legal Group. All Process Owners are required to copy all the Contracts/Agreements from the inception to legalgroup@slt.com.lk e-mail address in order to facilitate the central storage.
+
+The above provisions relating to placing of electronic/digital signatures shall not amend the initiation/ processing/ execution/ storage of manual Contracts/Agreements.
+
+K. A. K. Perera
+Chief Executive Officer
