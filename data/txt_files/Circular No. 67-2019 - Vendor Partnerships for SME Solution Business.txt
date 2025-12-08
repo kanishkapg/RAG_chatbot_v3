@@ -1,0 +1,223 @@
+CEO’s Circular No: 67/2019
+
+Sri Lanka Telecom PLC
+Lotus Road
+Colombo 01
+
+16 December 2019
+
+To: All Employees,
+
+VENDER PARTNERSHIPS FOR SME SOLUTION BUSINESS
+
+Given SLT’s unique position with island wide fiber network, well dispersed regional structure with regional enterprise sales staff, we decided to aggressively grow SME business with a major solution business drive in next 03 years.
+
+For this purpose, SLT partnered with SME solution providers who can be utilized to develop tailor-made solutions for our SME customers. Regional Enterprise Business Teams can now engage SME solution partners for designing, developing and delivering business solutions for customers. Partnership operational process is attached herewith.
+
+- Annex 1 : Business process for outright SME Sales
+- Annex 2 : Business process for subsidized SME Sales
+
+List of contracted SME Solution Partners with their respective category of solutions is published in the Intranet. Please refer Intranet > Groups > CMO > SME Business Development > Business Guidelines > SME Solution Partners
+
+In this process Regional Committee is authorized to invite bids and recommend the designed business solutions with its solution partners. Guidelines on selecting partners & partnership operational process are also attached;
+
+- Annex 3 : Single SME Partner Approval
+- Annex 4 : User Acceptance
+
+High level business process of providing SME solutions with SME solution partners is given below;
+
+- Solution design is to be performed by SLT Regional Enterprise Business (REB) Team together with Selected Solution Partner
+- Business proposals will be routed through central SME Solutions Section for the approval.
+- Relevant REB Team to handover the business proposal to the customer
+- Relevant Technical and Commercial Negotiations are to be conducted in consultation with SME Solution team
+
+Page 1 of 2
+
+- Once the proposal is accepted, the respective REB Manager should register services in MINT and accept due payments via SLT cashiering systems. If solution is offered in OPEX model, required to follow guidelines of CEO/COO circular No 01/2019 on approving subsidized SME Solution sales
+- SME Solution Team to handle subsequent additional contract signing, procurement with SME Solution Partner
+- REB Team to conduct User Acceptance Test (UAT) at the completion of the job
+- SME Solution team to handle partner payments upon the receipt of UAT documents
+- Subsequent customer support to be handle by the SME Solution Partner as per the Annual Maintenance Contract (AMC)
+- SME Standardization Committee will act as the governance body of SME Solution Partnership Operation. Please refer **Intranet > Groups > CMO > SME Business Development > Business Guidelines > SME Standardization Committee**
+
+The objective of this circular is to regularize operations of SME Solution Partnership Process in view of developing the SME business aggressively in next 03 years.
+
+K A Kiththi Perera  
+Chief Executive Officer
+
+Page 2 of 2
+
+# Business Process for Outright SME Sales V 3.0
+
+| Process Steps    | Responsibility |
+|---|---|
+|    | Start    |
+| 1    | Gather customer requirement in general.    | Regional Enterprise Business Mangers (REBMM) |
+| 2    | Identify technical requirement and business solutions.    | Solution Support Engineers (SSE)/REBMM |
+| N    | Check whether customer solution can be provided with local resources.    | SSE / REBMM |
+|    | Jointly develop solution with regional Unit Rate Contractors(URC) and finalize estimate.    | SSE    |
+|    | Check whether the required solution can be delivered through SME Solution Partner.    | SSE    |
+|    | Visit customer place and prepare solution estimation and send to Regional Enterprise Business team.    | SSE    |
+|    | Select a SME Solution Partner for the estimation. (As per the annexure A)    | Regional Committee: relevant SSE, DGM and REBM |
+|    | Coordinate with SME Solution Partner and jointly develop a feasible and cost effective solution.    | SSE    |
+|    | Prepare partner proposal and forward to SME Solution Section.    | SME Solution Partner |
+
+|    | 10 | Prepare SLT Business Proposal based on Solution Partner's proposal. | SME Solution Section (SME SS) |
+|---|---|---|---|
+|    | 11 | Submit SLT Business Proposal after a adding sales markup | REBMM |
+| N    | 12 | Accept the proposal? | Customer |
+| Y    | 13 | Accept initial payment, update system and issue receipt. | Teleshop |
+|    | 14 | Negotiate technical and commercial with relevant parties based on who submitted the proposal( URC/ SME SS/ SME Solution Partner) | REBMM, SSE, SMESS and SME Solution Partner |
+|    | 15 | Collect payment receipt. | Customer |
+|    | 16 | Ensure sales confirmation references, payment receipt and register "ICT Infrastructure" Service Order(SO) in CRM with appropriate payment scheme. | REBMM |
+|    | 17 | Receive sales confirmation references, payment receipt and "ICT Infrastructure" SO for installation. | SME SS |
+| N    | 18 | OPEX allocation for project. | SME SS |
+|    | 19 | Check whether solution estimation done by external party ( SME Solution Partner or URC) | SME SS |
+|    | 20 | Assign installation task to SLT team. | SME SS |
+|    | 21 | Create ERP job costing work orders(WO), issue materials and start Installation. | SME SS |
+|    | 22 | Prepare Purchase Order (PO) and send to SME Solution Partner or URC | Procurement Section |
+|    | 23 | Start installation. | SME Solution Partner |
+
+|    | 24   | Coordinate installation with customer and installation team. | SSE |
+|---|---|---|---|
+|    | 25   | Completion of User Acceptance Test (UAT) and handover to customer. (As per the Annexure B) | SSE/REBMM |
+|    | 26   | Acceptance by customer. | Customer |
+|    | 27   | Receive handover note UAT documents through SSE close ERP Job Costing WO as applicable and finalize Solution Partner payments/agreements. | SME SS |
+|    | 28   | Close "ICT Infrastructure" SO and Notify REBM | SME SS |
+|    | 29   | Report the progress and monitor. | SME SS |
+|    | 30   | Sign maintenance agreements and take actions if any deviations from agreement. | REBMM |
+|    | End |    |    |
+
+** Regional Committee: A committee established to select single vendor from SME standardized solution partners
+
+# Business Process for Subsidized SME Sales V.3.0
+
+## Process steps
+|    | Start    | Responsibility |
+|---|---|---|
+| 1    | Gather customer requirement in general. | Regional Enterprise Business Mangers (REBMM) |
+| 2    | Identify technical requirement and business solutions. | Solution Support Engineers (SSE)/REBMM |
+| N    | Check whether customer solution can be provided with local resources | SSE / REBMM |
+| 3    | Jointly develop solution with regional Unit Rate Contractors(URC) and finalize estimate. | SSE    |
+| 4    | Check whether the required solution can be delivered through SME Solution Partner. | SSE    |
+| 5    | Visit customer place and prepare solution estimation and send to Regional Enterprise Business team. | SSE    |
+| 6    | Select a SME Solution Partner for the estimation. (As per the annexure A) | Regional Committee: relevant SSE, DGM and REBM |
+
+|    | 8    | Coordinate with SME Solution Partner and jointly develop a feasible and cost effective solution. | SSE    |
+|---|---|---|---|
+|    | 9    | Prepare partner proposal and forward to SME Solution Section. | SME Solution Partner    |
+|    | 10    | Prepare SLT Business Proposal based on Solution Partner's proposal. | SME Solution Section (SME SS)    |
+|    | 11    | Review SLT Business Proposal and prepare Subsidized Business Case. | REBMM    |
+|    | 12    | Analyze the Business Case and make recommendations. | REBMM    |
+|    | 13    | Approve the SLT Business Proposal and Business Case | Committee for Approving Subsidized Sales as per CEO/COO circular 01/2019 |
+|    | 14    | Prepare SLT Business Proposal and customer agreements based committee directions. | REBMM    |
+|    | 15    | Submit SLT Business Proposal. | SME Solution Partner    |
+|    | N    | Accept the proposal?    | Customer    |
+|    | 16    | Accept initial payment, update system and issue receipt. | Teleshop    |
+|    | 17    | Negotiate technical and commercial with relevant parties based on who submitted the proposal( URC/SME SS/SME Solution Partner) | REBMM, SSE, SMESS and SME Solution Partner |
+
+|    | 19 | Collect payment receipt and sign the agreement. | Customer |
+|---|---|---|---|
+|    | 20 | Ensure subsidized committee approval, payment receipt, and register "ICT Infrastructure" Service Order(SO) in CRM with appropriate payment scheme. | REBMM |
+|    | 21 | Receive subsidized committee approval payment receipt and receive the "ICT Infrastructure" SO for installation. | SME SS |
+|    | 22 | CAPEX allocation for project. | SME SS |
+|    | N  23 Y | Check whether solution estimation done by external party ( SME Solution Partner/URC) | SME SS |
+|    | 24 | Assign installation task to SLT team. | SME SS |
+|    | 25 | Create ERP job costing work orders(WO), issue materials and start Installation. | SME SS |
+|    |    | 26 | Prepare Purchase Order (PO) and send to SME Solution Partner or URC | SME SS |
+|    |    | 27 | Start installations | SME Solution Partner |
+|    | 28 | Coordinate installation with customer and installation team. | SSE |
+|    | 29 | Completion of User Acceptance Test (UAT) and handover to customer. (As per the Annexure B) | SSE / REBMM |
+
+|    | 30   | Acceptance by customer. | Customer |
+|---|---|---|---|
+|    | 31   | Receive handover note UAT documents through SSE close ERP Job Costing WO as applicable and finalize Solution Partner payments/agreements. | SME SS |
+|    | 32   | Close "ICT Infrastructure" SO | SME SS |
+|    | 33   | Add monthly commitments to customer account and ensure appropriate billing | REBMM |
+|    | 34   | Report the progress and monitor. | SME SS |
+|    | 35   | Sign maintenance agreements and take actions if any deviations from agreement. | REBMM |
+|    | 36   | End | |
+
+Annexure 3
+
+APPROVAL FOR SINGLE-SOURCE  
+SME SOLUTION PARTNER SELECTION  
+
+Customer Name (& CR if existing customer)  
+
+Brief description of the requirements  
+
+Description of the Solution  
+
+Estimated Price / Customer Budget  
+
+Recommended vendor  
+
+Justification  
+
+Approved by : Regional Committee  
+
+| Designation    | Name    | Signature    |
+|---|---|---|
+| Respective Regional Deputy General Manager (DGM) |    |    |
+| Solution Support Engineer (SSE) |    |    |
+| Regional Enterprise Business Manager (REBM) |    |    |
+
+# USER ACCPETNACE CERTIFICATE
+
+| Customer Name    |    |
+|---|---|
+| Customer Reference (CR)   |    |
+| Site Location    |    |
+| Date of Service Provided  |    |
+| Name of the Contractor    |    |
+
+## Materials
+
+| Item | Description | Make Model | Qty. | Quality | Comments |
+|---|---|---|---|---|---|
+| 01    |    |    |    |    |    |
+| 02    |    |    |    |    |    |
+| 03    |    |    |    |    |    |
+| 04    |    |    |    |    |    |
+| 05    |    |    |    |    |    |
+| 06    |    |    |    |    |    |
+| 07    |    |    |    |    |    |
+| 08    |    |    |    |    |    |
+| 09    |    |    |    |    |    |
+| 10    |    |    |    |    |    |
+
+---
+
+**1 | 2 P a g e s**
+
+Annex 4
+
+Documentation
+| Document    | Item Description    | Comments    |
+|---|---|---|
+| User Guideline    |    |    |
+| Technical Brochures    |    |    |
+| As Build Documents    |    |    |
+
+Representative of the Contractor
+| Name    |    |    |
+|---|---|---|
+| Designation    |    |    |
+| Signature    |    | Date    |
+
+Representative of SLT Officer
+| Name    |    |    |
+|---|---|---|
+| Designation    |    |    |
+| Signature    |    | Date    |
+
+The above installation work meets all the criteria at defined in the project scope. All the deliverables are received in correct quantity and quality. The line system and as build documentation have been handed over and required training has been concluded with the operations guide of the system.
+
+Representative of the Customer
+| Name    |    |    |
+|---|---|---|
+| Designation    |    |    |
+| Signature    |    | Date    |
+
+2 | 2 P a g e s

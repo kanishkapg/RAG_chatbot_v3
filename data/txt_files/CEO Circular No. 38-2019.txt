@@ -1,0 +1,54 @@
+CEO's Circular No: 38 /2019
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+31 July 2019
+
+To: Chief Sales & Regional Officer I & II, Regional General Managers/ Regional Deputy General Managers, RTOMM, Regional Accountants/Accountants/SEAA
+
+DELEGATION OF AUTHORITY FOR BILLING DISPUTES ADJUSTMENT & PDRC (PROVINCIAL BILLING DISPUTE RESOLUTION & ADJUSTMENT COMMITTEE) IN REGIONS.
+
+With the restructuring of SLT Regional business in line with ABP of Sri Lanka Telecom, decision making of regional officers were enhanced to achieve company goals. In order to expedite decisions related to customer disputes and adjustment approvals, following adjustment limits were introduced to be implemented in handling retail customers' related disputes & adjustments.
+
+| Dispute category | Adjustment Limits | Recommendation and Approval by | Adjustment Approval in BSS/CRM |
+|---|---|---|---|
+| Any Dispute    | Up to Rs.5,000.00 | Front Office Manager, | Senior Executive Assistant Accountant/ Accountant |
+|    | Up to Rs.10,000.00 | Teleshop Manager , PSM, Senior Executive Assistant Accountant/ Accountant | Senior Executive Assistant Accountant/Accountant |
+|    | Up to Rs.25,000.00 | RTOM/ Regional Accountant | Senior Executive Assistant Accountant/Accountant |
+|    | Up to Rs.50,000.00 | RTOM/Regional Accountant | Regional Accountant |
+|    | Above Rs.50,000.00 up to Rs100,000.00 | Provincial Billing Dispute Resolution & Adjustment Committee (PDRC) | Regional Accountant |
+|    | Above Rs.100,000.00 | PDRC recommendation and Billing Adjustment Approving Committee(BAAC) approval | DGM/OS |
+
+This circular will replace the former CEO circulars no 42/2010 & 08/2016.
+
+Page 1 of 2
+
+===== Page 2 =====
+
+Provincial Billing Dispute Resolution & Adjustment Committee
+
+If the Dispute value is more than Rs. 50,000.00 complaints shall be forwarded to the PDRC for approval or recommendation purposes.
+
+Committee shall comprise the following members
+1. Provincial DGM    Co -Chairman
+2. Regional Accountant
+3. All RTOMs in the province    Member
+4. Provincial Sales Manager    Member
+
+The Role and the responsibilities of the Committee
+I. Reach decision/ resolution of disputes and grants approvals for disputes forwarded
+II. Recommendations to head Office Billing Adjustment Approval Committee (BAAC) for cases more than Rs. 100,000/= for necessary approvals.
+III. Take appropriate corrective action and make recommendation to avoid recurrence of similar disputes in the Region
+IV. Recommendation to related Chief Officer to make necessary changes to the process and systems to minimize billing disputes
+
+Reporting Requirement
+I. Monthly Report to be forwarded to GM/Regions by Co-Chairman of the Provincial Billing Dispute Resolution & Adjustment Committee (PDRC) for their verification and take preventive action to minimize the billing disputes
+II. Regional Accountant has to monitor the trend of adjustments related root cause of the Regions and escalate to Provincial DGM and Regional GM for corrective and preventive actions.
+
+Recording of Disputes at Regional level
+I. Regional staff shall use Service Request (SR) module of MINT CRM system to record all kind of disputes to make it more transparent and for analysis purpose. Also this will eliminate approved disputed values from credit actions.
+II. Any adjustment has to be supported with valid and approved disputes.
+
+K.A Kiththi Perera
+Chief Executive Officer
+
+Page 2 of 2

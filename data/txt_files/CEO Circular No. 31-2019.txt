@@ -1,0 +1,40 @@
+CEO's Circular: 31/2019
+
+CEO's Office
+Sri Lanka Telecom PLC
+Colombo 1
+4th July 2019
+
+To: All Staff
+
+INTERNAL INVOICING AND PAYMENT FOR MATERIAL ISSUES
+
+In managing costs of the business, the need of managing cost of inventory has been identified as a key area and it has been noted that there is considerable room for improvement. It is the prime responsibility of each Manager to maintain optimum inventory always and avoid material pilferage, wastage due to long storage and obsolescence etc.
+
+Therefore, with the objective of making the Managers more aware of the cost of material consumption in the area coming under their purview and also to make them more accountable, the following process is introduced to be followed by all staff when obtaining material from any Physical Store (Main/Provincial/Special) for transfer and/or consumption.
+
+1. Every time a following material transaction happens through ERP, an Internal Invoice should be generated at the point of issuing material by the Stores Officer issuing such material, to the Manager who authorized the requisition.
+   i. Internal Requisition (IR)
+   ii. Move Order Transfer (inventory and asset items)
+   iii. Move Order Issues from any Physical Store (inventory and asset items)
+
+2. An Internal Invoice will be generated against each Pick Slip through ERP and should be printed by the Stores Officer issuing the material and handed over to recipient of material at the point of handing over material and obtain an acknowledgement on the copy of the Internal Invoice
+
+3. The payment for received material should be made by the recipient of material to the issuer, for the value stated on the Internal Invoice by a single Virtual Cheque indicating the Invoice No. on the reverse of the Virtual Cheque.
+
+4. Payment should be made by a Virtual Cheque and it should be signed by;
+   a. The respective DGM for material drawn by the Provincial/Special Stores from Main Stores
+   b. Sub Inventory owner for material drawn from the Provincial/Special Stores
+   c. The relevant DGM on the recommendation of respective project managers, in the case of project goods
+   d. The relevant Manager for all the goods received from Stores through Move Order Issues
+
+===== Page 2 =====
+
+5. All Provincial mangers may obtain Virtual Cheque Books from Provincial Accountants and others may obtain the same from GM/Treasury.
+
+6. Effective date for the adoption of this process: 15th July 2019
+
+---
+
+Kithibi Perera  
+Chief Executive Officer

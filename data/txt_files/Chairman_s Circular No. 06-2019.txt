@@ -1,0 +1,101 @@
+Chairman's Circular No: 06/2019
+
+Chairman's Office
+Sri Lanka Telecom PLC
+Colombo 1
+14th June 2019
+
+To: CMO, CCDO, CSRO I, CSRO II, CIO, GCFO
+All Sales and Operational Staff
+
+POLICY CHANGE IN SELLING CPE TO CONSUMER SEGMENT
+
+1. New Connections
+A policy decision has been taken to revise the existing CPE business model as follows with effect from 15th July 2019.
+
+1.1 SLT 4G LTE New Connections
+
+- All New connection charges will be increased by Rs 500.
+  - Single Play    Rs. 2,900
+  - Double Play    Rs. 2,400
+- Refurbished LTE routers (Pre-Owned) will be given at 50% discounted rate without warranty.
+  - Single Play    Rs. 1,450
+  - Double Play    Rs. 1,200
+
+1.2 Megaline Double Play Peo and Triple Play New Connections
+
+- In addition to the Megaline Double Play Broadband customers, ADSL routers will be sold to Megaline Double Play Peo and Triple Play Customers w.e.f. 15th July 2019.
+- ADSL Router price for Megaline Double Play Peo and Triple Play new Customers will be Rs. 1,990 and will be recognized as CPE revenue.
+- ADSL Router will be installed by the Fulfillment Teams and the relevant price will be added to the bill.
+- In case of an upgrade, existing ADSL routers should be used and no new ADSL routers will be given for maintenance activities as well.
+
+1.3 Megaline Single Play and Double Play Broadband
+The following new connection charges will be applied with "My Phone" Package.
+- Single Play    Rs 11,500
+- Double Play BB   Rs 6,500
+
+1.4 SLT Fiber New Connections
+Following new connection and migration charges will be applied
+- Fiber Double Play or Triple play new connection    Rs 12,500
+- Megaline to Fiber Migration    Rs 7,500
+- PEO TV Multiple connection via Fiber    Rs 4,990 (for an additional connection)
+
+2. Maintenance
+
+- All CPE issued for maintenance should be charged to the Customer as a "Convenience Fee" from 15th July 2019 according to the table given below.
+
+| CPE    | Price Rs. |
+|---|---|
+| PSTN    |    |
+| (for Phone class-SLT)    | 500    |
+| LTE    | 750    |
+| ADSL Router    |    |
+| (For PEO TV Customers)    | 750    |
+| STB    | 1,500    |
+| ONT    | 1,500    |
+
+Table-1
+
+===== Page 2 =====
+
+- Existing Voice Customers are encouraged to migrate to "My Phone" option.
+- If a CPE is replaced due to a customer fault or lightening, existing "Damaged Claim Charges -circular number: SLT/Tarrif-2018/02 to be applied.
+
+3. CPE Replacement Policy
+- During the warranty period, CPE will be replaced free of charge. (Replaced CPE will cover only remaining period of the Original Warranty)
+- After the Warranty Period customer has two options.
+  - ○ Replace with a Refurbished CPE at the cost as mentioned in Table-1.
+  - ○ Purchase a new CPE at the Standard Price with 1 Year Warranty Period.
+
+4. CPE Recovery
+- Collect CPEs within 01 month from a service disconnection.
+   CPE Recovery Process via Agents
+  - ○ Motorbikes (Cargo type) will be provided for each region.
+  - ○ For each collected CPE, a commission of Rs. 500 will be paid to the agent and Rs. 500 will be paid to the Customer once entered to ERP system.
+- CPE of already disconnected customers to be recovered via same agents.
+- Recovered CPE to be refurbished within the respective region and re-sell the same to the customers (as Pre-Owned) at a concessionary rate of 50% of the new connection charge.
+- Identification of Pre- Owned units and warranty Management to be done via relevant systems.
+
+5. CPE Cost and Recovery Plan
+It has been decided to recover the gap between selling price and actual cost of the CPE via a Commitment Fee.
+
+(a) Megaline New Connections
+    Commitment Period : 1 Year
+    Voice Early Termination Fee Rs. 416 per month for remaining months
+    Pco TV Early Termination Fee Rs. 2,500 (One Time)
+
+(b) Fibre New Connections
+    Commitment Period : 1 Year
+    Early Termination Fee : Rs. 1,000 per month for remaining months
+
+(c) 4G LTE New connections
+    Commitment Period : 1 Year
+    Early Termination Fee : Rs. 600 per month for remaining months.
+
+Note:
+For early service terminations, early termination fee for the remaining commitment period will be added to the bill and it will be an additional cost to the respective region till the recovery.
+
+P G Kumayasinghe Sirfsena
+Chairman
+
+Copies: CEO, COO – For information and necessary action

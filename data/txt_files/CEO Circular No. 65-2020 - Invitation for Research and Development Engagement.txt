@@ -1,0 +1,60 @@
+CEO’s Circular No. G-5/2020
+
+CEO’s Office, Sri Lanka Telecom PLC, Colombo 01.
+
+03rd December 2020
+
+To: All SLT Employees,
+
+INVITATION FOR RESEARCH AND DEVELOPMENT ENGAGEMENT
+
+We are pleased to inform that, SLT has established a “Research and Development Center” under the Corporate and Digital Group. Employees interested in research & innovation activities are invited to join hands with the R&D center. Opportunities are open for all enthusiastic staff members with new ideas to contribute, wherein the R&D center will engage with the aforesaid staff members to play a facilitative role to develop their idea and groom them as innovators. Research & Development has been recognized by the management to play a pivotal role in the success of the company, and employees who contribute in R&D activities will be recognized to develop their career in the industry.
+
+R&D web portal (https://www.sltdigitallab.lk) is introduced, so that Employees will be able to engaged in R&D activities in the following illustrated methods through the aforesaid portal.
+
+1. Idea Funneling
+
+SLT “Intrapreneurship Studio” program is created to support internal innovators and potential entrepreneurs to transform their ideas into groundbreaking new products and solutions. Innovative ideas are welcome from the employees who value collaborative efforts and who are willing to go the extra mile in their career. We will be helping making your idea a success by leveraging SLT’s technologies and expertise. You are mostly welcome to share your innovative ideas and thoughts with the R&D team in respect to the three main R&D areas, as mentioned below.
+
+| # | Areas    | Sub Areas    |
+|---|---|---|
+| 1   | Network and IT Infrastructure | Virtualization Software Defined Networking IoT 5G Network and IT Automation Open Source |
+| 2   | Products and Solutions | Cloud and Edge Applications 5G Applications (AR, VR, XR, cloud gaming, autonomous vehicles) |
+
+Page 1 of 3
+
+|    | IoT Blockchain Data Monetization (AI/ML/DL) API Monetization Remote solutions (Distance education, Telework, Telehealth) Media and Entertainment (gaming, broadcasting) Industry Verticals (Agriculture, Healthcare, Education, Transport & Logistics, Tourism, Fintech, Smart City, Smart Government) |
+|---|---|
+| 3   | Processes and OAM Practices    | Service Fulfillment processes (Order to Cash, Request to Change, Termination to Confirmation) Service Assurance processes Network and IT process automation Greener Telecom Operation (less power, paper free, minimum wastage) |
+
+Your innovative idea is truly valuable to us, even if you contribute only as an idea provider, where such novel idea will be realized by the internally managed talent pool. Please submit your idea via the R&D web portal as given below. Your proposal will be evaluated and the best realized idea producers will be awarded with attractive rewarding schemes.
+
+As the first step, Idea producers are initially encouraged to submit the ideas within two weeks of this invitation, which will be proceeded to the incubator and accelerator stages. Similarly, continuous idea generation is also welcome and such ideas will be funneled to the incubator and accelerator stages periodically.
+
+Idea contributors will be duly recognized and rewarded in numerous ways as a formal career development process in the company.
+
+**Method of Engagement:**
+
+Please refer the SLT R&D Web Portal and submit your concepts, ideas, skill levels and engagement areas within two weeks of this invitation circulation.
+
+*Idea Funnel:*
+
+https://www.sttdigitallab.lk → Studios → Intrapreneurship Studio (SLT Member)
+
+2. Active Member in Internal Talent Pool for Innovations
+
+It is vital to build an internal talent pool with the competent set of staff who can actively and collaboratively engage in R&D activities, and staff who are willing to go the extra mile in their career. Opportunities are open in the expertise areas mentioned below for which you are invited to join the R&D center as a researcher on voluntary basis. You will be guided through a program
+
+Page 2 of 3
+
+where necessary tools and techniques will be facilitated. An attractive incentive scheme, relevant appreciation modes and career growth opportunities will be facilitated based on your engagement level and accomplishments.
+
+# Expertise Areas    Sub Areas
+1 Data Analytics    AI / ML / DL
+2 Computer Vision    Video Processing / Audio Processing / Image Processing
+3 API Development    API Development
+4 Mixed Reality    AR / VR / XR
+5 Internet of Things (IoT)    IoT Sensors and Integration with platforms/gateways
+6 App Development    Web Application, Mobile Application (Android, iOS, HMS)
+7 Single board computer programming    Microcontrollers, Arduino, Raspberry Pi, Orange Pi, etc
+8 IDE based programming    Python,

@@ -1,0 +1,54 @@
+CEO's Circular No. 36/2020
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+14th July 2020
+
+To: All SLT Employees,
+
+BUSINESS CONTINUITY PLAN (BCP) – PREPARING FOR SECOND WAVE OF COVID-19
+
+In view of maintaining the essential services and agreed service levels during possible 2nd wave of COVID-19, the "Business Continuity Plan" is activated with immediate effect.
+
+This plan covers all the key areas of the business continuity and safety of our employees.
+
+All Chief Officers are hereby fully authorized to take decisions in their respective areas based on the guidelines given in the BCP document. Please ensure that we continuously engage with our superiors, colleagues and subordinates to maintain critical services and assure best possible services to our customers.
+
+Further, the "Crisis Management Team" is appointed to drive the BCP operation as follows;
+
+|    | Steering Committee/Crisis Management Team (CMT)    |
+|---|---|
+| S/N   | Designation/ Department | Name of Primary Staff    | Name of Secondary Staff    |
+| 1    | Leader    | Name: Mr. Priyantha Fernandez Email: fernandez@slt.com.lk    | Name: Mrs. Indrani Hissalla Email: hissalle@slt.com.lk    |
+| 2    | Member    | Name: Mr. Lionel Imbulana Email: iblinel@slt.com.lk    | Name: Mr. Saman Abeysekara Email: samank@slt.com.lk    |
+| 3    | Member    | Name: Mr. Imantha Wijekoon Email: imantha@slt.com.lk    | Name: Mrs. Maneesha Jinadasa Email: maneesha@slt.com.lk    |
+| 4    | Member    | Name: Mr. Mangala Samarajeewa Email: mangala@slt.com.lk    | Name: Mr. N. S. B. Rathnayake Email: nsbr@slt.com.lk    |
+| 5    | Member    | Name: Mr. Tilak Gamalath Email: tilak_gamalath@slt.com.lk    | Name: Mr. Kamal Kumara Email: kamal@slt.com.lk    |
+| 6    | Member    | Name: Mr. A. Jayasekara Email: arunaj@slt.com.lk    | Name: Mr. Naleen Jayasuriya Email: naleen@slt.com.lk    |
+
+The "Crisis Management Team" (CMT) is collectively responsible for making strategic decisions, providing leadership, directions to the business units and managing communications to employees, customers, relevant authorities, vendors, contractors and partners.
+
+Their Principal Responsibilities Include;
+
+- Taking executive responsibility to oversee, monitor and manage the situation and the entire operations until return to normal operations.
+- Provides leadership, direction and taking decisions for engaging staff to strategize actions with priorities.
+- Delegating and allocating tasks and resources for essential services and operations.
+- Ensuring the availability of resources to continue Critical Business Functions (CBFs).
+- Deciding on the operating model for Regional Operations given specific concerns and situations.
+- Managing communication, flow of information and activities with stakeholders, relevant authorities and external parties.
+- Ensuring implementation of controls and security.
+
+Individual Business Units shall activate their BCP plans as follows;
+
+- Categorization of the scope of Work/Jobs according to criticality and the location of the execution.
+- Work/Jobs, which can be carried out from home connecting through the secured remote connection such as Remote VPN.
+- Work/Jobs, which can be carried out from the nearest Service Points (SPs) in SLT regional Office.
+- Critical Work/Jobs, which must be carried out in SLT HQ and remotely from different location other than SLT HQ.
+- Deciding on special infrastructure and facilities for remote access etc. and alternative locations such as Wellkada/Moratuwa TTC/Welisara TTC.
+
+Please note that we have already taken many actions to ensure the safety of our staff and further details will be communicated by COO (Leader of CMT).
+
+If you need any further assistance or advice regarding the working arrangements, please contact your superiors or members of the Crisis Management Team.
+
+K A Kiththj Pérera  
+Chief Executive Officer

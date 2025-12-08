@@ -1,0 +1,153 @@
+CEO's Circular No: 42/2019
+
+CEO's office
+Sri Lanka Telecom PLC
+Colombo 01
+
+27th August 2019
+
+To: All Chief Officers,
+Project Sponsors,
+Program Directors,
+Program Managers,
+Members of Investment Management Committees,
+Project Managers and Members
+
+ENHANCEMENT OF PROJECT CHANGE CONTROL PROCESS
+
+Change control is an important part of the project management process. Changes are sometimes inevitable, so that it is important to introduce proper change control process for ensuring project success. With the pace of change today, it is almost certain that projects will face the demands for changes during their life. While change may help ensure the project's alignment with business needs, it is important to consider and submit each change after proper assessment of the impact to the project, program, other related projects and business.
+
+With the introduction of Investment Management Framework and migration to Program world, the existing change control process of projects has been enhanced to meet above requirement.
+The change control process given below, ensures that each change proposed for an approved project is adequately defined, reviewed and approved before implementation.
+
+However maximum effort should be taken by the project planning [planning group and user departments] and delivery teams [Program Managers, Project sponsors & Project Managers] to ensure that minimal changes to the project during its implementation period for effective and efficient project planning and delivery.
+
+Scope of Change Control Process
+
+The Change Control Process is applicable after gate 2 of Investment Management process for change requirement of:
+
+- Scope (change in business needs)
+- Cost
+- Time
+- Changes to the baseline/committed financial business case
+- The solution proposed (changes to the architecture or design)
+- Approved implementation process by the Investment Management Committee
+
+The high level change control process is given in the Annex-1 of this circular.
+
+1 of 4
+
+Proposing a Change
+
+This process gives the ability for anyone in the project team (including the customers, users) to suggest a change to the project. The change proposal shall be submitted using the new Change Request [CR] template released. Please refer Intranet>General>Investment Management Framework Portal for the template.
+
+http://insite.slt.com.lk/Investment%20Management%20Framework/SitePages/Home.aspx
+
+Special attention is to be given to provide:
+
+• Details of the cost estimates, forecasted detailed time plan in case of substantial changes in a project.
+• Validated revised financial business case, when additional Budget is required. (Initially will apply for strategic projects of more than Rs. 50 Million including CR cost and later as advised by the SIMC)
+• Details of all other impacted projects, business activities, business units and etc.
+
+Impact Assessment
+
+Impact assessment shall be carried out by the project manager, program manager and impact assessment team on:
+
+• Quantifiable cost savings and benefits
+• Estimated cost of the change
+• Impact on timescales
+• Extra resources needed
+• The solution proposed (Changes to the architecture or design)
+• Impact on other projects, program(s), business activities, business units
+• New risks and issues
+
+Approval Authority
+
+The relevant IMC shall recommend or approve whether to carry out the change as per the delegated authority as given below.
+
+This process involves a review of the change request by following approving authority, who will consider all the information provided by the project manager, program Manager and impact assessment team.
+
+2 of 4
+
+Approval authority for Change Requests [CR] is listed below.
+
+| Budgeted Project Cost [Including New CR Cost] | Change %    | Approving Authority |
+|---|---|---|
+| Less than Rs. 100 Millions    | Cost < 5%    | Respective Functional IMC [FIMC] |
+|    | Scope < 5%    |    |
+|    | Time < 5%    |    |
+|    | Cost ≥ 5%    | Respective FIMC is to make recommendation to SIMC |
+|    | Scope ≥ 5%    |    |
+|    | Time ≥ 5%    |    |
+| More than or equal to Rs.100 Millions    | ~    | Respective FIMC is to make recommendation to SIMC |
+|    | Cost (for any % change)    |    |
+|    | Scope (for any % change)    |    |
+|    | Time (for any % change)    |    |
+
+The current delegated financial authority for additional budget authorization (Ref Item 3. of CEO's Circular No. 19/2019 dated 16th April 2019) will apply for exceptional situations and are effective subjective to the recommendation of the relevant Functional IMC and will apply for maximum of two CRs.
+
+| Total Cost of the CR    | Approving Authority    | Inform To    |
+|---|---|---|
+| Less than or equal to Rs. 10 Millions    | GCFO    | DGM/PPM and DGM/CAPEX Admin |
+| Less than or equal to Rs. 75 Millions    | CEO    |    |
+
+All above values are excluding applicable government taxes and levies.
+
+For the following, approval shall be obtained from respective IMC for:
+
+- Changes to the Baseline/Committed Financial Business case due to the CR. (Initially will apply for Strategic Projects of more than Rs. 50 Million including CR cost and later as advised by SIMC)
+- Major changes to the solution proposed (Changes to product, architecture or design)
+- Approved implementation process
+
+Implementing a Change
+
+If the change is approved, the relevant secretary of the IMC shall inform all related parties including the Program office. If there is a change to the solution proposed, (Changes to the architecture or design) it shall be well informed to GMMs of Planning Group by the relevant secretary of the IMC.
+
+This circular is effective with immediate effect and will supersede GCEO circular 22/2016.
+
+K.A.K. Perera
+Chief Executive Officer
+
+CC: All Executives: For your information Pl.
+
+3 of 4
+
+# Change Control: High Level Process
+
+## 1. Raise Change Request(CR) (PM)
+
+## 2. Register CR (DGM/PPM)
+
+## 3. Meets Quality Criteria?
+
+## 4. Reject CR and inform PM to resubmit (DGM/PPM)
+
+## 5. Initial Assessment Justified to DGM/PPM?
+
+## 6. Nominate Lead Assessor and Team (Program Office)
+
+## 7. Approval (DCCDO & GM/Prog Mgmt)
+
+## 8. Carry Out Impact Assessment (Lead Assessor and Team)
+
+## 9. Provide the Impact Assessment Report to DGM/PPM
+
+## 10. Prepare Impact Assessment Report and forward to respective Sec/FIMC's (DGM/PPM)
+
+## 11. Table the CR at FIMC's meeting (Sec/FIMC)
+
+## 12. Planned total project cost greater than 100Million LKR?
+
+## 13. Cost/Scope/Time change more than 5% from the baseline?
+
+## 14. FIMC Approve/Reject the CR and inform the relevant parties including SIMC
+
+## 15. Include respective FIMC's recommendations
+
+## 16. Forward to Sec/SIMC (respective Sec/FIMC's)
+
+## 17. Table the CR with the recommendations at SIMC (Sec/SIMC)
+
+## 18. Communicate SIMC's decision to relevant parties (Sec/SIMC)
+
+Page 4 of 4

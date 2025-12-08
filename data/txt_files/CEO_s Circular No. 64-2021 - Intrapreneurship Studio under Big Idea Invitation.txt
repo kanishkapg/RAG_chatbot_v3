@@ -1,0 +1,59 @@
+CEO's Circular No:64/2021
+
+CEO's Office, Sri Lanka Telecom PLC, Colombo 01.
+
+To All Staff,
+
+INTERAPRENEURSHIP STUDIO UNDER BIG IDEA INVITATION FOR CONTINUOUS RESEARCH AND DEVELOPMENT ENGAGEMENTS
+
+While acknowledging your continuous active engagement with the Research and Development team, we are pleased to announce that SLT management have planned to introduce the rewarding and recognition scheme with a Credit Value Coin System and all inventors including development teams will be rewarded monetarily and they will be recognized at promotions, performance appraisals, transfers and training opportunities commensurate to the effort done. The system is about to be launched soon.
+
+With the establishment of "The Embryo" group R&D center, we are delighted to seek for the continuous engagement in research and developments, where employees interested in researching & innovation activities are invited to join hands with "The Embryo" Group R&D center. Opportunities are open for all the enthusiastic staff members who want to engage with the Group R&D center to perform with their new ideas and will facilitate them to groom as innovators.
+
+1. Idea Funneling
+
+SLT "Intrapreneurship Studio programme - 2021/2022 cohort" is opened under "Big Idea" theme to support internal innovators and entrepreneurs to transform their ideas into groundbreaking new products and solutions. Innovative ideas are welcome from the employees who value collaborative efforts and who are willing to go the extra mile in their career. We will help to make your idea a success by leveraging SLT's technologies and expertise. You are mostly welcome to share your innovative ideas and thoughts with the R&D team in respect to below three main R&D areas;
+
+| # | Areas    | Sub Areas    |
+|---|---|---|
+| 1   | Network and IT Infrastructure    | Virtualization Software Defined Networking 5G and IoT Network and IT Automation Open Source    |
+| 2   | Products and Solutions    | Cloud and Edge Applications 5G Applications (AR, VR, XR, cloud gaming, autonomous vehicles) IoT Blockchain Data Monetization (AI/ML/DL) API Monetization Remote (Distance education, Telework, Telehealth) Media and Entertainment (gaming, broadcasting) Industry Verticals (Agriculture, Healthcare, Education, Transport & Logistics, Tourism, Fintech, Smart City, Smart Government) |
+| 3   | Processes and OAM Practices | Service Fulfilment processes (Order to Cash, Request to Change, Termination to Confirmation) Service Assurance processes Network and IT process automation Greener Telecom Operation (less power, paper free, minimum wastage) |
+
+Your innovative idea is truly valuable to us; even you contribute only as an idea provider where such novel idea will be realized by the internally managed talent pool. Please submit your idea via the R&D web portal as given below. Your proposal will be evaluated and best realizable idea producers will be awarded via the above Credit Value Coin based rewarding scheme.
+
+As the starting step, idea producers are initially encouraged to submit the ideas within two weeks of this invitation, which will be proceeded to the accelerator and the incubator stages. Further continuous idea generation is also welcome and those will be funneled to the accelerator and incubator stages periodically.
+
+2. Active member in Internal Talent Pool for innovations
+
+While highly acknowledging the continuous engagement with the SLT R&D Talent Pool, it is vital to expand the internal talent pool further with competent set of staffs who can actively and collaboratively engage with R&D activities, who are willing to go the extra mile in their career. Opportunities are open in the below listed expertise areas for who has not yet engaged with R&D center as researcher on voluntary basis. You will be awarded via the above Credit Value Coin based rewarding scheme based on your engagement level and accomplishments. Those who have joined with R&D Talent Pool are not required to re-join.
+
+| # | Expertise Areas    | Sub Areas    |
+|---|---|---|
+| 1   | Data Analytics    | AI / ML / DL    |
+| 2   | Computer Vision    | Video Processing / Audio Processing / Image Processing |
+| 3   | API Development    | API Development    |
+| 4   | Mixed Reality    | AR / VR / XR    |
+| 5   | Internet of Things (IoT) | IoT Sensors and Integration with platforms/gateways |
+| 6   | App Development    | Web Application, Mobile Application (Android, iOS, HMS) |
+| 7   | Single board computer programming | Microcontrollers, Arduino, Raspberry Pi, Orange Pi, etc |
+| 8   | IDE based programming | Python, Java, C#, PHP, etc |
+| 9   | Networking    | Software Defined Networking (SDN), Network Virtualization (NFV), Open Source |
+| 10 | Cloud Infrastructure Architect | Openstack, Kubernetes, AWS, etc |
+| 11 | 5G Technology    | 5G Application Development    |
+| 12 | Electrical / Electronic | Electrical and Electronic System Development |
+
+Method of Engagement:
+
+Please refer the below portal to submit your idea or to register as a member for R&D center.
+
+https://forms.office.com/r/wdb6P17ZP1
+
+Refer below QR code to access the portal.
+
+For any clarification, you may contact DGM/Digital lab (0716837533 / upajeewa@slt.com.lk).
+
+Hereby you are requested to provide your feedback on or before 15th January 2022.
+
+K A Kitkin Perera  
+Chief Executive Officer

@@ -1,0 +1,43 @@
+CEO's Circular No:46/2021
+
+CEO's Office, Sri Lanka Telecom, Lotus Road, Colombo 01.
+
+28th September 2021
+
+To: All Staff,
+
+IMPROVEMENT OF STANDARDIZATION PROCESS FOR FREQUENTLY USED MATERIAL
+
+CEO's Circular on Standardization of Frequently Used Material (Circular No 14/2021) is amended as follows to introduce the process to be followed by the Standardization Committees for approving material samples received outside the tendering process. This amendment facilitates to accommodate more advanced material at competitive prices to SLT network and to eliminate material shortages and scarcities due to issues in the market.
+
+- Standardization Committees will evaluate tender samples with highest priority as per the direction of circular 14-2021
+- As per the consent of the user and the concurrence of the Chairman of the relevant Standardization Committee, the Standardization Committee will accept other samples, subjected to,
+  - If they are received only from SLT registered suppliers
+  - If they are received only through SLT Supply Chain Management Division with their authorization
+- These samples will be given second priority as first priority will always be given to tender samples.
+- However, in the event existing contractors propose materials (to be used within the project scope) to be supplied under their contract through an amendment and meeting quality standards and unit prices, it shall be prioritized over above in view effectively utilizing such materials without being a SLT stock item.
+- Chairman of the Standardization Committee has the authority to request Supply Chain Management Division to stop the reception of non-tender samples at any time.
+
+K A Kiththi Perera  
+Chief Executive Officer
+
+Process for Standardization of Material Samples received outside the tendering Process
+
+CPE/ Material Standardization Process - 2
+
+| User Division    | Standardization Committee | SCM Section    | Field    |
+|---|---|---|---|
+|    |    | Start    |    |
+| Agree    | NO    | Receive request from SLT registered supplier for sample standardization |    |
+|    | YES    | Inform supplier that sample cannot be accepted | End    |
+|    |    | NO    |    |
+|    |    | Inform supplier to submit samples |    |
+| Send samples and specifications to Standardization Committee | YES    | Accept samples and send to user |    |
+|    | Verify samples with given specifications |    |    |
+|    |    | Sample Testing (Lab Test) OK | No    | Inform supplier    | End    |
+| Requesting sample qty. for field test (Secondary Test) |    | Purchasing min qty. as sample qty. to manage the outage for urgent requirement |    |    |
+| Issuing material and report format for field testing |    |    |    |    | Installing sample material and sending reports |
+| Monitoring field report monthly |    |    |    |    |    |
+| Update short listed supplier list |    |    |    |    |    |
+|    |    | Inform the not approved status to supplier | End    |    |
+|    |    | Inform the short listed status to supplier | End    |    |

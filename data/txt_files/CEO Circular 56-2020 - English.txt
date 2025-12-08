@@ -1,0 +1,65 @@
+CEO Circular 56 /2020
+
+Chief Executive Officer's office
+Sri Lanka Telecom PLC
+Head Quarters, Colombo 01
+07th October 2020
+
+To all Employees of SLT,
+
+DECLARATION OF EMERGENCY SITUATION - COVID 19 RESURGENCE
+
+Sri Lanka Telecom has successfully and responsibly reacted for the COVID 19 outbreak without making room for any interruption to our services to the public and adhering to the health and safety guidelines issued by the government.
+
+A need has arisen to re-activate an emergency situation due to the likelihood of a COVID 19 resurgence situation in the country.
+
+An Emergency Situation is hereby declared with immediate effect to manage Business Continuity and, BCP plan has been activated to ensure continuation of critical business functions and the safety of our employees.
+
+All chief officers are hereby fully authorized to take decisions in their respective areas based on the guidelines given in the BCP document. Please ensure that you continually engage with your superiors, colleagues and subordinates to maintain critical services and to assure best possible services to our customers.
+
+Further the "Crisis Management Team" is hereby appointed to drive the BCP operation as follows.
+
+| Crisis Management Team (CMT) |
+|---|
+| Index | Role    | Name of Primary Member    | Name of Secondary Member    |
+|---|---|---|---|
+| 1   | Leader    | Mr. Priyantha Fernandez Chief Operating Officer Email: fernandez@slt.com.lk    | Mr. Imantha Wijekoon CSRO-I Email: imantha@slt.com.lk    |
+| 2   | Member    | Mr. Prabhath Ambegoda CCDO Email: ambegoda@slt.com.lk    | Mr. Asela Galappattige GM/IS&QM Email: aselag@slt.com.lk    |
+
+| Crisis Management Team (CMT) |
+|---|
+| Index | Role    | Name of Primary Member | Name of Secondary Member |
+|---|---|---|---|
+| 3    | Member    | Mr. Lionel Imbulana CSRO-II Email: lionel@slt.com.lk | Mr. Saman Abeysekara CAO Email: samank@slt.com.lk |
+| 4    | Member    | Mr. Mangala Samarajeewa CNO Email: mangala@slt.com.lk | Mr. Nishantha Ratnayake DCNO Email: nsbr@slt.com.lk |
+| 5    | Member    | Mr. Tilak Gamalath CIO Email: tilak_gamalath@slt.com.lk | Mr. Kamal Ranchagoda GM/Systems Email: kamal@slt.com.lk |
+| 6    | Member    | Mr. Aruna Jayasekera CPO Email: arunaj@slt.com.lk | Mr. Naleen Jayasuriya GM/HR&IR (Cover-up) Email: naleen@slt.com.lk |
+
+The CMT is collectively responsible for making strategic decisions, providing leadership, directions to the business units and managing communications to employees, customers, relevant authorities, vendors, contractors and partners.
+
+1. The Principal Responsibilities of CMT
+
+1.1 To oversee, monitor and manage the situation and entire operation until returning it to normal operation
+1.2 Provide leadership direction and taking decisions for engaging staff to manage priorities as appropriate
+1.3 Delegating and allocating tasks and resources for essential services and operations
+1.4 Ensuring the availability of resources to continue Critical Business Functions (CBFs)
+1.5 Deciding the operating model for regional telescopes and OPMCs under the prevailing concerns and situations
+1.6 Managing communication, flow of information and activities with stakeholders, relevant authorities and external parties.
+1.7 Ensuring implementation of control and security.
+
+2. Activation of Individual Business Unit's BCP plans
+
+2.1 Categorization of the scope of work / jobs according to criticality and the location of the execution
+
+2.2 Manage the jobs which can be carried out from home / regional work PODs using facilities provided by the IT group such as VPNs, VDIs or Mobile Devices.
+
+2.3 Deciding on special infrastructure and facilities for remote access and alternative locations such as Welikada SLT site, TTCs, and other operating PODs.
+
+2.4 Decide on transport arrangements and other facilities as appropriate to ensure business continuity.
+
+Please note that we have already taken many actions to ensure the safety of our staff and further details will be communicated by COO and respective chief officers.
+
+If you need further assistance or advice regarding the working arrangements, please contact your supervisors or the members of the CMT.
+
+K A Kiththi Perera
+Chief Executive Officer

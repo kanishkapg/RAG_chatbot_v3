@@ -1,0 +1,85 @@
+Chairman's Circular No: 07/2019
+
+Chairman's Office
+Sri Lanka Telecom PLC
+Colombo 01.
+17th June, 2019
+
+To : All Employees,
+
+Implementation of Annual Business Plan 2019
+
+In order to facilitate customer centric/market oriented business, new RTO and OPMC areas have been established in the following rapidly developing and urbanizing cities. Regional Enterprise business is also strengthened in WPC Province by splitting the area into two to further increase the SME market share. This transformation in the regional structure is mainly focused on increasing the SLT's customer reach and to improve market penetration in an accelerated pace.
+
+| RTO    | Relevant DGM    | Relevant GM    |
+|---|---|---|
+| Maharagama    | Western Province South West   | Western Province Central    |
+| Piliyandala    | Western Province South West   | Western Province Central    |
+| Bandaragama    | Western Province South   | Western Province South    |
+| Horowpathana    | North Central Province    | North Central & North Western Province    |
+
+Details of the area demarcations are given under Annexure-1. These new RTO and OPMC area demarcations will be effective from 01st of July, 2019.
+
+P.G. Kumarasinghe Sirisena
+Group Chairman
+
+CC : CHRO - Please appoint relevant 4 RTOMs & relevant OPMC Managers as above & establish cost centers and amend the Organization Structure.
+CIO - Configure OSS, BSS, CRM, ERP and other relevant IT systems.
+DGM/BPR - For information and necessary changes.
+
+Page 1 of 4
+
+===== Page 2 =====
+
+Chairman's Circular No: ……07……/2019
+
+Annexure-1
+
+New Area Demarcations of RTOs of WPSE and WPSW Provinces
+
+| RTO    | LEAs Covered | Divisional Secretariat Area | DGM Area | GM Area |
+|---|---|---|---|---|
+| Awissawella   | AW, KOM    | Seethawaka    | WPSE    | WPC    |
+| Homagama  | PK, HO, PPN, PNG, MGA, MTG | Homagama, Padukka    | WPSE    | WPC    |
+| Maharagama (New) | RKG, MHG    | Maharagama    | WPSW    | WPC    |
+| Nugegoda  | ND, EMU, KAU, GNA, KIR, BSS    | Dehiwala    | WPSW    | WPC    |
+| Ratmalana  | EGD, MF, MLP, MRA, MV, RAW, RM | Ratmalana, Moratuwa    | WPSW    | WPC    |
+| Piliyandala (New) | BAK, BOK, HON, MAK, PLY, WET    | Kesbewa    | WPSW    | WPC    |
+
+New Area Demarcations of RTOs of WPS Province
+
+| RTO    | LEAs Covered | Divisional Secretariat Area | DGM Area | GM Area |
+|---|---|---|---|---|
+| Bandaragama (New) | BDG, ML    | Bandaragama, Millaniya | WPS    | WPS    |
+| Horana    | GNP, GRG, GVN, HPG, HR, IG, KHN, MGH | Horana, Ingiriya, Madurawala | WPS    | WPS    |
+| Kalutara    | BR, BT, KT, KUN, PYG    | Kalutara, Beruwala    | WPS    | WPS    |
+| Panadura    | PH, WDW, KSW    | Panadura    | WPS    | WPS    |
+
+Page 2 of 4
+
+===== Page 3 =====
+
+Chairman's Circular No: ……(…… /2019
+
+New Area Demarcations of RTOs of North Central Province
+
+| RTO    | LEAs Covered    | Divisional Secretariat Area | DGM Area | GM Area |
+|---|---|---|---|---|
+| Anuradhapura    | Anuradhapura (AD) Mihinthale (MTE) Madawachchiya (MDW) Eppawala (EPA) Galnewa (GLN) Nagampaha (NGP) Kekirawa (KWA) Thambuthethegama (TBT) Nochchiyagama (NCH)    | Galnewa Ipalogama Kekirawa Mahavilachchiya Mihinthale Nachchadoowa Nochchiyagama Nuwaragam Palatha Central Nuwaragam Palatha East Palagala Palugaswewa Rajanganaya Rambewa Thalawa Thambuththegama Thirappane | NCP    | NC & NW    |
+| Polonnaruwa    | Polonnaruwa (PR) Pulasthigama (PSG) Madirigiriya (MAY) Higurakgoda (HN) Welikanda (WKN) Aralaganwila (ARG) Dehiaththakandiya (DKY)    | Dimbulagala Elahera Lankapura Medirigiriya Thamankaduwa Welikanda    | NCP    | NC & NW    |
+| Horowpathana    | Kabithigollawa (KBT) Kahatagasdigiliya (KDG) Padaviya (PDY) Parakramapura (PPK) Horowpathana (HRP) Galenbindunuwewa (GLE)    | Galenbindunuwewa Horowpathana Kahatagasdigiliya Kebithigollewa Padaviya    | NCP    | NC & NW    |
+
+Page 3 of 4
+
+===== Page 4 =====
+
+Chairman's Circular No: ………/2019
+
+New Area Demarcations of Regional Enterprise Business in WPC Province
+
+| Regional Enterprise Business Area | Area Coverage    | DGM Area    | GM Area    |
+|---|---|---|---|
+| WPC-1    | Colombo 2,3,4,5 and 6 (RTO/HK area)    | WPC    | WPC    |
+| WPC-2    | Colombo 1,7,8,9,10,11,12,13 and 14 (RTO/CEN and RTO/MD areas) | WPC    | WPC    |
+
+Page 4 of 4
