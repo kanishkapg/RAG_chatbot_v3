@@ -14,7 +14,7 @@ POSTGRES_CONFIG = {
 }
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Set this environment variable
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
 
 # Hybrid Search Configuration for Multiplicative Gating
 MULTIPLICATIVE_WEIGHTS = {
